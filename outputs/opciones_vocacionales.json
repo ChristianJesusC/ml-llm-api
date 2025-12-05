@@ -1,0 +1,2156 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "fecha_actualizacion": "2025-01-01",
+    "total_opciones": 25,
+    "descripcion": "Información completa de las 25 opciones vocacionales del Sistema de Orientación Vocacional v2.0",
+    "moneda": "MXN",
+    "año_referencia_salarios": 2025,
+    "contexto": "México - Mercado laboral actualizado",
+    "distribución": {
+      "carreras_universitarias": 15,
+      "oficios_tecnicos": 5,
+      "oficios_basicos": 5
+    }
+  },
+
+  "opciones": {
+    
+    "MED": {
+      "id": 1,
+      "codigo": "MED",
+      "nombre": "Medicina",
+      "nombre_completo": "Médico Cirujano",
+      "rama": "Salud",
+      "tipo": "carrera_universitaria",
+      "nivel_educativo": "Licenciatura + Especialidad",
+      "capacidad_requerida": 1.7,
+      "años_estudio": 6,
+      "años_especialidad": 4,
+      "costo_aproximado": 800000,
+      "dificultad": 9,
+      "descripcion": "Formación para diagnosticar, tratar y prevenir enfermedades, contribuyendo a la salud y bienestar de las personas.",
+      "salario": {
+        "inicial": 25000,
+        "promedio": 45000,
+        "experimentado": 80000,
+        "especialista": 150000,
+        "nota": "Varía significativamente por especialidad y sector (público vs privado)"
+      },
+      "mercado_laboral": {
+        "demanda": "Alta",
+        "crecimiento_proyectado": "15%",
+        "empleabilidad": "95%",
+        "tiempo_encontrar_trabajo": "6-12 meses",
+        "sectores_principales": ["Salud pública", "Hospitales privados", "Consulta privada", "Investigación"]
+      },
+      "requisitos_ingreso": {
+        "promedio_minimo": 9.0,
+        "examen_admision": "CENEVAL-EXANI II",
+        "materias_clave": ["Biología", "Química", "Matemáticas", "Física"],
+        "curso_propedeutico": "Requerido en la mayoría"
+      },
+      "universidades_destacadas": [
+        {
+          "nombre": "UNAM - Facultad de Medicina",
+          "tipo": "pública",
+          "prestigio": 10,
+          "costo_semestral": 500
+        },
+        {
+          "nombre": "IPN - Escuela Superior de Medicina",
+          "tipo": "pública", 
+          "prestigio": 9,
+          "costo_semestral": 600
+        },
+        {
+          "nombre": "Universidad Panamericana",
+          "tipo": "privada",
+          "prestigio": 8,
+          "costo_semestral": 120000
+        },
+        {
+          "nombre": "Tecnológico de Monterrey",
+          "tipo": "privada",
+          "prestigio": 9,
+          "costo_semestral": 180000
+        }
+      ],
+      "especializaciones": [
+        "Medicina Interna", "Pediatría", "Ginecología", "Cirugía General", 
+        "Cardiología", "Neurología", "Psiquiatría", "Medicina Familiar"
+      ],
+      "competencias_requeridas": [
+        "Conocimiento científico sólido",
+        "Habilidades de comunicación",
+        "Capacidad de trabajo bajo presión",
+        "Empatía y sensibilidad social",
+        "Pensamiento crítico",
+        "Resistencia física y mental"
+      ],
+      "ventajas": [
+        "Alto prestigio social",
+        "Posibilidad de salvar vidas",
+        "Ingresos altos (especialistas)",
+        "Múltiples oportunidades de especialización",
+        "Demanda laboral constante"
+      ],
+      "desafios": [
+        "Carrera muy larga (10+ años)",
+        "Alta exigencia académica",
+        "Responsabilidad y estrés elevados",
+        "Horarios irregulares",
+        "Inversión económica considerable"
+      ],
+      "perfil_ideal": {
+        "UNI-001": "B",
+        "UNI-002": "B", 
+        "UNI-003": "A",
+        "UNI-008": "A"
+      }
+    },
+
+    "PSI": {
+      "id": 2,
+      "codigo": "PSI",
+      "nombre": "Psicología",
+      "nombre_completo": "Licenciado en Psicología",
+      "rama": "Salud",
+      "tipo": "carrera_universitaria",
+      "nivel_educativo": "Licenciatura",
+      "capacidad_requerida": 1.3,
+      "años_estudio": 4,
+      "años_especialidad": 2,
+      "costo_aproximado": 400000,
+      "dificultad": 7,
+      "descripcion": "Estudio del comportamiento humano y procesos mentales para promover el bienestar psicológico.",
+      "salario": {
+        "inicial": 15000,
+        "promedio": 25000,
+        "experimentado": 40000,
+        "especialista": 60000,
+        "nota": "Consultorio privado puede generar ingresos variables pero potencialmente altos"
+      },
+      "mercado_laboral": {
+        "demanda": "Alta",
+        "crecimiento_proyectado": "20%",
+        "empleabilidad": "85%",
+        "tiempo_encontrar_trabajo": "3-6 meses",
+        "sectores_principales": ["Salud mental", "Educación", "Recursos humanos", "Consulta privada"]
+      },
+      "requisitos_ingreso": {
+        "promedio_minimo": 8.0,
+        "examen_admision": "Examen institucional",
+        "materias_clave": ["Biología", "Filosofía", "Ciencias Sociales"],
+        "curso_propedeutico": "En algunas universidades"
+      },
+      "universidades_destacadas": [
+        {
+          "nombre": "UNAM - Facultad de Psicología",
+          "tipo": "pública",
+          "prestigio": 10,
+          "costo_semestral": 500
+        },
+        {
+          "nombre": "Universidad Iberoamericana",
+          "tipo": "privada",
+          "prestigio": 9,
+          "costo_semestral": 85000
+        },
+        {
+          "nombre": "Universidad Anáhuac",
+          "tipo": "privada",
+          "prestigio": 8,
+          "costo_semestral": 75000
+        }
+      ],
+      "especializaciones": [
+        "Psicología Clínica", "Psicología Educativa", "Psicología Organizacional",
+        "Neuropsicología", "Psicología Social", "Terapia Familiar"
+      ],
+      "competencias_requeridas": [
+        "Excelentes habilidades de comunicación",
+        "Empatía y sensibilidad",
+        "Capacidad de análisis",
+        "Estabilidad emocional",
+        "Ética profesional sólida"
+      ],
+      "ventajas": [
+        "Campo laboral diverso",
+        "Posibilidad de consulta privada",
+        "Contribución al bienestar social",
+        "Flexibilidad de horarios",
+        "Crecimiento personal constante"
+      ],
+      "desafios": [
+        "Salarios iniciales relativamente bajos",
+        "Carga emocional del trabajo",
+        "Competencia en el mercado",
+        "Necesidad de capacitación continua"
+      ],
+      "perfil_ideal": {
+        "UNI-002": "B",
+        "UNI-003": "A",
+        "UNI-005": "B",
+        "UNI-008": "B"
+      }
+    },
+
+    "NUT": {
+      "id": 3,
+      "codigo": "NUT",
+      "nombre": "Nutrición",
+      "nombre_completo": "Licenciado en Nutrición",
+      "rama": "Salud",
+      "tipo": "carrera_universitaria",
+      "nivel_educativo": "Licenciatura",
+      "capacidad_requerida": 1.2,
+      "años_estudio": 4,
+      "años_especialidad": 1,
+      "costo_aproximado": 350000,
+      "dificultad": 6,
+      "descripcion": "Promoción de la salud a través de la alimentación adecuada y prevención de enfermedades relacionadas con la nutrición.",
+      "salario": {
+        "inicial": 12000,
+        "promedio": 20000,
+        "experimentado": 35000,
+        "especialista": 50000,
+        "nota": "Consulta privada y clínicas especializadas ofrecen mejores ingresos"
+      },
+      "mercado_laboral": {
+        "demanda": "Alta",
+        "crecimiento_proyectado": "25%",
+        "empleabilidad": "90%",
+        "tiempo_encontrar_trabajo": "2-4 meses",
+        "sectores_principales": ["Hospitales", "Consulta privada", "Deportivo", "Industria alimentaria"]
+      },
+      "requisitos_ingreso": {
+        "promedio_minimo": 7.5,
+        "examen_admision": "Examen institucional",
+        "materias_clave": ["Biología", "Química", "Matemáticas"],
+        "curso_propedeutico": "Opcional"
+      },
+      "universidades_destacadas": [
+        {
+          "nombre": "Universidad Iberoamericana",
+          "tipo": "privada",
+          "prestigio": 9,
+          "costo_semestral": 85000
+        },
+        {
+          "nombre": "UAEM - Facultad de Medicina",
+          "tipo": "pública",
+          "prestigio": 8,
+          "costo_semestral": 800
+        },
+        {
+          "nombre": "Universidad del Valle de México",
+          "tipo": "privada",
+          "prestigio": 7,
+          "costo_semestral": 45000
+        }
+      ],
+      "especializaciones": [
+        "Nutrición Clínica", "Nutrición Deportiva", "Nutrición Pediátrica",
+        "Nutrición Geriátrica", "Seguridad Alimentaria", "Nutrición Comunitaria"
+      ],
+      "competencias_requeridas": [
+        "Conocimientos en ciencias básicas",
+        "Habilidades de comunicación",
+        "Capacidad de consejería",
+        "Actualización constante",
+        "Trabajo interdisciplinario"
+      ],
+      "ventajas": [
+        "Campo en crecimiento",
+        "Múltiples áreas de trabajo",
+        "Impacto directo en la salud",
+        "Posibilidad de emprendimiento",
+        "Horarios flexibles en consulta privada"
+      ],
+      "desafios": [
+        "Salarios iniciales moderados",
+        "Necesidad de especialización",
+        "Competencia creciente",
+        "Actualización constante de conocimientos"
+      ],
+      "perfil_ideal": {
+        "UNI-001": "B",
+        "UNI-003": "A",
+        "UNI-008": "A"
+      }
+    },
+
+    "ODO": {
+      "id": 4,
+      "codigo": "ODO",
+      "nombre": "Odontología",
+      "nombre_completo": "Cirujano Dentista",
+      "rama": "Salud",
+      "tipo": "carrera_universitaria",
+      "nivel_educativo": "Licenciatura",
+      "capacidad_requerida": 1.4,
+      "años_estudio": 5,
+      "años_especialidad": 3,
+      "costo_aproximado": 600000,
+      "dificultad": 8,
+      "descripcion": "Diagnóstico, prevención y tratamiento de enfermedades y trastornos de la cavidad oral y estructuras relacionadas.",
+      "salario": {
+        "inicial": 18000,
+        "promedio": 30000,
+        "experimentado": 50000,
+        "especialista": 80000,
+        "nota": "Consulta privada puede generar ingresos significativamente mayores"
+      },
+      "mercado_laboral": {
+        "demanda": "Media-Alta",
+        "crecimiento_proyectado": "12%",
+        "empleabilidad": "85%",
+        "tiempo_encontrar_trabajo": "4-8 meses",
+        "sectores_principales": ["Consulta privada", "Clínicas", "Salud pública", "Docencia"]
+      },
+      "requisitos_ingreso": {
+        "promedio_minimo": 8.5,
+        "examen_admision": "CENEVAL-EXANI II",
+        "materias_clave": ["Biología", "Química", "Física", "Matemáticas"],
+        "curso_propedeutico": "Requerido"
+      },
+      "universidades_destacadas": [
+        {
+          "nombre": "UNAM - Facultad de Odontología",
+          "tipo": "pública",
+          "prestigio": 10,
+          "costo_semestral": 500
+        },
+        {
+          "nombre": "Universidad Intercontinental",
+          "tipo": "privada",
+          "prestigio": 8,
+          "costo_semestral": 65000
+        },
+        {
+          "nombre": "Universidad Autónoma de Guadalajara",
+          "tipo": "privada",
+          "prestigio": 7,
+          "costo_semestral": 55000
+        }
+      ],
+      "especializaciones": [
+        "Ortodoncia", "Endodoncia", "Periodoncia", "Cirugía Oral",
+        "Odontopediatría", "Prostodoncia", "Patología Oral"
+      ],
+      "competencias_requeridas": [
+        "Habilidad manual fina",
+        "Conocimientos científicos sólidos",
+        "Paciencia y precisión",
+        "Capacidad de trabajo minucioso",
+        "Habilidades de comunicación"
+      ],
+      "ventajas": [
+        "Posibilidad de consulta independiente",
+        "Ingresos atractivos a largo plazo",
+        "Horarios flexibles",
+        "Demanda constante de servicios",
+        "Múltiples especializaciones"
+      ],
+      "desafios": [
+        "Inversión inicial alta en equipo",
+        "Competencia en mercado privado",
+        "Trabajo físicamente demandante",
+        "Actualización tecnológica constante"
+      ],
+      "perfil_ideal": {
+        "UNI-001": "B",
+        "UNI-002": "B",
+        "UNI-003": "A"
+      }
+    },
+
+    "ENF": {
+      "id": 5,
+      "codigo": "ENF",
+      "nombre": "Enfermería",
+      "nombre_completo": "Licenciado en Enfermería",
+      "rama": "Salud",
+      "tipo": "carrera_universitaria",
+      "nivel_educativo": "Licenciatura",
+      "capacidad_requerida": 1.1,
+      "años_estudio": 4,
+      "años_especialidad": 1,
+      "costo_aproximado": 300000,
+      "dificultad": 6,
+      "descripcion": "Cuidado integral de personas, familias y comunidades en todas las etapas de la vida y estados de salud.",
+      "salario": {
+        "inicial": 14000,
+        "promedio": 22000,
+        "experimentado": 35000,
+        "especialista": 45000,
+        "nota": "Sector privado y especialidades ofrecen mejores salarios"
+      },
+      "mercado_laboral": {
+        "demanda": "Muy Alta",
+        "crecimiento_proyectado": "30%",
+        "empleabilidad": "95%",
+        "tiempo_encontrar_trabajo": "1-2 meses",
+        "sectores_principales": ["Hospitales", "Clínicas", "Atención domiciliaria", "Salud pública"]
+      },
+      "requisitos_ingreso": {
+        "promedio_minimo": 7.0,
+        "examen_admision": "Examen institucional",
+        "materias_clave": ["Biología", "Química", "Ciencias Sociales"],
+        "curso_propedeutico": "En algunas universidades"
+      },
+      "universidades_destacadas": [
+        {
+          "nombre": "UNAM - ENEO",
+          "tipo": "pública",
+          "prestigio": 10,
+          "costo_semestral": 500
+        },
+        {
+          "nombre": "IPN - ESE",
+          "tipo": "pública",
+          "prestigio": 9,
+          "costo_semestral": 600
+        },
+        {
+          "nombre": "Universidad La Salle",
+          "tipo": "privada",
+          "prestigio": 8,
+          "costo_semestral": 40000
+        }
+      ],
+      "especializaciones": [
+        "Enfermería Quirúrgica", "Cuidados Intensivos", "Pediatría",
+        "Geriatría", "Salud Mental", "Administración en Enfermería"
+      ],
+      "competencias_requeridas": [
+        "Vocación de servicio",
+        "Resistencia física y emocional",
+        "Capacidad de trabajo en equipo",
+        "Habilidades de comunicación",
+        "Responsabilidad y ética"
+      ],
+      "ventajas": [
+        "Alta demanda laboral",
+        "Inserción laboral rápida",
+        "Trabajo significativo y humano",
+        "Oportunidades internacionales",
+        "Estabilidad laboral"
+      ],
+      "desafios": [
+        "Trabajo físicamente demandante",
+        "Horarios rotativos",
+        "Carga emocional elevada",
+        "Salarios iniciales moderados"
+      ],
+      "perfil_ideal": {
+        "UNI-003": "A",
+        "UNI-005": "B",
+        "UNI-008": "A"
+      }
+    },
+
+    "SW": {
+      "id": 6,
+      "codigo": "SW",
+      "nombre": "Ingeniería en Software",
+      "nombre_completo": "Ingeniero en Software",
+      "rama": "Ingenieria",
+      "tipo": "carrera_universitaria",
+      "nivel_educativo": "Licenciatura",
+      "capacidad_requerida": 1.5,
+      "años_estudio": 4,
+      "años_especialidad": 0,
+      "costo_aproximado": 450000,
+      "dificultad": 8,
+      "descripcion": "Diseño, desarrollo y mantenimiento de sistemas de software para resolver problemas complejos mediante tecnología.",
+      "salario": {
+        "inicial": 25000,
+        "promedio": 45000,
+        "experimentado": 70000,
+        "especialista": 120000,
+        "nota": "Uno de los campos mejor pagados, especialmente en tecnológicas internacionales"
+      },
+      "mercado_laboral": {
+        "demanda": "Muy Alta",
+        "crecimiento_proyectado": "35%",
+        "empleabilidad": "98%",
+        "tiempo_encontrar_trabajo": "1-3 meses",
+        "sectores_principales": ["Tecnología", "Fintech", "Startups", "Empresas multinacionales"]
+      },
+      "requisitos_ingreso": {
+        "promedio_minimo": 8.5,
+        "examen_admision": "CENEVAL-EXANI II",
+        "materias_clave": ["Matemáticas", "Física", "Lógica"],
+        "curso_propedeutico": "Recomendado"
+      },
+      "universidades_destacadas": [
+        {
+          "nombre": "Tecnológico de Monterrey",
+          "tipo": "privada",
+          "prestigio": 10,
+          "costo_semestral": 180000
+        },
+        {
+          "nombre": "UNAM - Facultad de Ingeniería",
+          "tipo": "pública",
+          "prestigio": 9,
+          "costo_semestral": 500
+        },
+        {
+          "nombre": "IPN - ESCOM",
+          "tipo": "pública",
+          "prestigio": 9,
+          "costo_semestral": 600
+        }
+      ],
+      "especializaciones": [
+        "Desarrollo Web", "Inteligencia Artificial", "Ciberseguridad",
+        "Desarrollo Mobile", "DevOps", "Data Science", "Blockchain"
+      ],
+      "competencias_requeridas": [
+        "Pensamiento lógico-matemático",
+        "Capacidad de resolución de problemas",
+        "Aprendizaje autodidacta",
+        "Trabajo en equipo",
+        "Adaptabilidad tecnológica"
+      ],
+      "ventajas": [
+        "Salarios muy competitivos",
+        "Trabajo remoto disponible",
+        "Campo en crecimiento acelerado",
+        "Oportunidades internacionales",
+        "Innovación constante"
+      ],
+      "desafios": [
+        "Actualización tecnológica constante",
+        "Presión por entregas",
+        "Trabajo sedentario",
+        "Competencia globalizada"
+      ],
+      "perfil_ideal": {
+        "UNI-001": "A",
+        "UNI-002": "A",
+        "UNI-003": "B"
+      }
+    },
+
+    "ELEC": {
+      "id": 7,
+      "codigo": "ELEC",
+      "nombre": "Ingeniería Electrónica",
+      "nombre_completo": "Ingeniero en Electrónica",
+      "rama": "Ingenieria",
+      "tipo": "carrera_universitaria",
+      "nivel_educativo": "Licenciatura",
+      "capacidad_requerida": 1.4,
+      "años_estudio": 5,
+      "años_especialidad": 0,
+      "costo_aproximado": 400000,
+      "dificultad": 8,
+      "descripcion": "Diseño y desarrollo de dispositivos, sistemas y equipos electrónicos para diversas aplicaciones industriales y tecnológicas.",
+      "salario": {
+        "inicial": 20000,
+        "promedio": 35000,
+        "experimentado": 55000,
+        "especialista": 80000,
+        "nota": "Sector automotriz y telecomunicaciones ofrecen mejores salarios"
+      },
+      "mercado_laboral": {
+        "demanda": "Alta",
+        "crecimiento_proyectado": "18%",
+        "empleabilidad": "90%",
+        "tiempo_encontrar_trabajo": "2-4 meses",
+        "sectores_principales": ["Automotriz", "Telecomunicaciones", "Manufactura", "Investigación"]
+      },
+      "requisitos_ingreso": {
+        "promedio_minimo": 8.0,
+        "examen_admision": "CENEVAL-EXANI II",
+        "materias_clave": ["Matemáticas", "Física", "Química"],
+        "curso_propedeutico": "Recomendado"
+      },
+      "universidades_destacadas": [
+        {
+          "nombre": "IPN - ESIME",
+          "tipo": "pública",
+          "prestigio": 10,
+          "costo_semestral": 600
+        },
+        {
+          "nombre": "UNAM - Facultad de Ingeniería",
+          "tipo": "pública",
+          "prestigio": 9,
+          "costo_semestral": 500
+        },
+        {
+          "nombre": "UAM Azcapotzalco",
+          "tipo": "pública",
+          "prestigio": 8,
+          "costo_semestral": 700
+        }
+      ],
+      "especializaciones": [
+        "Sistemas Embebidos", "Telecomunicaciones", "Control Industrial",
+        "Electrónica de Potencia", "Bioelectrónica", "IoT"
+      ],
+      "competencias_requeridas": [
+        "Sólida base matemática",
+        "Capacidad de análisis",
+        "Habilidad para resolver problemas complejos",
+        "Precisión y atención al detalle",
+        "Actualización tecnológica"
+      ],
+      "ventajas": [
+        "Campo tecnológico en expansión",
+        "Buenas oportunidades salariales",
+        "Trabajo en sectores dinámicos",
+        "Posibilidad de innovación"
+      ],
+      "desafios": [
+        "Carrera académicamente exigente",
+        "Rápida obsolescencia tecnológica",
+        "Competencia internacional",
+        "Necesidad de especialización"
+      ],
+      "perfil_ideal": {
+        "UNI-001": "A",
+        "UNI-002": "A",
+        "UNI-006": "A"
+      }
+    },
+
+    "MEC": {
+      "id": 8,
+      "codigo": "MEC",
+      "nombre": "Ingeniería Mecánica",
+      "nombre_completo": "Ingeniero Mecánico",
+      "rama": "Ingenieria",
+      "tipo": "carrera_universitaria",
+      "nivel_educativo": "Licenciatura",
+      "capacidad_requerida": 1.3,
+      "años_estudio": 5,
+      "años_especialidad": 0,
+      "costo_aproximado": 380000,
+      "dificultad": 7,
+      "descripcion": "Diseño, fabricación y mantenimiento de máquinas, sistemas mecánicos y procesos industriales.",
+      "salario": {
+        "inicial": 18000,
+        "promedio": 32000,
+        "experimentado": 50000,
+        "especialista": 75000,
+        "nota": "Industria automotriz y petrolera ofrecen mejores compensaciones"
+      },
+      "mercado_laboral": {
+        "demanda": "Alta",
+        "crecimiento_proyectado": "15%",
+        "empleabilidad": "88%",
+        "tiempo_encontrar_trabajo": "3-5 meses",
+        "sectores_principales": ["Automotriz", "Manufactura", "Energía", "Aeroespacial"]
+      },
+      "requisitos_ingreso": {
+        "promedio_minimo": 7.5,
+        "examen_admision": "CENEVAL-EXANI II",
+        "materias_clave": ["Matemáticas", "Física", "Dibujo Técnico"],
+        "curso_propedeutico": "Recomendado"
+      },
+      "universidades_destacadas": [
+        {
+          "nombre": "IPN - ESIME",
+          "tipo": "pública",
+          "prestigio": 10,
+          "costo_semestral": 600
+        },
+        {
+          "nombre": "UNAM - Facultad de Ingeniería",
+          "tipo": "pública",
+          "prestigio": 9,
+          "costo_semestral": 500
+        },
+        {
+          "nombre": "Universidad de Guadalajara",
+          "tipo": "pública",
+          "prestigio": 8,
+          "costo_semestral": 800
+        }
+      ],
+      "especializaciones": [
+        "Diseño Mecánico", "Manufactura", "Térmica y Fluidos",
+        "Mecatrónica", "Materiales", "Mantenimiento Industrial"
+      ],
+      "competencias_requeridas": [
+        "Capacidad de visualización espacial",
+        "Conocimientos matemáticos sólidos",
+        "Habilidad para resolver problemas",
+        "Creatividad e innovación",
+        "Trabajo en equipo"
+      ],
+      "ventajas": [
+        "Campo amplio y versátil",
+        "Buena estabilidad laboral",
+        "Oportunidades en múltiples industrias",
+        "Posibilidad de emprendimiento"
+      ],
+      "desafios": [
+        "Competencia en el mercado",
+        "Necesidad de actualización constante",
+        "Condiciones laborales variables",
+        "Presión por eficiencia"
+      ],
+      "perfil_ideal": {
+        "UNI-001": "A",
+        "UNI-002": "A",
+        "UNI-007": "B"
+      }
+    },
+
+    "CIV": {
+      "id": 9,
+      "codigo": "CIV",
+      "nombre": "Ingeniería Civil",
+      "nombre_completo": "Ingeniero Civil",
+      "rama": "Ingenieria",
+      "tipo": "carrera_universitaria",
+      "nivel_educativo": "Licenciatura",
+      "capacidad_requerida": 1.2,
+      "años_estudio": 5,
+      "años_especialidad": 0,
+      "costo_aproximado": 350000,
+      "dificultad": 7,
+      "descripcion": "Planificación, diseño y construcción de infraestructura como carreteras, puentes, edificios y sistemas urbanos.",
+      "salario": {
+        "inicial": 16000,
+        "promedio": 28000,
+        "experimentado": 45000,
+        "especialista": 70000,
+        "nota": "Proyectos gubernamentales y constructoras grandes ofrecen mejores salarios"
+      },
+      "mercado_laboral": {
+        "demanda": "Media-Alta",
+        "crecimiento_proyectado": "12%",
+        "empleabilidad": "82%",
+        "tiempo_encontrar_trabajo": "4-6 meses",
+        "sectores_principales": ["Construcción", "Gobierno", "Consultoría", "Inmobiliarias"]
+      },
+      "requisitos_ingreso": {
+        "promedio_minimo": 7.5,
+        "examen_admision": "CENEVAL-EXANI II",
+        "materias_clave": ["Matemáticas", "Física", "Dibujo"],
+        "curso_propedeutico": "En algunas universidades"
+      },
+      "universidades_destacadas": [
+        {
+          "nombre": "UNAM - Facultad de Ingeniería",
+          "tipo": "pública",
+          "prestigio": 10,
+          "costo_semestral": 500
+        },
+        {
+          "nombre": "IPN - ESIA",
+          "tipo": "pública",
+          "prestigio": 9,
+          "costo_semestral": 600
+        },
+        {
+          "nombre": "Universidad Autónoma de Nuevo León",
+          "tipo": "pública",
+          "prestigio": 8,
+          "costo_semestral": 900
+        }
+      ],
+      "especializaciones": [
+        "Estructuras", "Geotecnia", "Hidráulica", "Vías Terrestres",
+        "Construcción", "Urbanismo", "Ingeniería Ambiental"
+      ],
+      "competencias_requeridas": [
+        "Capacidad de análisis espacial",
+        "Conocimientos matemáticos",
+        "Liderazgo y gestión",
+        "Responsabilidad social",
+        "Trabajo en campo"
+      ],
+      "ventajas": [
+        "Contribución al desarrollo del país",
+        "Proyectos de gran impacto",
+        "Diversidad de especializaciones",
+        "Oportunidades de emprendimiento"
+      ],
+      "desafios": [
+        "Dependencia de la economía nacional",
+        "Trabajo en condiciones adversas",
+        "Responsabilidad legal elevada",
+        "Competencia en licitaciones"
+      ],
+      "perfil_ideal": {
+        "UNI-001": "A",
+        "UNI-007": "B",
+        "UNI-012": "A"
+      }
+    },
+
+    "ARQ": {
+      "id": 10,
+      "codigo": "ARQ",
+      "nombre": "Arquitectura",
+      "nombre_completo": "Arquitecto",
+      "rama": "Ingenieria",
+      "tipo": "carrera_universitaria",
+      "nivel_educativo": "Licenciatura",
+      "capacidad_requerida": 1.3,
+      "años_estudio": 5,
+      "años_especialidad": 0,
+      "costo_aproximado": 450000,
+      "dificultad": 7,
+      "descripcion": "Diseño y planificación de espacios arquitectónicos que combinen funcionalidad, estética y sustentabilidad.",
+      "salario": {
+        "inicial": 15000,
+        "promedio": 28000,
+        "experimentado": 50000,
+        "especialista": 80000,
+        "nota": "Despachos de prestigio y proyectos privados ofrecen mejores ingresos"
+      },
+      "mercado_laboral": {
+        "demanda": "Media",
+        "crecimiento_proyectado": "10%",
+        "empleabilidad": "75%",
+        "tiempo_encontrar_trabajo": "6-9 meses",
+        "sectores_principales": ["Despachos arquitectónicos", "Construcción", "Gobierno", "Freelance"]
+      },
+      "requisitos_ingreso": {
+        "promedio_minimo": 7.5,
+        "examen_admision": "Examen de habilidades + portafolio",
+        "materias_clave": ["Matemáticas", "Dibujo", "Arte"],
+        "curso_propedeutico": "Requerido en mayoría"
+      },
+      "universidades_destacadas": [
+        {
+          "nombre": "UNAM - Facultad de Arquitectura",
+          "tipo": "pública",
+          "prestigio": 10,
+          "costo_semestral": 500
+        },
+        {
+          "nombre": "Universidad Iberoamericana",
+          "tipo": "privada",
+          "prestigio": 9,
+          "costo_semestral": 85000
+        },
+        {
+          "nombre": "Tecnológico de Monterrey",
+          "tipo": "privada",
+          "prestigio": 8,
+          "costo_semestral": 180000
+        }
+      ],
+      "especializaciones": [
+        "Diseño Arquitectónico", "Urbanismo", "Arquitectura Sustentable",
+        "Restauración", "Paisajismo", "Arquitectura de Interiores"
+      ],
+      "competencias_requeridas": [
+        "Creatividad y visión estética",
+        "Habilidades de dibujo",
+        "Capacidad de visualización espacial",
+        "Conocimiento técnico",
+        "Comunicación visual"
+      ],
+      "ventajas": [
+        "Profesión creativa y artística",
+        "Impacto en el entorno urbano",
+        "Posibilidad de reconocimiento",
+        "Diversidad de proyectos"
+      ],
+      "desafios": [
+        "Mercado competitivo",
+        "Ingresos iniciales bajos",
+        "Dependencia del mercado inmobiliario",
+        "Presión por plazos de entrega"
+      ],
+      "perfil_ideal": {
+        "UNI-001": "E",
+        "UNI-002": "D",
+        "UNI-007": "A"
+      }
+    },
+
+    "ADM": {
+      "id": 11,
+      "codigo": "ADM",
+      "nombre": "Administración",
+      "nombre_completo": "Licenciado en Administración",
+      "rama": "Negocios",
+      "tipo": "carrera_universitaria",
+      "nivel_educativo": "Licenciatura",
+      "capacidad_requerida": 1.1,
+      "años_estudio": 4,
+      "años_especialidad": 0,
+      "costo_aproximado": 320000,
+      "dificultad": 5,
+      "descripcion": "Gestión eficiente de recursos organizacionales para lograr objetivos empresariales y optimizar procesos.",
+      "salario": {
+        "inicial": 14000,
+        "promedio": 25000,
+        "experimentado": 45000,
+        "especialista": 80000,
+        "nota": "Altos ejecutivos y consultores pueden ganar significativamente más"
+      },
+      "mercado_laboral": {
+        "demanda": "Alta",
+        "crecimiento_proyectado": "15%",
+        "empleabilidad": "85%",
+        "tiempo_encontrar_trabajo": "3-5 meses",
+        "sectores_principales": ["Empresas privadas", "Gobierno", "Consultoría", "Emprendimiento"]
+      },
+      "requisitos_ingreso": {
+        "promedio_minimo": 7.0,
+        "examen_admision": "Examen institucional",
+        "materias_clave": ["Matemáticas", "Ciencias Sociales", "Economía"],
+        "curso_propedeutico": "Opcional"
+      },
+      "universidades_destacadas": [
+        {
+          "nombre": "Tecnológico de Monterrey",
+          "tipo": "privada",
+          "prestigio": 10,
+          "costo_semestral": 180000
+        },
+        {
+          "nombre": "Universidad Iberoamericana",
+          "tipo": "privada",
+          "prestigio": 9,
+          "costo_semestral": 85000
+        },
+        {
+          "nombre": "UNAM - FCA",
+          "tipo": "pública",
+          "prestigio": 8,
+          "costo_semestral": 500
+        }
+      ],
+      "especializaciones": [
+        "Recursos Humanos", "Finanzas", "Marketing", "Operaciones",
+        "Estrategia", "Emprendimiento", "Administración Pública"
+      ],
+      "competencias_requeridas": [
+        "Liderazgo y gestión",
+        "Comunicación efectiva",
+        "Pensamiento analítico",
+        "Toma de decisiones",
+        "Trabajo en equipo"
+      ],
+      "ventajas": [
+        "Campo laboral amplio",
+        "Versatilidad profesional",
+        "Oportunidades de crecimiento",
+        "Base para emprendimiento",
+        "Networking extenso"
+      ],
+      "desafios": [
+        "Mercado saturado",
+        "Competencia intensa",
+        "Necesidad de especialización",
+        "Presión por resultados"
+      ],
+      "perfil_ideal": {
+        "UNI-003": "C",
+        "UNI-004": "C",
+        "UNI-005": "A"
+      }
+    },
+
+    "CONT": {
+      "id": 12,
+      "codigo": "CONT",
+      "nombre": "Contaduría",
+      "nombre_completo": "Contador Público",
+      "rama": "Negocios",
+      "tipo": "carrera_universitaria",
+      "nivel_educativo": "Licenciatura",
+      "capacidad_requerida": 1.2,
+      "años_estudio": 4,
+      "años_especialidad": 0,
+      "costo_aproximado": 300000,
+      "dificultad": 6,
+      "descripcion": "Registro, control y análisis de la información financiera para la toma de decisiones empresariales.",
+      "salario": {
+        "inicial": 16000,
+        "promedio": 28000,
+        "experimentado": 50000,
+        "especialista": 90000,
+        "nota": "Despachos internacionales y consultoría fiscal ofrecen mejores salarios"
+      },
+      "mercado_laboral": {
+        "demanda": "Muy Alta",
+        "crecimiento_proyectado": "20%",
+        "empleabilidad": "92%",
+        "tiempo_encontrar_trabajo": "2-4 meses",
+        "sectores_principales": ["Despachos contables", "Empresas", "Gobierno", "Consultoría"]
+      },
+      "requisitos_ingreso": {
+        "promedio_minimo": 7.5,
+        "examen_admision": "Examen institucional",
+        "materias_clave": ["Matemáticas", "Estadística", "Economía"],
+        "curso_propedeutico": "En algunas universidades"
+      },
+      "universidades_destacadas": [
+        {
+          "nombre": "UNAM - FCA",
+          "tipo": "pública",
+          "prestigio": 10,
+          "costo_semestral": 500
+        },
+        {
+          "nombre": "Universidad de las Américas Puebla",
+          "tipo": "privada",
+          "prestigio": 8,
+          "costo_semestral": 70000
+        },
+        {
+          "nombre": "IPN - ESCA",
+          "tipo": "pública",
+          "prestigio": 8,
+          "costo_semestral": 600
+        }
+      ],
+      "especializaciones": [
+        "Auditoría", "Finanzas Corporativas", "Consultoría Fiscal",
+        "Contabilidad Gubernamental", "Costos", "Forense"
+      ],
+      "competencias_requeridas": [
+        "Precisión y atención al detalle",
+        "Habilidades numéricas",
+        "Ética profesional",
+        "Capacidad analítica",
+        "Actualización normativa constante"
+      ],
+      "ventajas": [
+        "Profesión esencial en cualquier empresa",
+        "Alta demanda laboral",
+        "Estabilidad profesional",
+        "Oportunidades de crecimiento",
+        "Posibilidad de práctica independiente"
+      ],
+      "desafios": [
+        "Responsabilidad legal elevada",
+        "Cambios normativos constantes",
+        "Trabajo bajo presión",
+        "Horarios intensos en cierres fiscales"
+      ],
+      "perfil_ideal": {
+        "UNI-001": "A",
+        "UNI-004": "A",
+        "UNI-005": "A"
+      }
+    },
+
+    "MKT": {
+      "id": 13,
+      "codigo": "MKT",
+      "nombre": "Marketing Digital",
+      "nombre_completo": "Licenciado en Marketing Digital",
+      "rama": "Negocios",
+      "tipo": "carrera_universitaria",
+      "nivel_educativo": "Licenciatura",
+      "capacidad_requerida": 1.1,
+      "años_estudio": 4,
+      "años_especialidad": 0,
+      "costo_aproximado": 350000,
+      "dificultad": 5,
+      "descripcion": "Estrategias de promoción y ventas utilizando medios digitales y análisis de comportamiento del consumidor.",
+      "salario": {
+        "inicial": 15000,
+        "promedio": 28000,
+        "experimentado": 50000,
+        "especialista": 80000,
+        "nota": "Freelancers exitosos y agencias digitales pueden ganar significativamente más"
+      },
+      "mercado_laboral": {
+        "demanda": "Muy Alta",
+        "crecimiento_proyectado": "30%",
+        "empleabilidad": "90%",
+        "tiempo_encontrar_trabajo": "1-3 meses",
+        "sectores_principales": ["Agencias digitales", "E-commerce", "Startups", "Freelance"]
+      },
+      "requisitos_ingreso": {
+        "promedio_minimo": 7.0,
+        "examen_admision": "Examen institucional",
+        "materias_clave": ["Matemáticas", "Ciencias Sociales", "Comunicación"],
+        "curso_propedeutico": "Opcional"
+      },
+      "universidades_destacadas": [
+        {
+          "nombre": "Tecnológico de Monterrey",
+          "tipo": "privada",
+          "prestigio": 9,
+          "costo_semestral": 180000
+        },
+        {
+          "nombre": "Universidad Anáhuac",
+          "tipo": "privada",
+          "prestigio": 8,
+          "costo_semestral": 75000
+        },
+        {
+          "nombre": "UNITEC",
+          "tipo": "privada",
+          "prestigio": 7,
+          "costo_semestral": 35000
+        }
+      ],
+      "especializaciones": [
+        "Social Media", "Growth Hacking", "E-commerce", "Content Marketing",
+        "Analytics", "Performance Marketing", "Brand Management"
+      ],
+      "competencias_requeridas": [
+        "Creatividad e innovación",
+        "Habilidades analíticas",
+        "Comprensión del comportamiento digital",
+        "Comunicación efectiva",
+        "Adaptabilidad a cambios rápidos"
+      ],
+      "ventajas": [
+        "Campo en auge constante",
+        "Trabajo creativo e innovador",
+        "Posibilidades de trabajo remoto",
+        "Múltiples oportunidades de freelance",
+        "Industria dinámica y moderna"
+      ],
+      "desafios": [
+        "Cambios tecnológicos constantes",
+        "Presión por resultados medibles",
+        "Competencia intensa",
+        "Necesidad de actualización continua"
+      ],
+      "perfil_ideal": {
+        "UNI-002": "D",
+        "UNI-005": "A",
+        "UNI-007": "E"
+      }
+    },
+
+    "DER": {
+      "id": 14,
+      "codigo": "DER",
+      "nombre": "Derecho",
+      "nombre_completo": "Licenciado en Derecho",
+      "rama": "Negocios",
+      "tipo": "carrera_universitaria",
+      "nivel_educativo": "Licenciatura",
+      "capacidad_requerida": 1.3,
+      "años_estudio": 5,
+      "años_especialidad": 0,
+      "costo_aproximado": 400000,
+      "dificultad": 7,
+      "descripcion": "Estudio y aplicación de las leyes para la resolución de conflictos y protección de derechos.",
+      "salario": {
+        "inicial": 15000,
+        "promedio": 30000,
+        "experimentado": 60000,
+        "especialista": 120000,
+        "nota": "Despachos corporativos y litigios importantes ofrecen salarios muy altos"
+      },
+      "mercado_laboral": {
+        "demanda": "Media",
+        "crecimiento_proyectado": "8%",
+        "empleabilidad": "70%",
+        "tiempo_encontrar_trabajo": "6-12 meses",
+        "sectores_principales": ["Despachos jurídicos", "Gobierno", "Empresas", "Independiente"]
+      },
+      "requisitos_ingreso": {
+        "promedio_minimo": 8.0,
+        "examen_admision": "Examen institucional",
+        "materias_clave": ["Historia", "Ciencias Sociales", "Filosofía"],
+        "curso_propedeutico": "Recomendado"
+      },
+      "universidades_destacadas": [
+        {
+          "nombre": "UNAM - Facultad de Derecho",
+          "tipo": "pública",
+          "prestigio": 10,
+          "costo_semestral": 500
+        },
+        {
+          "nombre": "Universidad Iberoamericana",
+          "tipo": "privada",
+          "prestigio": 9,
+          "costo_semestral": 85000
+        },
+        {
+          "nombre": "Universidad Panamericana",
+          "tipo": "privada",
+          "prestigio": 8,
+          "costo_semestral": 120000
+        }
+      ],
+      "especializaciones": [
+        "Derecho Corporate", "Derecho Penal", "Derecho Civil",
+        "Derecho Laboral", "Derecho Fiscal", "Derecho Internacional"
+      ],
+      "competencias_requeridas": [
+        "Excelente redacción y oratoria",
+        "Capacidad de análisis",
+        "Memoria y síntesis",
+        "Ética y responsabilidad social",
+        "Negociación y persuasión"
+      ],
+      "ventajas": [
+        "Profesión de alto prestigio social",
+        "Múltiples áreas de especialización",
+        "Posibilidad de altos ingresos",
+        "Contribución a la justicia social",
+        "Flexibilidad de ejercicio profesional"
+      ],
+      "desafios": [
+        "Mercado saturado",
+        "Competencia intensa",
+        "Necesidad de especialización",
+        "Responsabilidad ética elevada",
+        "Carga de trabajo variable"
+      ],
+      "perfil_ideal": {
+        "UNI-001": "C",
+        "UNI-003": "C",
+        "UNI-007": "E"
+      }
+    },
+
+    "COM": {
+      "id": 15,
+      "codigo": "COM",
+      "nombre": "Comercio Internacional",
+      "nombre_completo": "Licenciado en Comercio Internacional",
+      "rama": "Negocios",
+      "tipo": "carrera_universitaria",
+      "nivel_educativo": "Licenciatura",
+      "capacidad_requerida": 1.2,
+      "años_estudio": 4,
+      "años_especialidad": 0,
+      "costo_aproximado": 360000,
+      "dificultad": 6,
+      "descripcion": "Gestión de operaciones comerciales entre países, incluyendo importación, exportación y regulaciones internacionales.",
+      "salario": {
+        "inicial": 16000,
+        "promedio": 30000,
+        "experimentado": 55000,
+        "especialista": 85000,
+        "nota": "Empresas multinacionales y trading ofrecen mejores compensaciones"
+      },
+      "mercado_laboral": {
+        "demanda": "Alta",
+        "crecimiento_proyectado": "18%",
+        "empleabilidad": "85%",
+        "tiempo_encontrar_trabajo": "3-6 meses",
+        "sectores_principales": ["Empresas exportadoras", "Aduanas", "Logística", "Trading"]
+      },
+      "requisitos_ingreso": {
+        "promedio_minimo": 7.5,
+        "examen_admision": "Examen institucional",
+        "materias_clave": ["Matemáticas", "Geografía", "Idiomas"],
+        "curso_propedeutico": "Recomendado"
+      },
+      "universidades_destacadas": [
+        {
+          "nombre": "Universidad de las Américas Puebla",
+          "tipo": "privada",
+          "prestigio": 9,
+          "costo_semestral": 70000
+        },
+        {
+          "nombre": "Instituto Tecnológico de Estudios Superiores de Monterrey",
+          "tipo": "privada",
+          "prestigio": 8,
+          "costo_semestral": 180000
+        },
+        {
+          "nombre": "Universidad del Valle de México",
+          "tipo": "privada",
+          "prestigio": 7,
+          "costo_semestral": 45000
+        }
+      ],
+      "especializaciones": [
+        "Logística Internacional", "Aduanas", "Trading", "Negocios Asiáticos",
+        "E-commerce Global", "Consultoría Comercial"
+      ],
+      "competencias_requeridas": [
+        "Dominio de idiomas",
+        "Comprensión cultural",
+        "Habilidades negociadoras",
+        "Conocimiento normativo internacional",
+        "Visión global de negocios"
+      ],
+      "ventajas": [
+        "Oportunidades internacionales",
+        "Campo en crecimiento con el nearshoring",
+        "Salarios competitivos",
+        "Diversidad cultural en el trabajo",
+        "Posibilidad de viajes de negocios"
+      ],
+      "desafios": [
+        "Complejidad normativa internacional",
+        "Fluctuaciones económicas globales",
+        "Necesidad de dominio de idiomas",
+        "Competencia global"
+      ],
+      "perfil_ideal": {
+        "UNI-001": "C",
+        "UNI-005": "A",
+        "UNI-020": "A"
+      }
+    },
+
+    "TEC_ENF": {
+      "id": 16,
+      "codigo": "TEC_ENF",
+      "nombre": "Técnico en Enfermería",
+      "nombre_completo": "Técnico Superior en Enfermería",
+      "rama": "Oficios_Tecnicos",
+      "tipo": "carrera_tecnica",
+      "nivel_educativo": "Técnico Superior",
+      "capacidad_requerida": 0.7,
+      "años_estudio": 3,
+      "años_especialidad": 0,
+      "costo_aproximado": 120000,
+      "dificultad": 5,
+      "descripcion": "Asistencia en el cuidado de pacientes bajo supervisión médica en hospitales, clínicas y centros de salud.",
+      "salario": {
+        "inicial": 12000,
+        "promedio": 18000,
+        "experimentado": 25000,
+        "especialista": 32000,
+        "nota": "Sector privado y guardias nocturnas incrementan ingresos"
+      },
+      "mercado_laboral": {
+        "demanda": "Muy Alta",
+        "crecimiento_proyectado": "25%",
+        "empleabilidad": "95%",
+        "tiempo_encontrar_trabajo": "1-2 meses",
+        "sectores_principales": ["Hospitales", "Clínicas", "Casas de reposo", "Atención domiciliaria"]
+      },
+      "requisitos_ingreso": {
+        "promedio_minimo": 7.0,
+        "examen_admision": "Examen básico",
+        "materias_clave": ["Biología", "Química"],
+        "curso_propedeutico": "Básico"
+      },
+      "instituciones_destacadas": [
+        {
+          "nombre": "CONALEP",
+          "tipo": "pública",
+          "prestigio": 8,
+          "costo_semestral": 800
+        },
+        {
+          "nombre": "CECATI",
+          "tipo": "pública",
+          "prestigio": 7,
+          "costo_semestral": 500
+        },
+        {
+          "nombre": "Instituto Mexicano del Seguro Social (IMSS)",
+          "tipo": "pública",
+          "prestigio": 9,
+          "costo_semestral": 0
+        }
+      ],
+      "especializaciones": [
+        "Cuidados Intensivos", "Pediatría", "Geriatría", 
+        "Quirófano", "Urgencias", "Rehabilitación"
+      ],
+      "competencias_requeridas": [
+        "Vocación de servicio",
+        "Resistencia física",
+        "Habilidades de comunicación",
+        "Trabajo en equipo",
+        "Manejo del estrés"
+      ],
+      "ventajas": [
+        "Inserción laboral inmediata",
+        "Demanda constante",
+        "Trabajo humanitario significativo",
+        "Horarios de guardia bien pagados",
+        "Posibilidad de continuar estudios"
+      ],
+      "desafios": [
+        "Trabajo físicamente demandante",
+        "Exposición a enfermedades",
+        "Horarios rotativos",
+        "Responsabilidad sobre vidas humanas"
+      ],
+      "perfil_ideal": {
+        "TEC-003": "A",
+        "TEC-008": "A",
+        "TEC-015": "A"
+      }
+    },
+
+    "TEC_SIS": {
+      "id": 17,
+      "codigo": "TEC_SIS",
+      "nombre": "Técnico en Sistemas",
+      "nombre_completo": "Técnico Superior en Sistemas Computacionales",
+      "rama": "Oficios_Tecnicos",
+      "tipo": "carrera_tecnica",
+      "nivel_educativo": "Técnico Superior",
+      "capacidad_requerida": 0.8,
+      "años_estudio": 3,
+      "años_especialidad": 0,
+      "costo_aproximado": 100000,
+      "dificultad": 6,
+      "descripcion": "Soporte técnico, mantenimiento de equipos de cómputo y redes, desarrollo básico de software.",
+      "salario": {
+        "inicial": 14000,
+        "promedio": 22000,
+        "experimentado": 32000,
+        "especialista": 45000,
+        "nota": "Especialización en ciberseguridad o redes puede incrementar significativamente el salario"
+      },
+      "mercado_laboral": {
+        "demanda": "Muy Alta",
+        "crecimiento_proyectado": "28%",
+        "empleabilidad": "92%",
+        "tiempo_encontrar_trabajo": "1-3 meses",
+        "sectores_principales": ["Empresas de TI", "Corporativos", "Gobierno", "Freelance"]
+      },
+      "requisitos_ingreso": {
+        "promedio_minimo": 7.5,
+        "examen_admision": "Examen de matemáticas y lógica",
+        "materias_clave": ["Matemáticas", "Física"],
+        "curso_propedeutico": "Recomendado"
+      },
+      "instituciones_destacadas": [
+        {
+          "nombre": "CONALEP",
+          "tipo": "pública",
+          "prestigio": 8,
+          "costo_semestral": 800
+        },
+        {
+          "nombre": "CETIS",
+          "tipo": "pública",
+          "prestigio": 8,
+          "costo_semestral": 600
+        },
+        {
+          "nombre": "Universidad Tecnológica",
+          "tipo": "pública",
+          "prestigio": 7,
+          "costo_semestral": 1500
+        }
+      ],
+      "especializaciones": [
+        "Redes y Telecomunicaciones", "Ciberseguridad", "Desarrollo Web",
+        "Soporte Técnico", "Bases de Datos", "Administración de Servidores"
+      ],
+      "competencias_requeridas": [
+        "Pensamiento lógico",
+        "Resolución de problemas",
+        "Aprendizaje autodidacta",
+        "Paciencia y perseverancia",
+        "Habilidades de comunicación técnica"
+      ],
+      "ventajas": [
+        "Campo tecnológico en crecimiento",
+        "Buenas oportunidades salariales",
+        "Trabajo en ambiente moderno",
+        "Posibilidad de trabajo remoto",
+        "Múltiples rutas de especialización"
+      ],
+      "desafios": [
+        "Actualización tecnológica constante",
+        "Competencia con ingenieros",
+        "Trabajo sedentario",
+        "Presión por resolver problemas críticos"
+      ],
+      "perfil_ideal": {
+        "TEC-002": "B",
+        "TEC-006": "B",
+        "TEC-012": "B"
+      }
+    },
+
+    "ELEC_IND": {
+      "id": 18,
+      "codigo": "ELEC_IND",
+      "nombre": "Electricista Industrial",
+      "nombre_completo": "Técnico Electricista Industrial",
+      "rama": "Oficios_Tecnicos",
+      "tipo": "carrera_tecnica",
+      "nivel_educativo": "Técnico",
+      "capacidad_requerida": 0.6,
+      "años_estudio": 2,
+      "años_especialidad": 0,
+      "costo_aproximado": 80000,
+      "dificultad": 6,
+      "descripcion": "Instalación, mantenimiento y reparación de sistemas eléctricos en industrias y edificios comerciales.",
+      "salario": {
+        "inicial": 16000,
+        "promedio": 24000,
+        "experimentado": 35000,
+        "especialista": 50000,
+        "nota": "Trabajos de alto voltaje y especializaciones pagan significativamente más"
+      },
+      "mercado_laboral": {
+        "demanda": "Muy Alta",
+        "crecimiento_proyectado": "20%",
+        "empleabilidad": "88%",
+        "tiempo_encontrar_trabajo": "2-4 meses",
+        "sectores_principales": ["Industria manufacturera", "Construcción", "Minería", "Petróleo y gas"]
+      },
+      "requisitos_ingreso": {
+        "promedio_minimo": 6.5,
+        "examen_admision": "Examen básico",
+        "materias_clave": ["Matemáticas", "Física"],
+        "curso_propedeutico": "Básico"
+      },
+      "instituciones_destacadas": [
+        {
+          "nombre": "CONALEP",
+          "tipo": "pública",
+          "prestigio": 8,
+          "costo_semestral": 800
+        },
+        {
+          "nombre": "CECATI",
+          "tipo": "pública",
+          "prestigio": 7,
+          "costo_semestral": 500
+        },
+        {
+          "nombre": "CFE (Comisión Federal de Electricidad)",
+          "tipo": "pública",
+          "prestigio": 9,
+          "costo_semestral": 0
+        }
+      ],
+      "especializaciones": [
+        "Alta Tensión", "Automatización Industrial", "Control de Motores",
+        "Sistemas Fotovoltaicos", "Mantenimiento Predictivo", "Domótica"
+      ],
+      "competencias_requeridas": [
+        "Habilidades matemáticas básicas",
+        "Destreza manual",
+        "Atención al detalle",
+        "Resistencia física",
+        "Conocimiento de seguridad"
+      ],
+      "ventajas": [
+        "Alta demanda laboral",
+        "Buenos salarios para nivel técnico",
+        "Trabajo esencial en cualquier industria",
+        "Posibilidad de trabajo independiente",
+        "Múltiples sectores de empleo"
+      ],
+      "desafios": [
+        "Trabajo de alto riesgo",
+        "Condiciones laborales adversas",
+        "Responsabilidad por seguridad",
+        "Trabajo físicamente demandante"
+      ],
+      "perfil_ideal": {
+        "TEC-004": "A",
+        "TEC-009": "A",
+        "TEC-014": "A"
+      }
+    },
+
+    "CHEF": {
+      "id": 19,
+      "codigo": "CHEF",
+      "nombre": "Chef",
+      "nombre_completo": "Chef Profesional",
+      "rama": "Oficios_Tecnicos",
+      "tipo": "carrera_tecnica",
+      "nivel_educativo": "Técnico Especializado",
+      "capacidad_requerida": 0.7,
+      "años_estudio": 2,
+      "años_especialidad": 1,
+      "costo_aproximado": 150000,
+      "dificultad": 5,
+      "descripcion": "Preparación profesional de alimentos, creación de menús y gestión de cocinas en restaurantes y hoteles.",
+      "salario": {
+        "inicial": 15000,
+        "promedio": 25000,
+        "experimentado": 40000,
+        "especialista": 70000,
+        "nota": "Chefs ejecutivos y restaurantes de alta cocina pueden ganar mucho más"
+      },
+      "mercado_laboral": {
+        "demanda": "Alta",
+        "crecimiento_proyectado": "15%",
+        "empleabilidad": "85%",
+        "tiempo_encontrar_trabajo": "2-4 meses",
+        "sectores_principales": ["Restaurantes", "Hoteles", "Catering", "Cruceros"]
+      },
+      "requisitos_ingreso": {
+        "promedio_minimo": 6.0,
+        "examen_admision": "Examen básico + prueba práctica",
+        "materias_clave": ["Ninguna específica"],
+        "curso_propedeutico": "Opcional"
+      },
+      "instituciones_destacadas": [
+        {
+          "nombre": "Instituto Culinario de México",
+          "tipo": "privada",
+          "prestigio": 9,
+          "costo_semestral": 35000
+        },
+        {
+          "nombre": "CONALEP - Gastronomía",
+          "tipo": "pública",
+          "prestigio": 7,
+          "costo_semestral": 800
+        },
+        {
+          "nombre": "Escuela Superior de Gastronomía",
+          "tipo": "privada",
+          "prestigio": 8,
+          "costo_semestral": 25000
+        }
+      ],
+      "especializaciones": [
+        "Cocina Internacional", "Repostería y Pastelería", "Cocina Mexicana",
+        "Panadería", "Cocina Molecular", "Catering de Eventos"
+      ],
+      "competencias_requeridas": [
+        "Creatividad culinaria",
+        "Resistencia física",
+        "Trabajo bajo presión",
+        "Liderazgo de equipo",
+        "Higiene y seguridad alimentaria"
+      ],
+      "ventajas": [
+        "Profesión creativa",
+        "Posibilidad de emprendimiento",
+        "Trabajo en ambiente dinámico",
+        "Oportunidades internacionales",
+        "Reconocimiento público posible"
+      ],
+      "desafios": [
+        "Horarios intensivos e irregulares",
+        "Trabajo bajo presión constante",
+        "Ambiente caluroso y demandante",
+        "Competencia intensa en el sector"
+      ],
+      "perfil_ideal": {
+        "TEC-005": "E",
+        "TEC-010": "E",
+        "TEC-016": "E"
+      }
+    },
+
+    "TEC_AUTO": {
+      "id": 20,
+      "codigo": "TEC_AUTO",
+      "nombre": "Técnico Automotriz",
+      "nombre_completo": "Técnico en Mecánica Automotriz",
+      "rama": "Oficios_Tecnicos",
+      "tipo": "carrera_tecnica",
+      "nivel_educativo": "Técnico",
+      "capacidad_requerida": 0.6,
+      "años_estudio": 2,
+      "años_especialidad": 0,
+      "costo_aproximado": 90000,
+      "dificultad": 5,
+      "descripcion": "Diagnóstico, mantenimiento y reparación de vehículos automotores y sus sistemas.",
+      "salario": {
+        "inicial": 14000,
+        "promedio": 22000,
+        "experimentado": 32000,
+        "especialista": 45000,
+        "nota": "Especialización en vehículos de lujo o eléctricos incrementa significativamente los ingresos"
+      },
+      "mercado_laboral": {
+        "demanda": "Alta",
+        "crecimiento_proyectado": "12%",
+        "empleabilidad": "85%",
+        "tiempo_encontrar_trabajo": "3-5 meses",
+        "sectores_principales": ["Talleres mecánicos", "Agencias automotrices", "Flotas empresariales", "Independiente"]
+      },
+      "requisitos_ingreso": {
+        "promedio_minimo": 6.0,
+        "examen_admision": "Examen básico",
+        "materias_clave": ["Matemáticas", "Física"],
+        "curso_propedeutico": "Básico"
+      },
+      "instituciones_destacadas": [
+        {
+          "nombre": "CONALEP",
+          "tipo": "pública",
+          "prestigio": 8,
+          "costo_semestral": 800
+        },
+        {
+          "nombre": "CECATI",
+          "tipo": "pública",
+          "prestigio": 7,
+          "costo_semestral": 500
+        },
+        {
+          "nombre": "Centros de Capacitación Automotriz",
+          "tipo": "privada",
+          "prestigio": 8,
+          "costo_semestral": 8000
+        }
+      ],
+      "especializaciones": [
+        "Sistemas Eléctricos", "Transmisiones", "Motores Diésel",
+        "Vehículos Híbridos", "Aire Acondicionado", "Suspensión y Frenos"
+      ],
+      "competencias_requeridas": [
+        "Habilidades mecánicas",
+        "Destreza manual",
+        "Capacidad de diagnóstico",
+        "Conocimiento de herramientas",
+        "Resistencia física"
+      ],
+      "ventajas": [
+        "Demanda constante de servicios",
+        "Posibilidad de taller propio",
+        "Trabajo práctico y variado",
+        "Buenos ingresos con experiencia",
+        "Flexibilidad de horarios"
+      ],
+      "desafios": [
+        "Trabajo físicamente demandante",
+        "Exposición a químicos y ruido",
+        "Tecnología automotriz cambiante",
+        "Competencia con talleres establecidos"
+      ],
+      "perfil_ideal": {
+        "TEC-007": "A",
+        "TEC-011": "A",
+        "TEC-017": "A"
+      }
+    },
+
+    "ALBANIL": {
+      "id": 21,
+      "codigo": "ALBANIL",
+      "nombre": "Albañil",
+      "nombre_completo": "Maestro Albañil",
+      "rama": "Oficios_Basicos",
+      "tipo": "oficio",
+      "nivel_educativo": "Capacitación Laboral",
+      "capacidad_requerida": 0.3,
+      "años_estudio": 1,
+      "años_especialidad": 0,
+      "costo_aproximado": 25000,
+      "dificultad": 4,
+      "descripcion": "Construcción y reparación de estructuras utilizando materiales como ladrillo, cemento, piedra y otros.",
+      "salario": {
+        "inicial": 300,
+        "promedio": 450,
+        "experimentado": 600,
+        "especialista": 800,
+        "nota": "Salario por día. Maestros albañiles y trabajos especializados pueden ganar más"
+      },
+      "mercado_laboral": {
+        "demanda": "Muy Alta",
+        "crecimiento_proyectado": "15%",
+        "empleabilidad": "90%",
+        "tiempo_encontrar_trabajo": "1-2 semanas",
+        "sectores_principales": ["Construcción residencial", "Obra pública", "Remodelaciones", "Independiente"]
+      },
+      "requisitos_ingreso": {
+        "promedio_minimo": "No requerido",
+        "examen_admision": "No aplica",
+        "materias_clave": ["Educación básica"],
+        "curso_propedeutico": "Capacitación práctica"
+      },
+      "instituciones_destacadas": [
+        {
+          "nombre": "CECATI",
+          "tipo": "pública",
+          "prestigio": 7,
+          "costo_semestral": 500
+        },
+        {
+          "nombre": "ICATEP",
+          "tipo": "pública",
+          "prestigio": 6,
+          "costo_semestral": 300
+        },
+        {
+          "nombre": "Capacitación en obra",
+          "tipo": "práctica",
+          "prestigio": 8,
+          "costo_semestral": 0
+        }
+      ],
+      "especializaciones": [
+        "Mampostería", "Acabados", "Estructuras de concreto",
+        "Impermeabilización", "Restauración", "Trabajo en alturas"
+      ],
+      "competencias_requeridas": [
+        "Fuerza física",
+        "Resistencia",
+        "Habilidades manuales",
+        "Trabajo en equipo",
+        "Lectura básica de planos"
+      ],
+      "ventajas": [
+        "Demanda laboral constante",
+        "Aprendizaje en el trabajo",
+        "Buenos ingresos diarios",
+        "Trabajo independiente posible",
+        "Contribución visible al desarrollo"
+      ],
+      "desafios": [
+        "Trabajo físicamente muy demandante",
+        "Exposición a condiciones climáticas",
+        "Riesgos laborales",
+        "Ingresos variables por temporadas"
+      ],
+      "perfil_ideal": {
+        "BAS-001": "A",
+        "BAS-006": "A",
+        "BAS-010": "A"
+      }
+    },
+
+    "CHOFER": {
+      "id": 22,
+      "codigo": "CHOFER",
+      "nombre": "Chofer",
+      "nombre_completo": "Operador de Transporte",
+      "rama": "Oficios_Basicos",
+      "tipo": "oficio",
+      "nivel_educativo": "Capacitación Laboral",
+      "capacidad_requerida": 0.4,
+      "años_estudio": 0.5,
+      "años_especialidad": 0,
+      "costo_aproximado": 15000,
+      "dificultad": 3,
+      "descripcion": "Conducción segura de vehículos para transporte de personas o mercancías.",
+      "salario": {
+        "inicial": 12000,
+        "promedio": 16000,
+        "experimentado": 22000,
+        "especialista": 30000,
+        "nota": "Choferes de carga pesada y materiales peligrosos ganan más"
+      },
+      "mercado_laboral": {
+        "demanda": "Alta",
+        "crecimiento_proyectado": "10%",
+        "empleabilidad": "85%",
+        "tiempo_encontrar_trabajo": "2-4 semanas",
+        "sectores_principales": ["Transporte público", "Carga", "Empresarial", "Plataformas digitales"]
+      },
+      "requisitos_ingreso": {
+        "promedio_minimo": "No requerido",
+        "examen_admision": "Examen de manejo",
+        "materias_clave": ["Licencia de conducir"],
+        "curso_propedeutico": "Curso de manejo defensivo"
+      },
+      "instituciones_destacadas": [
+        {
+          "nombre": "Escuelas de Manejo Certificadas",
+          "tipo": "privada",
+          "prestigio": 7,
+          "costo_semestral": 3000
+        },
+        {
+          "nombre": "SCT - Capacitación",
+          "tipo": "pública",
+          "prestigio": 8,
+          "costo_semestral": 1000
+        },
+        {
+          "nombre": "Empresas de Transporte",
+          "tipo": "práctica",
+          "prestigio": 6,
+          "costo_semestral": 0
+        }
+      ],
+      "especializaciones": [
+        "Transporte de Carga", "Transporte de Pasajeros", "Materiales Peligrosos",
+        "Transporte Escolar", "Grúas", "Maquinaria Pesada"
+      ],
+      "competencias_requeridas": [
+        "Excelentes habilidades de manejo",
+        "Responsabilidad",
+        "Orientación geográfica",
+        "Paciencia",
+        "Conocimiento de reglamentos viales"
+      ],
+      "ventajas": [
+        "Entrada laboral rápida",
+        "Horarios flexibles en algunos casos",
+        "Trabajo independiente posible",
+        "Demanda constante",
+        "No requiere educación formal alta"
+      ],
+      "desafios": [
+        "Riesgo de accidentes",
+        "Estrés por tráfico",
+        "Horarios largos",
+        "Desgaste del vehículo",
+        "Responsabilidad civil"
+      ],
+      "perfil_ideal": {
+        "BAS-002": "B",
+        "BAS-007": "B",
+        "BAS-011": "B"
+      }
+    },
+
+    "LIMPIEZA": {
+      "id": 23,
+      "codigo": "LIMPIEZA",
+      "nombre": "Limpieza",
+      "nombre_completo": "Trabajador de Limpieza y Mantenimiento",
+      "rama": "Oficios_Basicos",
+      "tipo": "oficio",
+      "nivel_educativo": "Capacitación Básica",
+      "capacidad_requerida": 0.2,
+      "años_estudio": 0.25,
+      "años_especialidad": 0,
+      "costo_aproximado": 8000,
+      "dificultad": 2,
+      "descripcion": "Mantenimiento de la limpieza e higiene en oficinas, edificios, casas y espacios públicos.",
+      "salario": {
+        "inicial": 9000,
+        "promedio": 12000,
+        "experimentado": 16000,
+        "especialista": 22000,
+        "nota": "Supervisores y limpieza especializada (hospitales) ganan más"
+      },
+      "mercado_laboral": {
+        "demanda": "Muy Alta",
+        "crecimiento_proyectado": "12%",
+        "empleabilidad": "95%",
+        "tiempo_encontrar_trabajo": "1-2 semanas",
+        "sectores_principales": ["Oficinas", "Hospitales", "Escuelas", "Residencial"]
+      },
+      "requisitos_ingreso": {
+        "promedio_minimo": "No requerido",
+        "examen_admision": "No aplica",
+        "materias_clave": ["Educación básica"],
+        "curso_propedeutico": "Capacitación en el trabajo"
+      },
+      "instituciones_destacadas": [
+        {
+          "nombre": "Empresas de Limpieza",
+          "tipo": "práctica",
+          "prestigio": 7,
+          "costo_semestral": 0
+        },
+        {
+          "nombre": "ICATEP",
+          "tipo": "pública",
+          "prestigio": 6,
+          "costo_semestral": 300
+        },
+        {
+          "nombre": "Capacitación empresarial",
+          "tipo": "práctica",
+          "prestigio": 5,
+          "costo_semestral": 0
+        }
+      ],
+      "especializaciones": [
+        "Limpieza Hospitalaria", "Limpieza Industrial", "Mantenimiento de Jardines",
+        "Limpieza de Vidrios en Altura", "Desinfección", "Supervisión de Equipos"
+      ],
+      "competencias_requeridas": [
+        "Responsabilidad",
+        "Atención al detalle",
+        "Resistencia física",
+        "Conocimiento de productos químicos",
+        "Discreción"
+      ],
+      "ventajas": [
+        "Trabajo estable y necesario",
+        "Entrada inmediata al mercado laboral",
+        "Horarios flexibles disponibles",
+        "Posibilidad de empresa propia",
+        "Trabajo en diferentes ambientes"
+      ],
+      "desafios": [
+        "Salarios iniciales bajos",
+        "Trabajo físicamente demandante",
+        "Exposición a químicos",
+        "Poco reconocimiento social",
+        "Horarios tempranos o nocturnos"
+      ],
+      "perfil_ideal": {
+        "BAS-003": "C",
+        "BAS-008": "C",
+        "BAS-012": "C"
+      }
+    },
+
+    "VENDEDOR": {
+      "id": 24,
+      "codigo": "VENDEDOR",
+      "nombre": "Vendedor",
+      "nombre_completo": "Vendedor y Atención al Cliente",
+      "rama": "Oficios_Basicos",
+      "tipo": "oficio",
+      "nivel_educativo": "Capacitación Comercial",
+      "capacidad_requerida": 0.3,
+      "años_estudio": 0.5,
+      "años_especialidad": 0,
+      "costo_aproximado": 12000,
+      "dificultad": 3,
+      "descripcion": "Venta de productos y servicios, atención al cliente y manejo de inventarios en establecimientos comerciales.",
+      "salario": {
+        "inicial": 10000,
+        "promedio": 14000,
+        "experimentado": 20000,
+        "especialista": 28000,
+        "nota": "Comisiones por ventas pueden incrementar significativamente los ingresos"
+      },
+      "mercado_laboral": {
+        "demanda": "Alta",
+        "crecimiento_proyectado": "8%",
+        "empleabilidad": "80%",
+        "tiempo_encontrar_trabajo": "2-3 semanas",
+        "sectores_principales": ["Retail", "Supermercados", "Tiendas especializadas", "Centros comerciales"]
+      },
+      "requisitos_ingreso": {
+        "promedio_minimo": "Secundaria",
+        "examen_admision": "Entrevista personal",
+        "materias_clave": ["Comunicación básica"],
+        "curso_propedeutico": "Capacitación en ventas"
+      },
+      "instituciones_destacadas": [
+        {
+          "nombre": "CECATI - Técnicas de Venta",
+          "tipo": "pública",
+          "prestigio": 6,
+          "costo_semestral": 500
+        },
+        {
+          "nombre": "Capacitación empresarial",
+          "tipo": "práctica",
+          "prestigio": 7,
+          "costo_semestral": 0
+        },
+        {
+          "nombre": "Cursos de Atención al Cliente",
+          "tipo": "privada",
+          "prestigio": 5,
+          "costo_semestral": 2000
+        }
+      ],
+      "especializaciones": [
+        "Ventas Especializadas", "Atención al Cliente", "Manejo de Caja",
+        "Ventas por Catálogo", "Televentas", "Supervisión de Tienda"
+      ],
+      "competencias_requeridas": [
+        "Excelente comunicación",
+        "Carisma y empatía",
+        "Paciencia con clientes",
+        "Matemáticas básicas",
+        "Presentación personal"
+      ],
+      "ventajas": [
+        "Desarrollo de habilidades sociales",
+        "Posibilidad de comisiones",
+        "Trabajo en ambiente social",
+        "Oportunidades de crecimiento",
+        "Horarios de tienda regulares"
+      ],
+      "desafios": [
+        "Presión por metas de venta",
+        "Trato con clientes difíciles",
+        "Trabajo de pie por horas",
+        "Horarios en fines de semana",
+        "Salario base relativamente bajo"
+      ],
+      "perfil_ideal": {
+        "BAS-004": "D",
+        "BAS-009": "D",
+        "BAS-013": "D"
+      }
+    },
+
+    "AYU_COCINA": {
+      "id": 25,
+      "codigo": "AYU_COCINA",
+      "nombre": "Ayudante de Cocina",
+      "nombre_completo": "Ayudante de Cocina y Preparación de Alimentos",
+      "rama": "Oficios_Basicos",
+      "tipo": "oficio",
+      "nivel_educativo": "Capacitación Básica",
+      "capacidad_requerida": 0.2,
+      "años_estudio": 0.25,
+      "años_especialidad": 0,
+      "costo_aproximado": 6000,
+      "dificultad": 2,
+      "descripcion": "Asistencia en la preparación de alimentos, limpieza de cocina y apoyo al chef en restaurantes y cocinas.",
+      "salario": {
+        "inicial": 8000,
+        "promedio": 11000,
+        "experimentado": 15000,
+        "especialista": 20000,
+        "nota": "Hoteles y restaurantes de alta cocina pagan mejor"
+      },
+      "mercado_laboral": {
+        "demanda": "Alta",
+        "crecimiento_proyectado": "10%",
+        "empleabilidad": "85%",
+        "tiempo_encontrar_trabajo": "1-3 semanas",
+        "sectores_principales": ["Restaurantes", "Hoteles", "Comedores industriales", "Catering"]
+      },
+      "requisitos_ingreso": {
+        "promedio_minimo": "No requerido",
+        "examen_admision": "No aplica",
+        "materias_clave": ["Educación básica"],
+        "curso_propedeutico": "Higiene alimentaria básica"
+      },
+      "instituciones_destacadas": [
+        {
+          "nombre": "Restaurantes y Hoteles",
+          "tipo": "práctica",
+          "prestigio": 7,
+          "costo_semestral": 0
+        },
+        {
+          "nombre": "CECATI - Alimentos",
+          "tipo": "pública",
+          "prestigio": 6,
+          "costo_semestral": 500
+        },
+        {
+          "nombre": "Capacitación en restaurante",
+          "tipo": "práctica",
+          "prestigio": 5,
+          "costo_semestral": 0
+        }
+      ],
+      "especializaciones": [
+        "Preparación de Ensaladas", "Repostería Básica", "Carnes y Parrilla",
+        "Cocina Rápida", "Banquetes", "Seguridad Alimentaria"
+      ],
+      "competencias_requeridas": [
+        "Rapidez y eficiencia",
+        "Higiene personal",
+        "Trabajo en equipo",
+        "Resistencia a altas temperaturas",
+        "Seguimiento de instrucciones"
+      ],
+      "ventajas": [
+        "Entrada rápida al mercado laboral",
+        "Aprendizaje de habilidades culinarias",
+        "Posibilidad de crecimiento a cocinero",
+        "Trabajo en equipo dinámico",
+        "Comida incluida en muchos lugares"
+      ],
+      "desafios": [
+        "Trabajo en ambientes calurosos",
+        "Horarios intensivos",
+        "Ritmo de trabajo acelerado",
+        "Salarios iniciales bajos",
+        "Trabajo en días festivos"
+      ],
+      "perfil_ideal": {
+        "BAS-005": "E",
+        "BAS-010": "E",
+        "BAS-015": "E"
+      }
+    }
+
+  }
+}

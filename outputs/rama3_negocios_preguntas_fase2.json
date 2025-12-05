@@ -1,0 +1,1722 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "rama": "RAMA_3_NEGOCIOS",
+    "nombre_rama": "Negocios y Ciencias Sociales",
+    "total_preguntas": 80,
+    "fase": "FASE_2_ESPECIALIZADA",
+    "descripcion": "Preguntas especializadas para diferenciar entre las 5 carreras de Negocios y Ciencias Sociales",
+    "fecha_creacion": "2025-01-01",
+    "carreras": [
+      {
+        "id": 11,
+        "nombre": "Administración de Empresas",
+        "codigo": "ADM"
+      },
+      {
+        "id": 12,
+        "nombre": "Contaduría Pública",
+        "codigo": "CONT"
+      },
+      {
+        "id": 13,
+        "nombre": "Marketing Digital",
+        "codigo": "MKT"
+      },
+      {
+        "id": 14,
+        "nombre": "Derecho",
+        "codigo": "DER"
+      },
+      {
+        "id": 15,
+        "nombre": "Comercio Internacional",
+        "codigo": "COM"
+      }
+    ]
+  },
+  
+  "preguntas": [
+    
+    {
+      "id": "NEG-001",
+      "categoria": "escenarios_practicos",
+      "texto": "Una empresa tiene problemas financieros. ¿Qué te gustaría hacer para ayudar?",
+      "opciones": {
+        "A": "Reorganizar la estructura y procesos de la empresa",
+        "B": "Revisar y corregir los estados financieros y presupuestos",
+        "C": "Crear una campaña para atraer más clientes",
+        "D": "Analizar si hay problemas legales que afecten el negocio",
+        "E": "Buscar nuevos mercados internacionales para expandirse"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.5
+    },
+    
+    {
+      "id": "NEG-002",
+      "categoria": "escenarios_practicos",
+      "texto": "Una startup quiere lanzar un producto nuevo. ¿En qué aspecto te enfocarías?",
+      "opciones": {
+        "A": "Planificar la estrategia general y coordinar equipos",
+        "B": "Calcular costos, precios y proyección de ganancias",
+        "C": "Diseñar la estrategia de marketing y redes sociales",
+        "D": "Revisar patentes, contratos y aspectos legales",
+        "E": "Investigar mercados internacionales para exportar"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "NEG-003",
+      "categoria": "herramientas_metodos",
+      "texto": "¿Con cuáles de estas herramientas te gustaría trabajar más?",
+      "opciones": {
+        "A": "Diagramas organizacionales, planes estratégicos, indicadores KPI",
+        "B": "Excel avanzado, software contable, calculadoras financieras",
+        "C": "Google Analytics, redes sociales, herramientas de diseño",
+        "D": "Códigos legales, jurisprudencias, contratos",
+        "E": "Estadísticas de comercio, aranceles, documentos aduanales"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "NEG-004",
+      "categoria": "actividades_diarias",
+      "texto": "¿Qué tipo de actividades te emocionan más en el trabajo?",
+      "opciones": {
+        "A": "Dirigir reuniones, tomar decisiones, resolver conflictos",
+        "B": "Analizar números, hacer cálculos, revisar balances",
+        "C": "Crear contenido, analizar tendencias, interactuar en redes",
+        "D": "Investigar leyes, defender casos, negociar acuerdos",
+        "E": "Viajar, conocer culturas, negociar con extranjeros"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "NEG-005",
+      "categoria": "preferencias_trabajo",
+      "texto": "¿Cómo prefieres trabajar la mayor parte del tiempo?",
+      "opciones": {
+        "A": "Liderando equipos y coordinando proyectos",
+        "B": "Solo, concentrado en números y documentos",
+        "C": "En equipo creativo, generando ideas y campañas",
+        "D": "Investigando, leyendo y escribiendo documentos legales",
+        "E": "Viajando, en reuniones internacionales y ferias"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "NEG-006",
+      "categoria": "problemas_resolver",
+      "texto": "¿Qué tipo de problema te resulta más interesante resolver?",
+      "opciones": {
+        "A": "Cómo hacer más eficiente una empresa",
+        "B": "Por qué no cuadran las cuentas de un negocio",
+        "C": "Cómo hacer que más gente compre un producto",
+        "D": "Cómo defender los derechos de una persona",
+        "E": "Cómo aprovechar oportunidades de exportación"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.5
+    },
+    
+    {
+      "id": "NEG-007",
+      "categoria": "habilidades_personales",
+      "texto": "¿En cuál de estas habilidades te consideras mejor?",
+      "opciones": {
+        "A": "Organizar y planificar actividades",
+        "B": "Ser preciso y detallista con números",
+        "C": "Ser creativo y persuasivo",
+        "D": "Argumentar y debatir ideas",
+        "E": "Adaptarme a diferentes culturas e idiomas"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "NEG-008",
+      "categoria": "escenarios_practicos",
+      "texto": "Te ofrecen tres trabajos de medio tiempo. ¿Cuál elegirías?",
+      "opciones": {
+        "A": "Asistente de gerencia en una empresa local",
+        "B": "Apoyo en un despacho contable durante época fiscal",
+        "C": "Community manager de una marca juvenil",
+        "D": "Practicante en un bufete de abogados",
+        "E": "Asistente en una empresa importadora"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "NEG-009",
+      "categoria": "materias_preferidas",
+      "texto": "¿Qué materia del bachillerato te gusta más?",
+      "opciones": {
+        "A": "Administración y gestión empresarial",
+        "B": "Matemáticas y cálculo",
+        "C": "Arte, diseño y comunicación",
+        "D": "Historia, civismo y filosofía",
+        "E": "Geografía e inglés"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "NEG-010",
+      "categoria": "ambiente_laboral",
+      "texto": "¿En qué tipo de ambiente te gustaría trabajar?",
+      "opciones": {
+        "A": "Oficinas corporativas con equipos grandes",
+        "B": "Oficina tranquila con pocos compañeros",
+        "C": "Espacios creativos, dinámicos y modernos",
+        "D": "Oficinas formales, bibliotecas y juzgados",
+        "E": "Puertos, aeropuertos y centros comerciales internacionales"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.1
+    },
+    
+    {
+      "id": "NEG-011",
+      "categoria": "motivaciones_carrera",
+      "texto": "¿Qué te motiva más de trabajar en negocios?",
+      "opciones": {
+        "A": "Liderar equipos y crear empresas exitosas",
+        "B": "Tener un trabajo estable y bien remunerado",
+        "C": "Ser creativo y seguir las tendencias digitales",
+        "D": "Ayudar a las personas y hacer justicia",
+        "E": "Conocer el mundo y hacer negocios globales"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "NEG-012",
+      "categoria": "personalidad_trabajo",
+      "texto": "¿Cómo te describes en el trabajo?",
+      "opciones": {
+        "A": "Soy natural para liderar y tomar decisiones",
+        "B": "Soy muy ordenado y no cometo errores con números",
+        "C": "Soy creativo y siempre tengo ideas nuevas",
+        "D": "Soy analítico y me gusta investigar a fondo",
+        "E": "Soy adaptable y me gustan los retos internacionales"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "NEG-013",
+      "categoria": "tareas_especificas",
+      "texto": "¿Cuál de estas tareas te parece más atractiva?",
+      "opciones": {
+        "A": "Diseñar la estructura organizacional de una empresa",
+        "B": "Preparar la declaración anual de impuestos",
+        "C": "Crear una campaña viral en TikTok para una marca",
+        "D": "Redactar un contrato de compraventa",
+        "E": "Negociar precios con proveedores chinos"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "NEG-014",
+      "categoria": "software_herramientas",
+      "texto": "¿Qué software te interesa más aprender?",
+      "opciones": {
+        "A": "Microsoft Project, SAP, sistemas ERP",
+        "B": "Software contable (COI, Aspel), Excel avanzado",
+        "C": "Adobe Creative, Canva, herramientas de social media",
+        "D": "Sistemas jurídicos, bases de datos legales",
+        "E": "Software de logística, sistemas aduanales"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "NEG-015",
+      "categoria": "clientes_publico",
+      "texto": "¿Con qué tipo de personas te gustaría trabajar más?",
+      "opciones": {
+        "A": "Empresarios, gerentes y equipos de trabajo",
+        "B": "Pequeños empresarios y personas físicas",
+        "C": "Influencers, marcas juveniles y consumidores digitales",
+        "D": "Personas con problemas legales que necesitan ayuda",
+        "E": "Empresarios internacionales y exportadores"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "NEG-016",
+      "categoria": "especializacion_futura",
+      "texto": "¿En qué área te especializarías después de graduarte?",
+      "opciones": {
+        "A": "Recursos humanos o consultoría empresarial",
+        "B": "Auditoría o asesoría fiscal",
+        "C": "Marketing digital o e-commerce",
+        "D": "Derecho corporativo o litigios",
+        "E": "Logística internacional o aduanas"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "NEG-017",
+      "categoria": "emprendimiento",
+      "texto": "Si tuvieras tu propio negocio, ¿qué te gustaría más?",
+      "opciones": {
+        "A": "Ser el CEO y manejar toda la operación",
+        "B": "Ser el contador y manejar las finanzas",
+        "C": "Ser el director de marketing y ventas",
+        "D": "Ser el asesor legal del negocio",
+        "E": "Importar y exportar productos únicos"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "NEG-018",
+      "categoria": "analisis_casos",
+      "texto": "Una empresa de ropa quiere expandirse. ¿Qué analizarías primero?",
+      "opciones": {
+        "A": "Si tienen la estructura y personal adecuado",
+        "B": "Si tienen el capital y flujo de efectivo necesario",
+        "C": "Si hay demanda del mercado y competencia",
+        "D": "Si cumplen con todas las regulaciones legales",
+        "E": "Si es mejor expandirse local o internacionalmente"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "NEG-019",
+      "categoria": "proyectos_escolares",
+      "texto": "Para un proyecto escolar de negocios, prefieres:",
+      "opciones": {
+        "A": "Crear un plan de negocios completo",
+        "B": "Hacer el análisis financiero y presupuestos",
+        "C": "Diseñar la estrategia de marketing",
+        "D": "Investigar los aspectos legales",
+        "E": "Analizar oportunidades de exportación"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "NEG-020",
+      "categoria": "comunicacion_estilo",
+      "texto": "¿Cómo prefieres comunicarte en el trabajo?",
+      "opciones": {
+        "A": "Presentaciones ejecutivas y reuniones de equipo",
+        "B": "Reportes escritos detallados y números claros",
+        "C": "Contenido visual creativo y redes sociales",
+        "D": "Documentos formales y argumentos estructurados",
+        "E": "Emails internacionales y videollamadas"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "NEG-021",
+      "categoria": "estres_presion",
+      "texto": "¿Bajo qué tipo de presión trabajas mejor?",
+      "opciones": {
+        "A": "Deadlines de proyectos importantes con equipos grandes",
+        "B": "Fechas límite de impuestos y auditorías",
+        "C": "Lanzamientos de campañas y eventos promocionales",
+        "D": "Juicios, audiencias y negociaciones tensas",
+        "E": "Embarques urgentes y trámites aduanales"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "NEG-022",
+      "categoria": "innovacion_cambio",
+      "texto": "¿Qué opinas sobre la innovación en los negocios?",
+      "opciones": {
+        "A": "Me gusta implementar nuevas metodologías de gestión",
+        "B": "Prefiero métodos probados y estables",
+        "C": "Me encanta estar al día con las últimas tendencias",
+        "D": "Respeto las tradiciones pero acepto cambios graduales",
+        "E": "Me adapto rápido a mercados y culturas diferentes"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.1
+    },
+    
+    {
+      "id": "NEG-023",
+      "categoria": "metas_profesionales",
+      "texto": "¿Cuál sería tu meta profesional ideal?",
+      "opciones": {
+        "A": "Ser director general de una empresa grande",
+        "B": "Tener mi propio despacho contable exitoso",
+        "C": "Crear una agencia de marketing reconocida",
+        "D": "Ser socio en un bufete de abogados prestigioso",
+        "E": "Manejar las exportaciones de una empresa transnacional"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "NEG-024",
+      "categoria": "responsabilidades",
+      "texto": "¿Qué tipo de responsabilidad te atrae más?",
+      "opciones": {
+        "A": "Ser responsable de los resultados de toda un área",
+        "B": "Ser responsable de que los números estén correctos",
+        "C": "Ser responsable de que la gente conozca y compre la marca",
+        "D": "Ser responsable de proteger los derechos de las personas",
+        "E": "Ser responsable de que los productos lleguen a tiempo al mundo"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "NEG-025",
+      "categoria": "aprendizaje_continuo",
+      "texto": "¿Qué te gustaría seguir aprendiendo durante tu carrera?",
+      "opciones": {
+        "A": "Nuevas metodologías de liderazgo y gestión",
+        "B": "Actualizaciones fiscales y normativas contables",
+        "C": "Nuevas plataformas digitales y tendencias de consumo",
+        "D": "Nuevas leyes y precedentes jurídicos",
+        "E": "Nuevos mercados internacionales y acuerdos comerciales"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "NEG-026",
+      "categoria": "networking_relaciones",
+      "texto": "¿Con quién te gustaría hacer networking profesional?",
+      "opciones": {
+        "A": "CEOs, gerentes y líderes empresariales",
+        "B": "Contadores, auditores y asesores fiscales",
+        "C": "Creativos, influencers y directores de marketing",
+        "D": "Abogados, jueces y profesionales del derecho",
+        "E": "Exportadores, agentes aduanales y empresarios internacionales"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.1
+    },
+    
+    {
+      "id": "NEG-027",
+      "categoria": "documentos_trabajo",
+      "texto": "¿Qué tipo de documentos te gustaría crear en tu trabajo?",
+      "opciones": {
+        "A": "Planes estratégicos, manuales de procedimientos",
+        "B": "Estados financieros, declaraciones fiscales",
+        "C": "Briefs creativos, reportes de performance digital",
+        "D": "Contratos, demandas, escritos jurídicos",
+        "E": "Facturas comerciales, documentos de exportación"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "NEG-028",
+      "categoria": "tecnologia_digital",
+      "texto": "¿Qué aspecto de la tecnología te interesa más para los negocios?",
+      "opciones": {
+        "A": "Sistemas de gestión empresarial (ERP, CRM)",
+        "B": "Software contable y sistemas de facturación",
+        "C": "Redes sociales, analítica web y e-commerce",
+        "D": "Sistemas de gestión legal y expedientes digitales",
+        "E": "Plataformas de comercio electrónico internacional"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "NEG-029",
+      "categoria": "toma_decisiones",
+      "texto": "¿Cómo prefieres tomar decisiones importantes?",
+      "opciones": {
+        "A": "Analizando el impacto en toda la organización",
+        "B": "Basándome en números y datos financieros concretos",
+        "C": "Considerando las tendencias y preferencias del consumidor",
+        "D": "Revisando precedentes legales y posibles riesgos",
+        "E": "Evaluando oportunidades y riesgos internacionales"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "NEG-030",
+      "categoria": "horarios_flexibilidad",
+      "texto": "¿Qué tipo de horario prefieres para trabajar?",
+      "opciones": {
+        "A": "Horario ejecutivo estándar con flexibilidad para reuniones",
+        "B": "Horario fijo con épocas intensas (declaraciones, auditorías)",
+        "C": "Horario flexible, trabajo por proyectos y campañas",
+        "D": "Horario variable según audiencias y casos urgentes",
+        "E": "Disponibilidad para husos horarios internacionales"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.0
+    },
+    
+    {
+      "id": "NEG-031",
+      "categoria": "crisis_problemas",
+      "texto": "Una empresa está en crisis. ¿Cuál sería tu primera reacción?",
+      "opciones": {
+        "A": "Analizar qué procesos o liderazgo están fallando",
+        "B": "Revisar los números para encontrar la causa financiera",
+        "C": "Evaluar cómo está afectando la imagen de marca",
+        "D": "Verificar si hay problemas legales de fondo",
+        "E": "Considerar si mercados internacionales pueden ayudar"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "NEG-032",
+      "categoria": "sectores_industria",
+      "texto": "¿En qué sector te gustaría especializar tu carrera?",
+      "opciones": {
+        "A": "Consultoría empresarial para múltiples industrias",
+        "B": "Servicios contables para PYMEs y personas físicas",
+        "C": "Marketing para marcas de consumo y entretenimiento",
+        "D": "Bufete especializado en derecho corporativo o familiar",
+        "E": "Comercio internacional en manufactura o tecnología"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "NEG-033",
+      "categoria": "capacitacion_certificacion",
+      "texto": "¿Qué certificación adicional te interesaría obtener?",
+      "opciones": {
+        "A": "PMP (Project Management), Six Sigma",
+        "B": "CPA, certificación en IFRS",
+        "C": "Google Analytics, Facebook Blueprint, HubSpot",
+        "D": "Maestría en Derecho, especialización en áreas específicas",
+        "E": "Certificación de agente aduanal, INCOTERMS"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "NEG-034",
+      "categoria": "movilidad_geografia",
+      "texto": "¿Dónde te gustaría desarrollar tu carrera?",
+      "opciones": {
+        "A": "Grandes empresas en ciudades principales del país",
+        "B": "Despacho local o regional con clientes conocidos",
+        "C": "Agencias creativas en ciudades cosmopolitas",
+        "D": "Bufetes en capitales con tribunales importantes",
+        "E": "Puertos, fronteras o ciudades con actividad exportadora"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.1
+    },
+    
+    {
+      "id": "NEG-035",
+      "categoria": "colaboracion_equipos",
+      "texto": "¿Cómo trabajas mejor en equipo?",
+      "opciones": {
+        "A": "Como líder coordinando diferentes departamentos",
+        "B": "Como especialista aportando análisis técnico",
+        "C": "Como creativo colaborando en lluvias de ideas",
+        "D": "Como asesor proporcionando criterio legal",
+        "E": "Como facilitador conectando diferentes mercados/culturas"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "NEG-036",
+      "categoria": "satisfaccion_laboral",
+      "texto": "¿Qué te daría más satisfacción en tu trabajo?",
+      "opciones": {
+        "A": "Ver crecer y prosperar una empresa",
+        "B": "Ayudar a las personas con sus finanzas e impuestos",
+        "C": "Ver cómo mis campañas conectan con el público",
+        "D": "Defender exitosamente a mis clientes",
+        "E": "Facilitar el crecimiento internacional de empresas mexicanas"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "NEG-037",
+      "categoria": "medicion_exito",
+      "texto": "¿Cómo medirías el éxito en tu carrera?",
+      "opciones": {
+        "A": "Por los resultados de la empresa y mi equipo",
+        "B": "Por la precisión de mis trabajos y la confianza de clientes",
+        "C": "Por el alcance e impacto de mis campañas",
+        "D": "Por los casos ganados y la justicia lograda",
+        "E": "Por el volumen de comercio internacional facilitado"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "NEG-038",
+      "categoria": "retos_profesionales",
+      "texto": "¿Qué tipo de retos profesionales te emocionan?",
+      "opciones": {
+        "A": "Reestructurar empresas en dificultades",
+        "B": "Resolver complicaciones fiscales complejas",
+        "C": "Hacer viral una marca desconocida",
+        "D": "Ganar casos difíciles o injustos",
+        "E": "Abrir nuevos mercados internacionales"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "NEG-039",
+      "categoria": "valores_eticos",
+      "texto": "¿Qué valor ético es más importante para ti en los negocios?",
+      "opciones": {
+        "A": "Liderazgo responsable y transparente",
+        "B": "Honestidad y precisión en números",
+        "C": "Autenticidad y conexión genuina con el público",
+        "D": "Justicia y respeto por los derechos",
+        "E": "Comercio justo y respeto cultural"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "NEG-040",
+      "categoria": "desarrollo_personal",
+      "texto": "¿Qué habilidad personal desarrollarías más en tu carrera?",
+      "opciones": {
+        "A": "Liderazgo y gestión de personas",
+        "B": "Análisis numérico y atención al detalle",
+        "C": "Creatividad y comunicación persuasiva",
+        "D": "Argumentación y pensamiento crítico",
+        "E": "Adaptabilidad cultural y negociación"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "NEG-041",
+      "categoria": "impacto_social",
+      "texto": "¿Qué tipo de impacto social te gustaría tener con tu carrera?",
+      "opciones": {
+        "A": "Crear empleos y hacer crecer la economía",
+        "B": "Ayudar a pequeños empresarios a formalizarse",
+        "C": "Promover marcas que mejoren la vida de las personas",
+        "D": "Defender los derechos de los más vulnerables",
+        "E": "Conectar México con oportunidades mundiales"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "NEG-042",
+      "categoria": "futuro_profesion",
+      "texto": "¿Cómo ves el futuro de tu profesión con la tecnología?",
+      "opciones": {
+        "A": "La gestión humana siempre será necesaria, la tecnología la potencia",
+        "B": "Habrá más automatización, pero el criterio humano seguirá siendo clave",
+        "C": "La digitalización abre infinitas oportunidades creativas",
+        "D": "La tecnología ayuda, pero las leyes y la justicia requieren humanos",
+        "E": "El e-commerce global democratiza el comercio internacional"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.1
+    },
+    
+    {
+      "id": "NEG-043",
+      "categoria": "competencias_emergentes",
+      "texto": "¿Qué competencia emergente te interesa más desarrollar?",
+      "opciones": {
+        "A": "Gestión de equipos remotos y agilidad organizacional",
+        "B": "Análisis de big data financiera y inteligencia artificial",
+        "C": "Marketing de influencers y experiencias inmersivas",
+        "D": "Derecho digital y ciberseguridad legal",
+        "E": "Comercio electrónico internacional y blockchain"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "NEG-044",
+      "categoria": "planificacion_carrera",
+      "texto": "¿Cómo planificas tu crecimiento profesional?",
+      "opciones": {
+        "A": "Escalando posiciones hasta roles ejecutivos",
+        "B": "Especializándome y construyendo reputación técnica",
+        "C": "Construyendo portafolio creativo y red de contactos",
+        "D": "Ganando experiencia en diferentes ramas del derecho",
+        "E": "Conociendo diferentes mercados y culturas empresariales"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "NEG-045",
+      "categoria": "balance_vida_trabajo",
+      "texto": "¿Qué balance vida-trabajo buscas en tu carrera?",
+      "opciones": {
+        "A": "Trabajo exigente pero con crecimiento acelerado",
+        "B": "Trabajo estacional intenso con periodos más tranquilos",
+        "C": "Trabajo por proyectos con flexibilidad creativa",
+        "D": "Trabajo demandante pero con autonomía profesional",
+        "E": "Trabajo con viajes pero oportunidades internacionales"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.0
+    },
+    
+    {
+      "id": "NEG-046",
+      "categoria": "casos_estudio_reales",
+      "texto": "Mercado Libre quiere expandirse a Europa. ¿Qué analizarías?",
+      "opciones": {
+        "A": "Estructura organizacional necesaria y plan de implementación",
+        "B": "Costos de expansión, financiamiento y proyecciones",
+        "C": "Competencia local, preferencias de consumidores europeos",
+        "D": "Regulaciones europeas de e-commerce y protección de datos",
+        "E": "Logística internacional, aduanas y socios comerciales"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.5
+    },
+    
+    {
+      "id": "NEG-047",
+      "categoria": "casos_estudio_reales",
+      "texto": "Una empresa familiar mexicana tiene conflictos entre socios. ¿Cómo ayudarías?",
+      "opciones": {
+        "A": "Diseñando nueva gobernanza y separación de roles",
+        "B": "Auditando las finanzas para tener claridad sobre números",
+        "C": "Mejorando la comunicación interna y externa",
+        "D": "Redactando nuevos acuerdos legales entre socios",
+        "E": "Evaluando si internacionalizar reduciría dependencia local"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "NEG-048",
+      "categoria": "casos_estudio_reales",
+      "texto": "Netflix quiere lanzar contenido local mexicano. ¿En qué participarías?",
+      "opciones": {
+        "A": "Coordinando los equipos de producción y distribución",
+        "B": "Manejando presupuestos y costos de producción",
+        "C": "Desarrollando la estrategia de marketing y audiencias",
+        "D": "Negociando contratos con actores y productores",
+        "E": "Facilitando coproducciones con otros países latinoamericanos"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "NEG-049",
+      "categoria": "escenarios_complejos",
+      "texto": "Una startup tech necesita levantar capital. ¿Dónde te enfocarías?",
+      "opciones": {
+        "A": "Preparando el pitch y estructurando el equipo",
+        "B": "Organizando estados financieros y proyecciones",
+        "C": "Desarrollando estrategia de marca para atraer inversionistas",
+        "D": "Estructurando legalmente la ronda de inversión",
+        "E": "Conectando con inversionistas internacionales"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.5
+    },
+    
+    {
+      "id": "NEG-050",
+      "categoria": "escenarios_complejos",
+      "texto": "El peso mexicano se devalúa 20%. ¿Cómo asesorarías a una empresa?",
+      "opciones": {
+        "A": "Reestructurando operaciones para ser más eficientes",
+        "B": "Recalculando costos, precios y márgenes",
+        "C": "Ajustando estrategia de marketing al nuevo poder adquisitivo",
+        "D": "Revisando contratos para protegerse de fluctuaciones",
+        "E": "Aprovechando la oportunidad para incrementar exportaciones"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.5
+    },
+    
+    {
+      "id": "NEG-051",
+      "categoria": "tendencias_mercado",
+      "texto": "¿Qué tendencia de mercado te emociona más seguir?",
+      "opciones": {
+        "A": "Organizaciones ágiles y nuevos modelos de liderazgo",
+        "B": "Fintech y automatización de procesos contables",
+        "C": "Inteligencia artificial en marketing y personalización",
+        "D": "Legaltech y digitalización de servicios jurídicos",
+        "E": "Nearshoring y reconfiguración de cadenas de suministro"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "NEG-052",
+      "categoria": "industrias_especificas",
+      "texto": "¿En qué industria te gustaría especializar tu experiencia?",
+      "opciones": {
+        "A": "Manufactura, retail o servicios corporativos",
+        "B": "Servicios profesionales, construcción o salud",
+        "C": "Entretenimiento, moda o tecnología de consumo",
+        "D": "Servicios financieros, inmobiliario o familiar",
+        "E": "Automotriz, agroindustria o tecnología"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "NEG-053",
+      "categoria": "metodologias_trabajo",
+      "texto": "¿Qué metodología de trabajo prefieres?",
+      "opciones": {
+        "A": "Metodologías ágiles (Scrum, Kanban) para proyectos",
+        "B": "Metodologías tradicionales estructuradas y checklist",
+        "C": "Design thinking y metodologías de innovación",
+        "D": "Metodología de investigación y análisis de casos",
+        "E": "Metodologías de negociación internacional"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.1
+    },
+    
+    {
+      "id": "NEG-054",
+      "categoria": "presentaciones_informes",
+      "texto": "¿Qué tipo de presentaciones te gusta más preparar?",
+      "opciones": {
+        "A": "Presentaciones ejecutivas con insights estratégicos",
+        "B": "Reportes financieros con gráficos y análisis numérico",
+        "C": "Presentaciones creativas con storytelling visual",
+        "D": "Argumentos legales estructurados y fundamentos",
+        "E": "Propuestas comerciales internacionales"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "NEG-055",
+      "categoria": "conferencias_eventos",
+      "texto": "¿A qué tipo de conferencia te gustaría asistir?",
+      "opciones": {
+        "A": "Cumbre de líderes empresariales y CEO",
+        "B": "Congreso de contadores y actualización fiscal",
+        "C": "Festival de creatividad y marketing digital",
+        "D": "Congreso nacional de derecho",
+        "E": "Foro de comercio exterior y oportunidades internacionales"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.1
+    },
+    
+    {
+      "id": "NEG-056",
+      "categoria": "mentoria_liderazgo",
+      "texto": "¿A quién te gustaría tener como mentor profesional?",
+      "opciones": {
+        "A": "Un CEO exitoso de empresa mexicana",
+        "B": "Un contador con despacho próspero",
+        "C": "Un director creativo de agencia reconocida",
+        "D": "Un abogado litigante o socio de bufete prestigioso",
+        "E": "Un empresario que exporta exitosamente"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "NEG-057",
+      "categoria": "investigacion_analisis",
+      "texto": "¿Qué tipo de investigación disfrutas hacer?",
+      "opciones": {
+        "A": "Benchmarking de mejores prácticas empresariales",
+        "B": "Análisis de ratios financieros y tendencias contables",
+        "C": "Investigación de mercado y comportamiento del consumidor",
+        "D": "Investigación de precedentes legales y jurisprudencia",
+        "E": "Análisis de mercados internacionales y oportunidades"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "NEG-058",
+      "categoria": "competencias_idiomas",
+      "texto": "¿Qué idiomas adicionales te interesa dominar para tu carrera?",
+      "opciones": {
+        "A": "Inglés ejecutivo para multinacionales",
+        "B": "Inglés técnico para normativas internacionales",
+        "C": "Inglés creativo para campañas globales",
+        "D": "Inglés jurídico para derecho internacional",
+        "E": "Múltiples idiomas (inglés, chino, alemán) para comercio"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.1
+    },
+    
+    {
+      "id": "NEG-059",
+      "categoria": "personalidad_profesional",
+      "texto": "¿Cómo te ven generalmente tus colegas?",
+      "opciones": {
+        "A": "Como líder natural que organiza y motiva",
+        "B": "Como la persona confiable y precisa con números",
+        "C": "Como el creativo que siempre tiene ideas nuevas",
+        "D": "Como el analítico que encuentra argumentos sólidos",
+        "E": "Como el adaptable que conecta con personas diferentes"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "NEG-060",
+      "categoria": "vision_empresarial",
+      "texto": "¿Cómo contribuirías al crecimiento económico de México?",
+      "opciones": {
+        "A": "Creando empresas eficientes que generen empleos",
+        "B": "Ayudando a formalizar y organizar las finanzas de PYMEs",
+        "C": "Promoviendo marcas mexicanas en mercados internacionales",
+        "D": "Fortaleciendo el marco legal para proteger empresarios",
+        "E": "Facilitando que más empresas mexicanas exporten"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "NEG-061",
+      "categoria": "situaciones_eticas",
+      "texto": "Un cliente te pide hacer algo éticamente cuestionable. ¿Cómo reaccionas?",
+      "opciones": {
+        "A": "Explico las consecuencias para la empresa y propongo alternativas",
+        "B": "Muestro los riesgos legales y fiscales con números claros",
+        "C": "Argumento cómo afectaría su reputación de marca",
+        "D": "Explico las implicaciones legales y me niego si es ilegal",
+        "E": "Considero cómo afectaría sus relaciones comerciales internacionales"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "NEG-062",
+      "categoria": "automatizacion_futuro",
+      "texto": "¿Cómo te adaptas al futuro automatizado de los negocios?",
+      "opciones": {
+        "A": "Enfocándome en liderazgo humano y decisiones estratégicas",
+        "B": "Especializándome en análisis que requiere criterio humano",
+        "C": "Siendo más creativo y centrado en experiencias únicas",
+        "D": "Concentrándome en interpretación legal que requiere juicio humano",
+        "E": "Enfocándome en relaciones humanas y negociación cultural"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "NEG-063",
+      "categoria": "startup_vs_corporativo",
+      "texto": "¿Prefieres trabajar en startup o empresa establecida?",
+      "opciones": {
+        "A": "Startup para crear estructuras desde cero",
+        "B": "Empresa establecida con procesos claros y estables",
+        "C": "Startup para experimentar con marketing disruptivo",
+        "D": "Empresa establecida con casos complejos y recursos",
+        "E": "Cualquiera que tenga ambiciones internacionales"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.1
+    },
+    
+    {
+      "id": "NEG-064",
+      "categoria": "medicion_impacto",
+      "texto": "¿Cómo mides tu impacto profesional?",
+      "opciones": {
+        "A": "Por la eficiencia y resultados de las empresas que asesoro",
+        "B": "Por la precisión de mis trabajos y satisfacción de clientes",
+        "C": "Por el engagement y resultados de las campañas que creo",
+        "D": "Por la justicia lograda y los derechos protegidos",
+        "E": "Por el volumen de comercio internacional que facilito"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "NEG-065",
+      "categoria": "desarrollo_continuo",
+      "texto": "¿En qué inviertes tiempo para tu desarrollo profesional?",
+      "opciones": {
+        "A": "Cursos de liderazgo y gestión empresarial",
+        "B": "Actualizaciones fiscales y nuevas normativas",
+        "C": "Tendencias digitales y herramientas creativas",
+        "D": "Análisis de casos legales y nuevas jurisprudencias",
+        "E": "Estudios de mercados emergentes y acuerdos comerciales"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "NEG-066",
+      "categoria": "networking_estrategia",
+      "texto": "¿Cómo construyes tu red profesional?",
+      "opciones": {
+        "A": "En eventos empresariales y asociaciones de ejecutivos",
+        "B": "En colegios profesionales y conferencias técnicas",
+        "C": "En eventos creativos, agencias y festivales",
+        "D": "En el colegio de abogados y eventos jurídicos",
+        "E": "En cámaras de comercio y eventos internacionales"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.1
+    },
+    
+    {
+      "id": "NEG-067",
+      "categoria": "diversidad_inclusion",
+      "texto": "¿Cómo contribuyes a la diversidad e inclusión en los negocios?",
+      "opciones": {
+        "A": "Creando culturas organizacionales inclusivas",
+        "B": "Asegurando acceso equitativo a servicios contables",
+        "C": "Desarrollando campañas que representen la diversidad real",
+        "D": "Defendiendo derechos de grupos vulnerables",
+        "E": "Promoviendo comercio justo con comunidades diversas"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "NEG-068",
+      "categoria": "sostenibilidad_responsabilidad",
+      "texto": "¿Cómo integras la sostenibilidad en tu trabajo?",
+      "opciones": {
+        "A": "Diseñando estrategias empresariales responsables",
+        "B": "Calculando costos reales incluyendo impacto ambiental",
+        "C": "Promoviendo marcas con propósito sostenible",
+        "D": "Asesorando en regulaciones ambientales",
+        "E": "Facilitando comercio de productos sustentables"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.1
+    },
+    
+    {
+      "id": "NEG-069",
+      "categoria": "crisis_adaptacion",
+      "texto": "Durante una crisis económica, ¿cómo ayudas a las empresas?",
+      "opciones": {
+        "A": "Reestructurando operaciones para sobrevivir y prosperar",
+        "B": "Renegociando deudas y optimizando flujo de efectivo",
+        "C": "Adaptando estrategias de marketing a la nueva realidad",
+        "D": "Navegando nuevas regulaciones y protegiendo activos",
+        "E": "Encontrando nuevos mercados menos afectados"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "NEG-070",
+      "categoria": "comunicacion_digital",
+      "texto": "¿Cómo usas la comunicación digital en tu profesión?",
+      "opciones": {
+        "A": "Para liderar equipos remotos y coordinar proyectos",
+        "B": "Para consultas técnicas y presentar reportes",
+        "C": "Para crear contenido atractivo y engagement",
+        "D": "Para investigación legal y comunicación formal",
+        "E": "Para negociaciones internacionales y seguimiento de embarques"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.0
+    },
+    
+    {
+      "id": "NEG-071",
+      "categoria": "innovacion_disrupcion",
+      "texto": "¿Cómo respondes a la disrupción en tu industria?",
+      "opciones": {
+        "A": "Adaptando modelos de negocio y estructuras organizacionales",
+        "B": "Actualizando métodos pero manteniendo rigor técnico",
+        "C": "Abrazando nuevas plataformas y formatos creativos",
+        "D": "Evolucionando práctica legal para nuevas realidades",
+        "E": "Aprovechando nuevos canales y mercados digitales"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "NEG-072",
+      "categoria": "consultoria_especializada",
+      "texto": "¿En qué área de consultoría te especializarías?",
+      "opciones": {
+        "A": "Transformación organizacional y change management",
+        "B": "Consultoría fiscal y optimización financiera",
+        "C": "Consultoría en transformación digital de marketing",
+        "D": "Consultoría legal especializada en sectores específicos",
+        "E": "Consultoría en internacionalización de empresas"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "NEG-073",
+      "categoria": "empresas_familiares",
+      "texto": "¿Cómo ayudas a las empresas familiares mexicanas?",
+      "opciones": {
+        "A": "Profesionalizando la gestión y separando familia/empresa",
+        "B": "Ordenando finanzas familiares y empresariales",
+        "C": "Construyendo marcas que honren la tradición familiar",
+        "D": "Estructurando legalmente la transición generacional",
+        "E": "Ayudándolas a expandirse a mercados internacionales"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "NEG-074",
+      "categoria": "public_speaking",
+      "texto": "¿En qué contexto te gusta hablar en público?",
+      "opciones": {
+        "A": "Presentando estrategias a juntas directivas",
+        "B": "Explicando cambios fiscales en seminarios técnicos",
+        "C": "Presentando campañas creativas a clientes",
+        "D": "Argumentando en audiencias y defendiendo casos",
+        "E": "Presentando oportunidades en foros de negocios internacionales"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "NEG-075",
+      "categoria": "legacy_profesional",
+      "texto": "¿Qué legado profesional te gustaría dejar?",
+      "opciones": {
+        "A": "Haber creado organizaciones más humanas y eficientes",
+        "B": "Haber ayudado a miles de personas con sus finanzas",
+        "C": "Haber creado campañas que cambiaron comportamientos positivamente",
+        "D": "Haber defendido causas justas y cambiado precedentes",
+        "E": "Haber conectado México con oportunidades mundiales"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "NEG-076",
+      "categoria": "recursos_aprendizaje",
+      "texto": "¿Qué recursos usas para mantenerte actualizado?",
+      "opciones": {
+        "A": "Harvard Business Review, libros de management",
+        "B": "Revistas especializadas en contabilidad y fiscales",
+        "C": "Blogs de marketing, casos de estudio creativos",
+        "D": "Jurisprudencias, revistas jurídicas especializadas",
+        "E": "Reportes de comercio internacional, estudios de mercado"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.1
+    },
+    
+    {
+      "id": "NEG-077",
+      "categoria": "colaboracion_internacional",
+      "texto": "¿Cómo colaboras con profesionales internacionales?",
+      "opciones": {
+        "A": "En proyectos de expansión y joint ventures",
+        "B": "En auditorías y cumplimiento de normativas internacionales",
+        "C": "En campañas globales y adaptación cultural",
+        "D": "En casos transfronterizos y derecho internacional",
+        "E": "En negociaciones comerciales y acuerdos de distribución"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "NEG-078",
+      "categoria": "emprendimiento_social",
+      "texto": "¿Cómo contribuyes al emprendimiento social en México?",
+      "opciones": {
+        "A": "Asesorando estructuras organizacionales para ONGs",
+        "B": "Ofreciendo servicios contables pro-bono a emprendedores",
+        "C": "Creando campañas de awareness para causas sociales",
+        "D": "Defendiendo legalmente a emprendedores vulnerables",
+        "E": "Conectando emprendimiento social con mercados internacionales"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.1
+    },
+    
+    {
+      "id": "NEG-079",
+      "categoria": "tecnologias_emergentes",
+      "texto": "¿Qué tecnología emergente más impactará tu profesión?",
+      "opciones": {
+        "A": "Inteligencia artificial para optimización organizacional",
+        "B": "Blockchain para transparencia contable",
+        "C": "Realidad virtual/aumentada para experiencias de marca",
+        "D": "Smart contracts para automatización legal",
+        "E": "IoT para tracking de mercancías internacionales"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "NEG-080",
+      "categoria": "reflexion_final",
+      "texto": "¿Qué frase describe mejor tu motivación profesional?",
+      "opciones": {
+        "A": "Quiero liderar equipos hacia el éxito empresarial",
+        "B": "Quiero ser el experto confiable en números y finanzas",
+        "C": "Quiero crear conexiones emocionales entre marcas y personas",
+        "D": "Quiero defender la justicia y los derechos de las personas",
+        "E": "Quiero conectar México con las oportunidades del mundo"
+      },
+      "indicador_carrera": {
+        "A": "ADM",
+        "B": "CONT",
+        "C": "MKT",
+        "D": "DER",
+        "E": "COM"
+      },
+      "peso": 1.5
+    }
+    
+  ]
+}

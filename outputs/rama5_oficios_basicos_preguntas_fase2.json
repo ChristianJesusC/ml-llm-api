@@ -1,0 +1,1723 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "rama": "RAMA_5_OFICIOS_BAS",
+    "nombre_rama": "Oficios Básicos",
+    "total_preguntas": 80,
+    "fase": "FASE_2_ESPECIALIZADA",
+    "descripcion": "Preguntas especializadas para diferenciar entre los 5 oficios básicos (formación 3-12 meses)",
+    "fecha_creacion": "2025-01-01",
+    "capacidad_requerida": "< 0.5",
+    "carreras": [
+      {
+        "id": 21,
+        "nombre": "Albañil / Construcción",
+        "codigo": "ALBANIL"
+      },
+      {
+        "id": 22,
+        "nombre": "Operador de Maquinaria / Chofer",
+        "codigo": "CHOFER"
+      },
+      {
+        "id": 23,
+        "nombre": "Trabajador de Limpieza",
+        "codigo": "LIMPIEZA"
+      },
+      {
+        "id": 24,
+        "nombre": "Vendedor / Ayudante de Ventas",
+        "codigo": "VENDEDOR"
+      },
+      {
+        "id": 25,
+        "nombre": "Ayudante de Cocina",
+        "codigo": "AYU_COCINA"
+      }
+    ]
+  },
+  
+  "preguntas": [
+    
+    {
+      "id": "BAS-001",
+      "categoria": "actividades_preferidas",
+      "texto": "¿Qué tipo de actividad te gusta más hacer?",
+      "opciones": {
+        "A": "Construir y arreglar cosas con mis manos",
+        "B": "Manejar vehículos o maquinaria",
+        "C": "Mantener lugares limpios y ordenados",
+        "D": "Platicar con personas y ayudarles a encontrar lo que necesitan",
+        "E": "Ayudar en la cocina preparando ingredientes"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.5
+    },
+    
+    {
+      "id": "BAS-002",
+      "categoria": "ambientes_trabajo",
+      "texto": "¿En dónde te sentirías más cómodo trabajando?",
+      "opciones": {
+        "A": "Obras de construcción, casas en construcción",
+        "B": "Manejando en la ciudad o carretera",
+        "C": "Oficinas, casas, edificios que necesitan limpieza",
+        "D": "Tiendas, mercados, centros comerciales",
+        "E": "Cocinas de restaurantes, cafeterías, comedores"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "BAS-003",
+      "categoria": "herramientas_basicas",
+      "texto": "¿Con cuáles de estas herramientas te gustaría trabajar?",
+      "opciones": {
+        "A": "Martillo, pala, nivel, cemento, ladrillos",
+        "B": "Volante, palanca de velocidades, mapa/GPS",
+        "C": "Escoba, trapeador, aspiradora, productos de limpieza",
+        "D": "Calculadora, etiquetas de precios, bolsas",
+        "E": "Cuchillos de cocina, tablas para picar, ollas"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "BAS-004",
+      "categoria": "satisfaccion_trabajo",
+      "texto": "¿Qué te daría más satisfacción al final del día?",
+      "opciones": {
+        "A": "Ver una pared o estructura terminada que construí",
+        "B": "Haber transportado personas o carga de forma segura",
+        "C": "Ver un lugar completamente limpio y ordenado",
+        "D": "Haber ayudado a clientes a encontrar lo que buscaban",
+        "E": "Ver que la comida que ayudé a preparar gustó a la gente"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.5
+    },
+    
+    {
+      "id": "BAS-005",
+      "categoria": "personalidad_trabajo",
+      "texto": "¿Cómo eres cuando trabajas?",
+      "opciones": {
+        "A": "Trabajador, fuerte, me gusta ver resultados físicos",
+        "B": "Responsable, puntual, me gusta manejar con cuidado",
+        "C": "Detallista, organizado, me gusta que todo esté perfecto",
+        "D": "Amigable, paciente, me gusta ayudar a las personas",
+        "E": "Colaborativo, rápido, me gusta apoyar al equipo"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "BAS-006",
+      "categoria": "condiciones_fisicas",
+      "texto": "¿En qué condiciones físicas prefieres trabajar?",
+      "opciones": {
+        "A": "Al aire libre, haciendo esfuerzo físico, ensuciándome",
+        "B": "Sentado manejando, con aire acondicionado o ventanas abiertas",
+        "C": "Caminando, agachándome, en espacios cerrados limpios",
+        "D": "De pie, caminando, en lugares con música y movimiento",
+        "E": "De pie, en espacios calurosos, con ritmo acelerado"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "BAS-007",
+      "categoria": "interaccion_personas",
+      "texto": "¿Cómo prefieres trabajar con otras personas?",
+      "opciones": {
+        "A": "En equipo con otros trabajadores de la construcción",
+        "B": "Solo la mayor parte del tiempo, pero ayudando pasajeros",
+        "C": "Solo o con un compañero, sin molestar a otros",
+        "D": "Platicando y ayudando a muchas personas diferentes",
+        "E": "En equipo de cocina, colaborando constantemente"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "BAS-008",
+      "categoria": "horarios_trabajo",
+      "texto": "¿Qué horario de trabajo prefieres?",
+      "opciones": {
+        "A": "Mañana temprano, aprovechando la luz del día",
+        "B": "Horarios variables, pero respetando tiempos de descanso",
+        "C": "Temprano en la mañana o tarde en la noche",
+        "D": "Durante el día cuando hay más clientes",
+        "E": "Horarios de comida: desayuno, comida, cena"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.1
+    },
+    
+    {
+      "id": "BAS-009",
+      "categoria": "motivacion_principal",
+      "texto": "¿Qué te motiva más a trabajar?",
+      "opciones": {
+        "A": "Construir cosas que van a durar muchos años",
+        "B": "Ayudar a que las personas lleguen seguras a sus destinos",
+        "C": "Hacer que los lugares sean agradables y saludables",
+        "D": "Ayudar a las personas a conseguir lo que necesitan",
+        "E": "Contribuir a que las personas disfruten su comida"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "BAS-010",
+      "categoria": "habilidades_manuales",
+      "texto": "¿Qué tipo de trabajo con las manos disfrutas más?",
+      "opciones": {
+        "A": "Trabajo pesado que requiere fuerza y resistencia",
+        "B": "Trabajo que requiere coordinación y precisión",
+        "C": "Trabajo detallado y cuidadoso",
+        "D": "Trabajo ligero manejando productos delicadamente",
+        "E": "Trabajo rápido cortando, lavando, preparando"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "BAS-011",
+      "categoria": "situaciones_trabajo",
+      "texto": "¿En cuál de estas situaciones te desempeñas mejor?",
+      "opciones": {
+        "A": "Siguiendo planos o instrucciones de construcción",
+        "B": "Siguiendo rutas y horarios establecidos",
+        "C": "Siguiendo una rutina de limpieza paso a paso",
+        "D": "Adaptándome a diferentes clientes y sus necesidades",
+        "E": "Siguiendo recetas e instrucciones del chef"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "BAS-012",
+      "categoria": "aprendizaje_trabajo",
+      "texto": "¿Cómo prefieres aprender a hacer tu trabajo?",
+      "opciones": {
+        "A": "Viendo y practicando con trabajadores experimentados",
+        "B": "Estudiando las reglas de tránsito y practicando manejar",
+        "C": "Aprendiendo técnicas de limpieza y uso de productos",
+        "D": "Practicando con clientes reales y aprendiendo productos",
+        "E": "Observando en la cocina y practicando técnicas básicas"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "BAS-013",
+      "categoria": "responsabilidades",
+      "texto": "¿Qué tipo de responsabilidad te parece más importante?",
+      "opciones": {
+        "A": "Que las estructuras que construyo sean seguras",
+        "B": "Que las personas y carga lleguen sin accidentes",
+        "C": "Que los lugares queden perfectamente limpios",
+        "D": "Que los clientes se vayan contentos con su compra",
+        "E": "Que la comida esté bien preparada e higiénica"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "BAS-014",
+      "categoria": "clima_trabajo",
+      "texto": "¿Cómo te sientes trabajando en diferentes climas?",
+      "opciones": {
+        "A": "No me molesta el sol, lluvia o calor si es necesario",
+        "B": "Prefiero estar protegido en cabina, pero puedo salir si es necesario",
+        "C": "Prefiero espacios con aire acondicionado o techados",
+        "D": "Me gusta estar en espacios cómodos con temperatura agradable",
+        "E": "Puedo trabajar en cocinas calurosas pero prefiero ventilación"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.1
+    },
+    
+    {
+      "id": "BAS-015",
+      "categoria": "crecimiento_trabajo",
+      "texto": "¿Cómo te gustaría crecer en tu trabajo?",
+      "opciones": {
+        "A": "Aprender diferentes tipos de construcción y liderar equipos",
+        "B": "Manejar vehículos más grandes o tener mi propio transporte",
+        "C": "Supervisar equipos de limpieza o tener mi empresa",
+        "D": "Ser supervisor de ventas o tener mi propia tienda",
+        "E": "Aprender más de cocina y llegar a ser cocinero"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "BAS-016",
+      "categoria": "rutina_trabajo",
+      "texto": "¿Qué tipo de rutina de trabajo prefieres?",
+      "opciones": {
+        "A": "Diferentes proyectos, cada día trabajando en algo nuevo",
+        "B": "Rutas y horarios regulares con algunas variaciones",
+        "C": "Rutina establecida pero en diferentes lugares",
+        "D": "Variedad diaria con diferentes clientes y productos",
+        "E": "Rutina de preparación con variedad en los platillos"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "BAS-017",
+      "categoria": "equipos_proteccion",
+      "texto": "¿Qué equipo de protección estarías dispuesto a usar?",
+      "opciones": {
+        "A": "Casco, botas de seguridad, guantes de trabajo",
+        "B": "Cinturón de seguridad, chaleco reflectivo",
+        "C": "Guantes de hule, mascarilla, ropa de trabajo",
+        "D": "Uniforme de la empresa, gafete de identificación",
+        "E": "Gorro, delantal, guantes desechables"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.1
+    },
+    
+    {
+      "id": "BAS-018",
+      "categoria": "trabajo_equipo",
+      "texto": "¿Cómo trabajas mejor en equipo?",
+      "opciones": {
+        "A": "Colaborando físicamente, ayudándonos a cargar y construir",
+        "B": "Coordinándome por radio con despachadores y otros choferes",
+        "C": "Trabajando independiente pero coordinado con mi compañero",
+        "D": "En contacto constante con el equipo de la tienda",
+        "E": "Siguiendo instrucciones del chef y coordinando con meseros"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "BAS-019",
+      "categoria": "sueldo_estabilidad",
+      "texto": "¿Qué es más importante para ti en cuanto al sueldo?",
+      "opciones": {
+        "A": "Pago por día o proyecto, con posibilidad de trabajo extra",
+        "B": "Sueldo fijo con prestaciones y bonos por buen manejo",
+        "C": "Pago estable por horas trabajadas",
+        "D": "Sueldo base más comisiones por ventas",
+        "E": "Pago fijo con propinas y comida incluida"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.1
+    },
+    
+    {
+      "id": "BAS-020",
+      "categoria": "comunicacion_trabajo",
+      "texto": "¿Cómo te comunicas mejor en el trabajo?",
+      "opciones": {
+        "A": "Instrucciones directas, señas con las manos, gritos para coordinar",
+        "B": "Radio, teléfono, señales de tránsito",
+        "C": "Instrucciones escritas, notas, comunicación mínima",
+        "D": "Hablando directamente con clientes, preguntando necesidades",
+        "E": "Instrucciones del chef, coordinación rápida verbal"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "BAS-021",
+      "categoria": "casos_practicos",
+      "texto": "Te piden ayuda urgente. ¿Cuál atenderías mejor?",
+      "opciones": {
+        "A": "Reparar una pared que se está cayendo",
+        "B": "Llevar a alguien al hospital rápido pero seguro",
+        "C": "Limpiar un evento importante que empieza en 2 horas",
+        "D": "Atender a muchos clientes en una venta especial",
+        "E": "Ayudar a preparar comida para un evento grande"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "BAS-022",
+      "categoria": "materiales_productos",
+      "texto": "¿Con qué tipo de materiales o productos te gusta trabajar?",
+      "opciones": {
+        "A": "Cemento, arena, ladrillos, varilla, madera",
+        "B": "Combustible, aceite, llantas, vehículos",
+        "C": "Productos químicos de limpieza, desinfectantes",
+        "D": "Ropa, electrónicos, comida, productos variados",
+        "E": "Ingredientes frescos, carnes, verduras, especias"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "BAS-023",
+      "categoria": "problemas_comunes",
+      "texto": "¿Qué tipo de problema te parece más fácil de resolver?",
+      "opciones": {
+        "A": "Una mezcla de cemento que no está quedando bien",
+        "B": "Una ruta bloqueada que me obliga a buscar camino alternativo",
+        "C": "Una mancha difícil que no sale con el producto normal",
+        "D": "Un cliente que no encuentra exactamente lo que busca",
+        "E": "Un ingrediente que se acabó y necesito sustituir"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "BAS-024",
+      "categoria": "energia_fisica",
+      "texto": "¿Qué nivel de energía física tienes para trabajar?",
+      "opciones": {
+        "A": "Mucha energía, me gusta el trabajo pesado",
+        "B": "Energía moderada, más concentración que fuerza",
+        "C": "Energía constante para trabajo de varias horas",
+        "D": "Energía social, me gusta estar activo hablando con gente",
+        "E": "Energía rápida para trabajar en ritmo acelerado"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "BAS-025",
+      "categoria": "supervision_trabajo",
+      "texto": "¿Cómo prefieres que te supervisen en el trabajo?",
+      "opciones": {
+        "A": "Que me expliquen qué hacer y me dejen trabajar",
+        "B": "Supervisión a distancia, reportando por radio",
+        "C": "Revisión del trabajo terminado, con checklist",
+        "D": "Supervisión cercana al principio, después más independencia",
+        "E": "Instrucciones claras del chef y revisión constante"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.1
+    },
+    
+    {
+      "id": "BAS-026",
+      "categoria": "lugares_diferentes",
+      "texto": "¿Te gusta trabajar en lugares diferentes?",
+      "opciones": {
+        "A": "Sí, cada obra es diferente y me gusta conocer lugares nuevos",
+        "B": "Sí, me gusta manejar por diferentes rutas y destinos",
+        "C": "Un poco, pero prefiero tener clientes regulares",
+        "D": "Sí, me gusta conocer diferentes tiendas y clientes",
+        "E": "No mucho, prefiero una cocina donde ya me conozco todo"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.1
+    },
+    
+    {
+      "id": "BAS-027",
+      "categoria": "capacitacion_basica",
+      "texto": "¿Qué tipo de capacitación te interesa más recibir?",
+      "opciones": {
+        "A": "Técnicas de construcción, uso seguro de herramientas",
+        "B": "Manejo defensivo, mecánica básica, primeros auxilios",
+        "C": "Uso correcto de químicos, técnicas de limpieza profunda",
+        "D": "Técnicas de venta, manejo de caja, atención al cliente",
+        "E": "Higiene alimentaria, técnicas básicas de cocina, seguridad"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "BAS-028",
+      "categoria": "stress_trabajo",
+      "texto": "¿Qué tipo de estrés de trabajo manejas mejor?",
+      "opciones": {
+        "A": "Presión por terminar proyectos en tiempo",
+        "B": "Tráfico pesado y cumplir horarios de entrega",
+        "C": "Trabajar rápido para terminar antes del horario de oficina",
+        "D": "Muchos clientes esperando y preguntas constantes",
+        "E": "Rush de comidas con muchas órdenes simultáneas"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "BAS-029",
+      "categoria": "valores_trabajo",
+      "texto": "¿Qué valoras más en tu trabajo?",
+      "opciones": {
+        "A": "Hacer algo que va a durar y ser útil",
+        "B": "Ayudar a las personas a llegar donde necesitan ir",
+        "C": "Mantener los lugares saludables y agradables",
+        "D": "Hacer que las personas se sientan bien atendidas",
+        "E": "Contribuir a que las personas disfruten su comida"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "BAS-030",
+      "categoria": "tecnologia_basica",
+      "texto": "¿Qué tan cómodo te sientes usando tecnología básica?",
+      "opciones": {
+        "A": "Herramientas eléctricas básicas, nivel láser simple",
+        "B": "GPS, radio, aplicaciones de transporte",
+        "C": "Aspiradoras modernas, equipos de limpieza automáticos",
+        "D": "Cajas registradoras, lectores de código de barras",
+        "E": "Batidoras, licuadoras, hornos digitales básicos"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.1
+    },
+    
+    {
+      "id": "BAS-031",
+      "categoria": "independencia_trabajo",
+      "texto": "¿Te ves trabajando por tu cuenta en el futuro?",
+      "opciones": {
+        "A": "Sí, haciendo trabajos de construcción independiente",
+        "B": "Sí, con mi propio vehículo dando servicios de transporte",
+        "C": "Sí, con mi propia empresa de limpieza",
+        "D": "Sí, con mi propio negocio o puesto de ventas",
+        "E": "Tal vez, con un pequeño negocio de comida"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "BAS-032",
+      "categoria": "trabajo_familia",
+      "texto": "¿Cómo balanceas trabajo y familia?",
+      "opciones": {
+        "A": "Trabajo duro durante el día para descansar en casa",
+        "B": "Horarios fijos que me permiten tiempo con familia",
+        "C": "Trabajo temprano o tarde para no interferir con familia",
+        "D": "Horarios flexibles que puedo ajustar según necesidad",
+        "E": "Trabajo en horarios de comida pero libre entre ellos"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.1
+    },
+    
+    {
+      "id": "BAS-033",
+      "categoria": "mejora_habilidades",
+      "texto": "¿Qué habilidad te gustaría mejorar más?",
+      "opciones": {
+        "A": "Técnicas de construcción más avanzadas",
+        "B": "Manejo de vehículos más grandes o especializados",
+        "C": "Técnicas de limpieza especializada o supervisión",
+        "D": "Técnicas de venta y conocimiento de productos",
+        "E": "Técnicas de cocina y preparación de alimentos"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "BAS-034",
+      "categoria": "reconocimiento_trabajo",
+      "texto": "¿Qué tipo de reconocimiento te hace sentir bien?",
+      "opciones": {
+        "A": "Que vean mi trabajo terminado y digan que quedó bien",
+        "B": "Que los pasajeros lleguen contentos y seguros",
+        "C": "Que las personas noten que el lugar está muy limpio",
+        "D": "Que los clientes regresen conmigo y me recomienden",
+        "E": "Que la gente diga que la comida estaba deliciosa"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "BAS-035",
+      "categoria": "compañeros_trabajo",
+      "texto": "¿Con qué tipo de compañeros de trabajo te llevas mejor?",
+      "opciones": {
+        "A": "Trabajadores que también usan las manos y no le tienen miedo al trabajo pesado",
+        "B": "Personas responsables que manejan bien y respetan las reglas",
+        "C": "Personas ordenadas, puntuales y que hacen bien su trabajo",
+        "D": "Personas amigables, que les gusta platicar y ayudar",
+        "E": "Personas trabajadoras que les gusta la cocina y trabajan en equipo"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "BAS-036",
+      "categoria": "seguridad_trabajo",
+      "texto": "¿Qué aspecto de seguridad consideras más importante?",
+      "opciones": {
+        "A": "Usar herramientas correctamente para no lastimarme",
+        "B": "Manejar con cuidado para no tener accidentes",
+        "C": "Usar productos químicos sin que me hagan daño",
+        "D": "Cuidarme de no cargar cosas muy pesadas",
+        "E": "No cortarme ni quemarme en la cocina"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "BAS-037",
+      "categoria": "inicio_dia",
+      "texto": "¿Cómo prefieres empezar tu día de trabajo?",
+      "opciones": {
+        "A": "Revisando materiales y herramientas que voy a necesitar",
+        "B": "Revisando el vehículo y planificando la ruta",
+        "C": "Revisando el área a limpiar y preparando productos",
+        "D": "Revisando qué productos hay y preparando la tienda",
+        "E": "Revisando el menú del día y preparando ingredientes"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "BAS-038",
+      "categoria": "fin_dia",
+      "texto": "¿Cómo te gusta terminar tu día de trabajo?",
+      "opciones": {
+        "A": "Guardando herramientas y viendo el avance del proyecto",
+        "B": "Estacionando el vehículo y reportando que todo salió bien",
+        "C": "Dejando todo limpio y ordenado para el siguiente día",
+        "D": "Cerrando la caja y ordenando la tienda",
+        "E": "Limpiando la cocina y dejando todo listo para mañana"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "BAS-039",
+      "categoria": "errores_trabajo",
+      "texto": "Si cometes un error en el trabajo, ¿cómo reaccionas?",
+      "opciones": {
+        "A": "Lo corrijo inmediatamente aunque tenga que deshacer trabajo",
+        "B": "Paro en un lugar seguro y busco ayuda si es necesario",
+        "C": "Repaso el área nuevamente para asegurarme que quede bien",
+        "D": "Pido disculpas al cliente y busco la forma de solucionarlo",
+        "E": "Le digo al chef para que me ayude a corregirlo"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "BAS-040",
+      "categoria": "herramientas_cuidado",
+      "texto": "¿Cómo cuidas las herramientas o equipo de trabajo?",
+      "opciones": {
+        "A": "Las limpio y guardo bien para que duren más tiempo",
+        "B": "Reviso el vehículo regularmente y reporto cualquier problema",
+        "C": "Lavo y guardo correctamente los equipos de limpieza",
+        "D": "Cuido las máquinas registradoras y equipo de la tienda",
+        "E": "Lavo y mantengo afilados los cuchillos y utensilios"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "BAS-041",
+      "categoria": "emergencias_trabajo",
+      "texto": "En caso de emergencia en tu trabajo, ¿cuál sería tu primera reacción?",
+      "opciones": {
+        "A": "Asegurarme de que nadie esté en peligro de lastimarse",
+        "B": "Mover el vehículo a lugar seguro y llamar ayuda",
+        "C": "Acordonar el área y avisar a las personas del peligro",
+        "D": "Llamar a seguridad o gerencia de inmediato",
+        "E": "Apagar equipos y avisar al chef o supervisor"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "BAS-042",
+      "categoria": "lluvia_trabajo",
+      "texto": "¿Cómo afecta la lluvia a tu trabajo?",
+      "opciones": {
+        "A": "No puedo trabajar al aire libre, pero puedo hacer trabajo interior",
+        "B": "Manejo más despacio y con más cuidado",
+        "C": "No me afecta mucho porque trabajo principalmente bajo techo",
+        "D": "Menos gente sale, pero no afecta mucho mi trabajo",
+        "E": "No me afecta porque trabajo en cocina cerrada"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.1
+    },
+    
+    {
+      "id": "BAS-043",
+      "categoria": "descansos_trabajo",
+      "texto": "¿Cómo aprovechas tus descansos en el trabajo?",
+      "opciones": {
+        "A": "Descanso para recuperar energía y como algo ligero",
+        "B": "Reviso el vehículo, como y planeo la siguiente ruta",
+        "C": "Descanso un poco y preparo materiales para continuar",
+        "D": "Platico con compañeros y customers cuando hay pocos clientes",
+        "E": "Descanso rápido porque la cocina es muy activa"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.0
+    },
+    
+    {
+      "id": "BAS-044",
+      "categoria": "orgullo_trabajo",
+      "texto": "¿De qué te sientes más orgulloso en tu trabajo?",
+      "opciones": {
+        "A": "De construir cosas que van a durar muchos años",
+        "B": "De transportar personas seguras a sus destinos",
+        "C": "De dejar los lugares perfectamente limpios",
+        "D": "De ayudar a clientes a encontrar exactamente lo que necesitan",
+        "E": "De que la comida que ayudo a preparar les guste a las personas"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "BAS-045",
+      "categoria": "dias_dificiles",
+      "texto": "¿Qué te ayuda a seguir adelante en días difíciles de trabajo?",
+      "opciones": {
+        "A": "Saber que mi trabajo es importante y necesario",
+        "B": "Pensar en que ayudo a las personas a moverse por la ciudad",
+        "C": "Ver el resultado limpio y ordenado de mi trabajo",
+        "D": "Los clientes contentos que regresan conmigo",
+        "E": "Trabajar en equipo con compañeros que me apoyan"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "BAS-046",
+      "categoria": "experiencia_clientes",
+      "texto": "¿Cómo describes la experiencia con clientes en tu trabajo?",
+      "opciones": {
+        "A": "Poca interacción directa, más con supervisores y compañeros",
+        "B": "Interacción amigable pero breve con pasajeros",
+        "C": "Interacción mínima, prefiero trabajar sin molestar",
+        "D": "Mucha interacción, me gusta ayudar y platicar",
+        "E": "Principalmente con el equipo de cocina, poco con clientes directos"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "BAS-047",
+      "categoria": "aprender_nuevos",
+      "texto": "¿Qué tan fácil es para ti aprender nuevos procesos de trabajo?",
+      "opciones": {
+        "A": "Aprendo viendo y practicando, me gusta probar técnicas nuevas",
+        "B": "Aprendo las reglas y rutas nuevas estudiando mapas",
+        "C": "Aprendo nuevos productos y técnicas siguiendo instrucciones",
+        "D": "Aprendo sobre productos nuevos preguntando y practicando con clientes",
+        "E": "Aprendo nuevas recetas viendo al chef y practicando"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "BAS-048",
+      "categoria": "futuro_trabajo",
+      "texto": "¿Cómo ves tu futuro en este tipo de trabajo?",
+      "opciones": {
+        "A": "Especializándome en cierto tipo de construcción",
+        "B": "Manejando vehículos más grandes o teniendo mi unidad",
+        "C": "Supervisando equipos o teniendo empresa de limpieza",
+        "D": "Llegando a supervisor o teniendo mi propio negocio",
+        "E": "Aprendiendo más de cocina hasta ser cocinero"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "BAS-049",
+      "categoria": "contribucion_comunidad",
+      "texto": "¿Cómo sientes que tu trabajo contribuye a la comunidad?",
+      "opciones": {
+        "A": "Construyo casas y edificios donde las personas viven y trabajan",
+        "B": "Ayudo a que las personas lleguen donde necesitan ir",
+        "C": "Mantengo lugares limpios y saludables para todos",
+        "D": "Ayudo a las personas a conseguir cosas que necesitan",
+        "E": "Ayudo a que las personas disfruten comida rica y nutritiva"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "BAS-050",
+      "categoria": "motivacion_diaria",
+      "texto": "¿Qué te motiva más cada día para ir a trabajar?",
+      "opciones": {
+        "A": "Saber que voy a construir algo útil",
+        "B": "Poder manejar y conocer diferentes lugares",
+        "C": "Dejar lugares mejor de como los encontré",
+        "D": "Conocer personas nuevas y ayudarles",
+        "E": "Trabajar en equipo preparando comida rica"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "BAS-051",
+      "categoria": "casos_complejos",
+      "texto": "Una familia necesita ayuda urgente en su casa. ¿Qué problema podrías resolver mejor?",
+      "opciones": {
+        "A": "Una pared con grietas grandes que se ve peligrosa",
+        "B": "Llevar a alguien de emergencia al hospital",
+        "C": "Limpiar después de una inundación menor",
+        "D": "Ayudarles a cargar y acomodar una mudanza",
+        "E": "Ayudar a preparar comida para muchas personas"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "BAS-052",
+      "categoria": "preferencias_materiales",
+      "texto": "¿Qué tipo de materiales prefieres manejar en el trabajo?",
+      "opciones": {
+        "A": "Materiales pesados y sólidos como cemento y ladrillos",
+        "B": "Equipaje, paquetes y objetos que debo transportar con cuidado",
+        "C": "Líquidos de limpieza y herramientas que debo usar correctamente",
+        "D": "Productos variados que debo conocer bien para vender",
+        "E": "Alimentos frescos que debo manejar con higiene"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "BAS-053",
+      "categoria": "retos_trabajo",
+      "texto": "¿Qué tipo de reto de trabajo disfrutas más?",
+      "opciones": {
+        "A": "Proyectos que requieren fuerza y resistencia física",
+        "B": "Rutas complicadas o entregas en tiempo récord",
+        "C": "Lugares muy sucios que necesitan limpieza profunda",
+        "D": "Clientes exigentes que necesitan atención especial",
+        "E": "Días muy ocupados con muchas órdenes de comida"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "BAS-054",
+      "categoria": "consejos_otros",
+      "texto": "¿Qué consejo le darías a alguien que quiere trabajar en lo mismo que tú?",
+      "opciones": {
+        "A": "Que no le tenga miedo al trabajo pesado y siempre use protección",
+        "B": "Que maneje con cuidado y siempre respete las reglas de tránsito",
+        "C": "Que sea detallista y siempre deje todo perfectamente limpio",
+        "D": "Que sea amable con todos los clientes y aprenda sobre los productos",
+        "E": "Que sea rápido pero cuidadoso, y siempre mantenga todo limpio"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "BAS-055",
+      "categoria": "estaciones_año",
+      "texto": "¿Cómo cambia tu trabajo en diferentes épocas del año?",
+      "opciones": {
+        "A": "En época de lluvias trabajo menos al aire libre",
+        "B": "En navidad y vacaciones hay más trabajo de transporte",
+        "C": "En oficinas trabajo más en diciembre por fiestas",
+        "D": "En navidad y día de las madres se vende mucho más",
+        "E": "En fiestas y eventos especiales hay mucho más trabajo"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.1
+    },
+    
+    {
+      "id": "BAS-056",
+      "categoria": "satisfaction_inmediata",
+      "texto": "¿Cuándo sientes más satisfacción inmediata en tu trabajo?",
+      "opciones": {
+        "A": "Cuando termino una parte del proyecto y se ve el avance",
+        "B": "Cuando entrego a tiempo y el cliente queda contento",
+        "C": "Cuando termino de limpiar un área y se ve perfecta",
+        "D": "Cuando un cliente encuentra exactamente lo que buscaba",
+        "E": "Cuando sale un platillo perfecto y rápido"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "BAS-057",
+      "categoria": "uniformes_trabajo",
+      "texto": "¿Cómo te sientes usando uniforme o ropa especial de trabajo?",
+      "opciones": {
+        "A": "Me gusta usar ropa que puedo ensuciar sin preocuparme",
+        "B": "Me gusta verme profesional con uniforme de chofer",
+        "C": "Me gusta usar ropa que sea cómoda para moverme",
+        "D": "Me gusta que el uniforme me identifique con la empresa",
+        "E": "Me gusta usar uniforme limpio de cocina"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.0
+    },
+    
+    {
+      "id": "BAS-058",
+      "categoria": "habilidades_naturales",
+      "texto": "¿Cuál consideras que es tu habilidad más natural?",
+      "opciones": {
+        "A": "Fuerza física y resistencia para trabajo pesado",
+        "B": "Buena coordinación y reflexes para manejar",
+        "C": "Atención al detalle y paciencia",
+        "D": "Facilidad para platicar y relacionarme con personas",
+        "E": "Rapidez con las manos y buena coordinación"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "BAS-059",
+      "categoria": "ambiente_familiar",
+      "texto": "¿Cómo le explicarías a tu familia en qué trabajas?",
+      "opciones": {
+        "A": "Construyo casas y edificios donde la gente vive",
+        "B": "Manejo vehículos para transportar personas o cosas",
+        "C": "Mantengo lugares limpios y ordenados",
+        "D": "Ayudo a las personas a comprar lo que necesitan",
+        "E": "Ayudo en la cocina a preparar comida rica"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.1
+    },
+    
+    {
+      "id": "BAS-060",
+      "categoria": "musica_trabajo",
+      "texto": "¿Te gusta escuchar música mientras trabajas?",
+      "opciones": {
+        "A": "A veces, pero necesito escuchar instrucciones del supervisor",
+        "B": "Sí, pero bajo para estar atento al tráfico",
+        "C": "A veces, pero suave para mantenerme concentrado",
+        "D": "Me gusta, hace el ambiente más alegre para clientes",
+        "E": "A veces, pero en la cocina hay mucho ruido"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.0
+    },
+    
+    {
+      "id": "BAS-061",
+      "categoria": "dinero_extra",
+      "texto": "¿Cómo podrías ganar dinero extra en tu trabajo?",
+      "opciones": {
+        "A": "Trabajando horas extra o fines de semana",
+        "B": "Haciendo viajes adicionales o trabajando festivos",
+        "C": "Aceptando trabajos especiales de limpieza profunda",
+        "D": "Vendiendo más o ganando comisiones",
+        "E": "Trabajando eventos especiales o fines de semana"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "BAS-062",
+      "categoria": "educacion_hijos",
+      "texto": "¿Qué le dirías a tus hijos sobre la importancia de tu trabajo?",
+      "opciones": {
+        "A": "Que sin construcción no habría casas ni edificios",
+        "B": "Que el transporte ayuda a que la ciudad funcione",
+        "C": "Que mantener todo limpio es importante para la salud",
+        "D": "Que vender es ayudar a las personas a conseguir lo que necesitan",
+        "E": "Que preparar comida es nutrir y cuidar a las personas"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "BAS-063",
+      "categoria": "domingos_descanso",
+      "texto": "¿Cómo prefieres pasar tu domingo de descanso?",
+      "opciones": {
+        "A": "Descansando en casa, recuperándome del trabajo de la semana",
+        "B": "Manejando por placer o arreglando mi vehículo personal",
+        "C": "Limpiando y organizando mi propia casa",
+        "D": "Saliendo a centros comerciales o visitando familia",
+        "E": "Cocinando para mi familia o probando recetas nuevas"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.1
+    },
+    
+    {
+      "id": "BAS-064",
+      "categoria": "apoyo_comunidad",
+      "texto": "¿Cómo apoyarías a tu comunidad con las habilidades de tu trabajo?",
+      "opciones": {
+        "A": "Ayudando a arreglar casas de personas que lo necesiten",
+        "B": "Transportando gratis a personas en emergencias",
+        "C": "Limpiando espacios comunitarios como parques o escuelas",
+        "D": "Ayudando a organizar ventas para recaudar fondos",
+        "E": "Preparando comida para eventos comunitarios"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "BAS-065",
+      "categoria": "mejores_momentos",
+      "texto": "¿Cuáles son los mejores momentos de tu día de trabajo?",
+      "opciones": {
+        "A": "Cuando veo que el proyecto va avanzando bien",
+        "B": "Cuando llego a tiempo y sin problemas",
+        "C": "Cuando termino un área y queda perfecta",
+        "D": "Cuando un cliente se va muy contento",
+        "E": "Cuando el chef dice que ayudé muy bien"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "BAS-066",
+      "categoria": "cambio_trabajo",
+      "texto": "Si pudieras cambiar algo de tu trabajo, ¿qué sería?",
+      "opciones": {
+        "A": "Tener herramientas más modernas y mejores materiales",
+        "B": "Vehículos más nuevos y rutas más fáciles",
+        "C": "Mejores productos de limpieza y equipo más moderno",
+        "D": "Más capacitación sobre productos y mejores comisiones",
+        "E": "Mejor equipo de cocina y más tiempo para aprender"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.1
+    },
+    
+    {
+      "id": "BAS-067",
+      "categoria": "consejos_supervisor",
+      "texto": "¿Qué tipo de instrucciones prefieres recibir de tu supervisor?",
+      "opciones": {
+        "A": "Instrucciones claras sobre qué construir y cómo hacerlo",
+        "B": "Rutas definidas y horarios claros de entrega",
+        "C": "Lista de áreas a limpiar y estándares de calidad",
+        "D": "Metas de venta y información sobre productos nuevos",
+        "E": "Recetas claras y técnicas específicas de preparación"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "BAS-068",
+      "categoria": "competencias_personales",
+      "texto": "¿En qué aspecto personal destacas más en el trabajo?",
+      "opciones": {
+        "A": "Soy muy trabajador y no me rindo fácilmente",
+        "B": "Soy responsable y siempre llego puntual",
+        "C": "Soy muy detallista y organizado",
+        "D": "Soy amigable y la gente confía en mí",
+        "E": "Soy rápido y trabajo bien bajo presión"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "BAS-069",
+      "categoria": "historias_trabajo",
+      "texto": "¿Qué tipo de historias de trabajo te gusta contar a tu familia?",
+      "opciones": {
+        "A": "Cuando terminamos un proyecto difícil trabajando en equipo",
+        "B": "Cuando ayudé a alguien en una emergencia en la carretera",
+        "C": "Cuando dejé un lugar tan limpio que todos se sorprendieron",
+        "D": "Cuando ayudé a un cliente a encontrar exactamente lo que necesitaba",
+        "E": "Cuando preparamos comida para un evento muy grande"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "BAS-070",
+      "categoria": "metas_simples",
+      "texto": "¿Cuál es tu meta más simple para cada día de trabajo?",
+      "opciones": {
+        "A": "Hacer mi trabajo bien sin lastimarme",
+        "B": "Completar todos mis viajes de forma segura",
+        "C": "Dejar todo perfectamente limpio",
+        "D": "Que todos mis clientes se vayan contentos",
+        "E": "Ayudar a que toda la comida salga perfecta"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "BAS-071",
+      "categoria": "trabajo_lluvia",
+      "texto": "Cuando llueve mucho, ¿cómo adaptas tu trabajo?",
+      "opciones": {
+        "A": "Trabajo bajo techo o espero a que escampe",
+        "B": "Manejo más despacio y evito charcos",
+        "C": "Tengo más cuidado con pisos mojados",
+        "D": "La gente compra menos pero sigo trabajando normal",
+        "E": "El trabajo en cocina sigue igual"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.0
+    },
+    
+    {
+      "id": "BAS-072",
+      "categoria": "energia_final_dia",
+      "texto": "¿Cómo te sientes al final de un buen día de trabajo?",
+      "opciones": {
+        "A": "Cansado pero contento de haber construido algo",
+        "B": "Satisfecho de haber transportado a todos de forma segura",
+        "C": "Contento de ver todo limpio y ordenado",
+        "D": "Feliz porque ayudé a muchas personas",
+        "E": "Cansado pero orgulloso del equipo de cocina"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "BAS-073",
+      "categoria": "herramientas_favoritas",
+      "texto": "¿Cuál sería tu herramienta favorita de trabajo?",
+      "opciones": {
+        "A": "Un martillo o taladro de buena calidad",
+        "B": "Un vehículo confiable y cómodo",
+        "C": "Una aspiradora potente o productos que limpien bien",
+        "D": "Una calculadora y etiquetadora para organizar",
+        "E": "Cuchillos bien afilados y una tabla buena"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "BAS-074",
+      "categoria": "capacitacion_extra",
+      "texto": "¿Qué capacitación adicional te gustaría recibir?",
+      "opciones": {
+        "A": "Técnicas nuevas de construcción y seguridad",
+        "B": "Manejo de vehículos más grandes y primeros auxilios",
+        "C": "Nuevos productos de limpieza y técnicas especializadas",
+        "D": "Mejor atención al cliente y conocimiento de productos",
+        "E": "Más técnicas de cocina y manejo de alimentos"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "BAS-075",
+      "categoria": "trabajo_importante",
+      "texto": "¿Por qué consideras que tu trabajo es importante para la sociedad?",
+      "opciones": {
+        "A": "Porque construyo la infraestructura donde vive la gente",
+        "B": "Porque ayudo a que las personas se muevan por la ciudad",
+        "C": "Porque mantengo lugares limpios y saludables",
+        "D": "Porque ayudo a las personas a conseguir lo que necesitan",
+        "E": "Porque ayudo a alimentar a las personas"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "BAS-076",
+      "categoria": "momento_dificil",
+      "texto": "Describe un momento difícil en el trabajo y cómo lo resolverías:",
+      "opciones": {
+        "A": "Cuando el material está mal y tengo que rehacerlo, lo hago con paciencia",
+        "B": "Cuando hay tráfico y llegó tarde, aviso y busco rutas alternas",
+        "C": "Cuando algo no se limpia bien, pruebo otro producto o método",
+        "D": "Cuando un cliente está enojado, escucho y trato de ayudar",
+        "E": "Cuando se quema algo, aviso rápido al chef y ayudo a solucionarlo"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "BAS-077",
+      "categoria": "companeros_ideales",
+      "texto": "¿Cómo serían tus compañeros de trabajo ideales?",
+      "opciones": {
+        "A": "Trabajadores, que ayuden y no le tengan miedo al trabajo pesado",
+        "B": "Responsables, puntuales y que manejen con cuidado",
+        "C": "Ordenados, silenciosos y que hagan bien su trabajo",
+        "D": "Amigables, honestos y que les guste ayudar a clientes",
+        "E": "Rápidos, limpios y que trabajen bien en equipo"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "BAS-078",
+      "categoria": "jubilacion_futuro",
+      "texto": "¿Cómo te imaginas cuando ya no puedas hacer este trabajo físicamente?",
+      "opciones": {
+        "A": "Supervisando otros trabajadores o teniendo mi empresa pequeña",
+        "B": "Enseñando a manejar o despachando desde oficina",
+        "C": "Supervisando equipos de limpieza",
+        "D": "Teniendo mi propio negocio o supervisando ventas",
+        "E": "Enseñando cocina o manejando un pequeño negocio de comida"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.1
+    },
+    
+    {
+      "id": "BAS-079",
+      "categoria": "consejo_joven",
+      "texto": "¿Qué consejo le darías a un joven que quiere empezar en tu trabajo?",
+      "opciones": {
+        "A": "Que aprenda bien, use protección y no le tenga miedo al trabajo duro",
+        "B": "Que sea muy cuidadoso, respete las reglas y siempre sea puntual",
+        "C": "Que sea detallista, responsable y siempre haga las cosas bien",
+        "D": "Que sea honesto, amable con todos y aprenda bien los productos",
+        "E": "Que sea limpio, rápido y siempre escuche al chef"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "BAS-080",
+      "categoria": "filosofia_simple",
+      "texto": "¿Cuál es tu filosofía simple sobre el trabajo?",
+      "opciones": {
+        "A": "Trabajar duro y hacer las cosas bien la primera vez",
+        "B": "Ser responsable y cuidar siempre la seguridad",
+        "C": "Hacer todo con cuidado para que quede perfecto",
+        "D": "Tratar a todos con respeto y siempre ayudar",
+        "E": "Trabajar en equipo y mantener todo limpio"
+      },
+      "indicador_carrera": {
+        "A": "ALBANIL",
+        "B": "CHOFER",
+        "C": "LIMPIEZA",
+        "D": "VENDEDOR",
+        "E": "AYU_COCINA"
+      },
+      "peso": 1.5
+    }
+    
+  ]
+}

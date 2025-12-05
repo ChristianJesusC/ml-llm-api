@@ -1,0 +1,1723 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "rama": "RAMA_4_OFICIOS_TEC",
+    "nombre_rama": "Oficios Técnicos",
+    "total_preguntas": 80,
+    "fase": "FASE_2_ESPECIALIZADA",
+    "descripcion": "Preguntas especializadas para diferenciar entre los 5 oficios técnicos (formación 1-3 años)",
+    "fecha_creacion": "2025-01-01",
+    "capacidad_requerida": "0.5 - 0.99",
+    "carreras": [
+      {
+        "id": 16,
+        "nombre": "Técnico en Enfermería",
+        "codigo": "TEC_ENF"
+      },
+      {
+        "id": 17,
+        "nombre": "Técnico en Sistemas / Soporte IT",
+        "codigo": "TEC_SIS"
+      },
+      {
+        "id": 18,
+        "nombre": "Electricista Industrial",
+        "codigo": "ELEC_IND"
+      },
+      {
+        "id": 19,
+        "nombre": "Chef Profesional",
+        "codigo": "CHEF"
+      },
+      {
+        "id": 20,
+        "nombre": "Técnico Automotriz",
+        "codigo": "TEC_AUTO"
+      }
+    ]
+  },
+  
+  "preguntas": [
+    
+    {
+      "id": "TEC-001",
+      "categoria": "escenarios_trabajo",
+      "texto": "¿En cuál de estos ambientes de trabajo te sentirías más cómodo?",
+      "opciones": {
+        "A": "Hospital o clínica atendiendo pacientes",
+        "B": "Oficina con computadoras resolviendo problemas técnicos",
+        "C": "Fábrica o taller con maquinaria eléctrica",
+        "D": "Cocina de restaurante o hotel",
+        "E": "Taller mecánico con vehículos"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.5
+    },
+    
+    {
+      "id": "TEC-002",
+      "categoria": "herramientas_preferidas",
+      "texto": "¿Con qué herramientas te gustaría trabajar todos los días?",
+      "opciones": {
+        "A": "Jeringas, tensiómetro, termómetro, equipo médico básico",
+        "B": "Computadoras, cables, multímetro digital, software de diagnóstico",
+        "C": "Voltímetro, alicates, taladro, escaleras, equipo eléctrico",
+        "D": "Cuchillos, sartenes, hornos, batidoras industriales",
+        "E": "Llaves inglesas, gatos hidráulicos, escáner automotriz"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "TEC-003",
+      "categoria": "problemas_resolver",
+      "texto": "¿Qué tipo de problemas te emociona más resolver?",
+      "opciones": {
+        "A": "Ayudar a que un paciente se sienta mejor",
+        "B": "Hacer que una computadora o sistema funcione correctamente",
+        "C": "Reparar un problema eléctrico que tiene paralizada una fábrica",
+        "D": "Crear un platillo delicioso que sorprenda a los comensales",
+        "E": "Encontrar qué está fallando en un motor y repararlo"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.5
+    },
+    
+    {
+      "id": "TEC-004",
+      "categoria": "actividades_diarias",
+      "texto": "¿Cuál de estas actividades te gustaría hacer más frecuentemente?",
+      "opciones": {
+        "A": "Tomar signos vitales y cuidar pacientes",
+        "B": "Instalar software y dar soporte técnico",
+        "C": "Instalar y mantener sistemas eléctricos",
+        "D": "Preparar comida y crear nuevas recetas",
+        "E": "Diagnosticar fallas mecánicas en vehículos"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "TEC-005",
+      "categoria": "personalidad_trabajo",
+      "texto": "¿Cómo te describes en el trabajo?",
+      "opciones": {
+        "A": "Empático, cuidadoso y bueno ayudando a personas",
+        "B": "Lógico, paciente y bueno resolviendo problemas técnicos",
+        "C": "Práctico, preciso y no me dan miedo las alturas o riesgos",
+        "D": "Creativo, apasionado y me gusta experimentar",
+        "E": "Curioso, persistente y me gusta desarmar cosas"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "TEC-006",
+      "categoria": "horarios_trabajo",
+      "texto": "¿Qué tipo de horario de trabajo prefieres?",
+      "opciones": {
+        "A": "Turnos rotativos incluyendo noches y fines de semana",
+        "B": "Horario de oficina estándar con algunas emergencias",
+        "C": "Jornadas variables según proyectos y urgencias",
+        "D": "Horarios intensos pero creativos, especialmente tardes/noches",
+        "E": "Horario fijo de taller con flexibilidad para emergencias"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.1
+    },
+    
+    {
+      "id": "TEC-007",
+      "categoria": "situaciones_emergencia",
+      "texto": "Una emergencia requiere tu atención inmediata. ¿Cuál manejarías mejor?",
+      "opciones": {
+        "A": "Un paciente con crisis de presión arterial",
+        "B": "Un servidor de empresa que se cayó y nadie puede trabajar",
+        "C": "Un corto circuito que dejó sin luz un hospital",
+        "D": "Un evento importante necesita 200 cenas en 2 horas",
+        "E": "Un vehículo de emergencias que no enciende"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "TEC-008",
+      "categoria": "aprendizaje_preferido",
+      "texto": "¿Cómo prefieres aprender cosas nuevas?",
+      "opciones": {
+        "A": "Practicando con supervisión directa en situaciones reales",
+        "B": "Leyendo manuales técnicos y probando en laboratorio",
+        "C": "Viendo demostraciones y luego practicando con las manos",
+        "D": "Experimentando y probando diferentes técnicas",
+        "E": "Desarmando cosas para entender cómo funcionan"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "TEC-009",
+      "categoria": "satisfaccion_laboral",
+      "texto": "¿Qué te daría más satisfacción en tu día a día?",
+      "opciones": {
+        "A": "Ver a un paciente recuperarse gracias a tu cuidado",
+        "B": "Solucionar un problema que tenía frustrada a mucha gente",
+        "C": "Ver una máquina funcionando perfectamente después de tu trabajo",
+        "D": "Ver a las personas disfrutar algo delicioso que preparaste",
+        "E": "Hacer que un vehículo vuelva a funcionar como nuevo"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "TEC-010",
+      "categoria": "trabajo_equipo",
+      "texto": "¿Con qué tipo de personas te gusta trabajar?",
+      "opciones": {
+        "A": "Médicos, otros enfermeros y personal de salud",
+        "B": "Programadores, administradores de red y usuarios finales",
+        "C": "Ingenieros, otros electricistas y operarios de planta",
+        "D": "Otros chefs, meseros y personal de restaurante",
+        "E": "Mecánicos, vendedores de refacciones y clientes"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "TEC-011",
+      "categoria": "capacitacion_especializada",
+      "texto": "¿En qué área te gustaría especializarte después de tu formación básica?",
+      "opciones": {
+        "A": "Cuidados intensivos, quirófano o emergencias",
+        "B": "Redes, ciberseguridad o desarrollo web",
+        "C": "Automatización industrial o energías renovables",
+        "D": "Repostería, cocina internacional o administración gastronómica",
+        "E": "Motores diésel, sistemas híbridos o diagnóstico computarizado"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "TEC-012",
+      "categoria": "tolerancia_estres",
+      "texto": "¿Bajo qué tipo de presión trabajas mejor?",
+      "opciones": {
+        "A": "Emergencias médicas donde cada segundo cuenta",
+        "B": "Problemas técnicos complejos que requieren análisis",
+        "C": "Reparaciones urgentes con riesgo eléctrico",
+        "D": "Rush de comidas con múltiples órdenes simultáneas",
+        "E": "Reparaciones rápidas para que un cliente no pierda trabajo"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "TEC-013",
+      "categoria": "motivacion_carrera",
+      "texto": "¿Qué te motiva más a elegir un oficio técnico?",
+      "opciones": {
+        "A": "Ayudar a las personas en momentos difíciles de salud",
+        "B": "Trabajar con tecnología y estar siempre aprendiendo",
+        "C": "Construir y mantener la infraestructura que todos usamos",
+        "D": "Crear experiencias gastronómicas que alegren a las personas",
+        "E": "Mantener funcionando los vehículos que la gente necesita"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "TEC-014",
+      "categoria": "lugares_trabajo",
+      "texto": "¿Dónde te gustaría trabajar principalmente?",
+      "opciones": {
+        "A": "Hospitales, clínicas o centros de salud",
+        "B": "Oficinas corporativas, call centers o desde casa",
+        "C": "Fábricas, plantas industriales o construcciones",
+        "D": "Restaurantes, hoteles o servicios de catering",
+        "E": "Talleres mecánicos, distribuidoras o servicio a domicilio"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "TEC-015",
+      "categoria": "habilidades_manuales",
+      "texto": "¿Qué tipo de trabajo manual disfrutas más?",
+      "opciones": {
+        "A": "Trabajo preciso y cuidadoso con personas",
+        "B": "Trabajo meticuloso con componentes pequeños y delicados",
+        "C": "Trabajo que requiere fuerza y precision con herramientas",
+        "D": "Trabajo creativo que combina técnica y arte",
+        "E": "Trabajo que requiere diagnosticar y reparar mecánicamente"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "TEC-016",
+      "categoria": "riesgos_laborales",
+      "texto": "¿Qué tipo de riesgos laborales estás dispuesto a manejar?",
+      "opciones": {
+        "A": "Exposición a enfermedades y fluidos corporales",
+        "B": "Radiación de equipos y tensión visual por pantallas",
+        "C": "Riesgo eléctrico y trabajo en alturas",
+        "D": "Calor extremo, cortaduras y ritmo acelerado",
+        "E": "Productos químicos automotrices y herramientas pesadas"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.1
+    },
+    
+    {
+      "id": "TEC-017",
+      "categoria": "comunicacion_clientes",
+      "texto": "¿Cómo prefieres interactuar con las personas en tu trabajo?",
+      "opciones": {
+        "A": "Cara a cara, brindando apoyo emocional y físico",
+        "B": "Por teléfono/chat explicando soluciones técnicas",
+        "C": "Comunicación básica enfocada en seguridad y resultados",
+        "D": "Interacción amigable pero enfocada en satisfacer gustos",
+        "E": "Explicando problemas y soluciones de manera práctica"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "TEC-018",
+      "categoria": "tecnologia_moderna",
+      "texto": "¿Qué relación quieres tener con la tecnología moderna?",
+      "opciones": {
+        "A": "Usar tecnología médica básica para ayudar en diagnósticos",
+        "B": "Estar siempre al día con las últimas tecnologías digitales",
+        "C": "Usar tecnología industrial para automatización y control",
+        "D": "Usar tecnología gastronómica moderna pero valoro técnicas tradicionales",
+        "E": "Usar tecnología automotriz para diagnóstico pero trabajo principalmente manual"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "TEC-019",
+      "categoria": "crecimiento_profesional",
+      "texto": "¿Cómo visualizas tu crecimiento profesional a 5 años?",
+      "opciones": {
+        "A": "Supervisando otros técnicos o especializándome en un área médica",
+        "B": "Teniendo mi propio negocio de soporte IT o siendo especialista senior",
+        "C": "Siendo contratista independiente o supervisando instalaciones grandes",
+        "D": "Teniendo mi propio restaurante o siendo chef ejecutivo",
+        "E": "Teniendo mi propio taller o siendo especialista en marcas premium"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "TEC-020",
+      "categoria": "condiciones_fisicas",
+      "texto": "¿En qué condiciones físicas te sientes más cómodo trabajando?",
+      "opciones": {
+        "A": "De pie la mayor parte del día, caminando entre pacientes",
+        "B": "Principalmente sentado frente a computadoras con algunos desplazamientos",
+        "C": "Combinando trabajo de pie, agachado y en espacios reducidos",
+        "D": "De pie todo el día en espacios calurosos y con ritmo acelerado",
+        "E": "Agachado, debajo de vehículos y en posiciones incómodas"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.1
+    },
+    
+    {
+      "id": "TEC-021",
+      "categoria": "casos_practicos",
+      "texto": "Te llaman a una emergencia. ¿Cuál preferirías atender?",
+      "opciones": {
+        "A": "Una persona diabética que se desmayó",
+        "B": "Un sistema de cómputo de nóminas que no funciona",
+        "C": "Una máquina de producción sin energía eléctrica",
+        "D": "Un banquete para 300 personas donde se descompuso un horno",
+        "E": "Un camión de reparto que no arranca en día de lluvia"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "TEC-022",
+      "categoria": "materias_interes",
+      "texto": "¿Qué materia del bachillerato te gusta más?",
+      "opciones": {
+        "A": "Biología y química básica",
+        "B": "Matemáticas y física computacional",
+        "C": "Física y matemáticas aplicadas",
+        "D": "Química y artes (creatividad)",
+        "E": "Física y matemáticas mecánicas"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "TEC-023",
+      "categoria": "personalidad_social",
+      "texto": "¿Cómo te relacionas con las personas en situaciones difíciles?",
+      "opciones": {
+        "A": "Soy empático y me sale natural consolar y cuidar",
+        "B": "Soy paciente explicando y enseñando soluciones",
+        "C": "Soy directo y enfocado en resolver el problema rápido",
+        "D": "Soy positivo y trato de mejorar el ambiente",
+        "E": "Soy honesto explicando qué está mal y cómo arreglarlo"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "TEC-024",
+      "categoria": "innovacion_creatividad",
+      "texto": "¿Cómo expresas tu creatividad en el trabajo?",
+      "opciones": {
+        "A": "Encontrando nuevas formas de hacer sentir cómodos a los pacientes",
+        "B": "Creando soluciones innovadoras para problemas técnicos",
+        "C": "Mejorando métodos de instalación o mantenimiento",
+        "D": "Experimentando con nuevos sabores y presentaciones",
+        "E": "Desarrollando técnicas más eficientes de diagnóstico y reparación"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "TEC-025",
+      "categoria": "documentacion_reportes",
+      "texto": "¿Qué tipo de documentación te parece más importante llevar?",
+      "opciones": {
+        "A": "Expedientes de pacientes y registro de signos vitales",
+        "B": "Documentación técnica y bitácoras de mantenimiento de sistemas",
+        "C": "Diagramas eléctricos y reportes de instalaciones",
+        "D": "Recetas, costos de ingredientes y controles de calidad",
+        "E": "Historial de mantenimiento y diagnósticos de vehículos"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.1
+    },
+    
+    {
+      "id": "TEC-026",
+      "categoria": "actualizacion_profesional",
+      "texto": "¿Cómo te mantienes actualizado en tu profesión?",
+      "opciones": {
+        "A": "Cursos de nuevos procedimientos médicos y protocolos de salud",
+        "B": "Certificaciones técnicas y siguiendo blogs de tecnología",
+        "C": "Capacitaciones de seguridad y nuevas tecnologías industriales",
+        "D": "Probando nuevas técnicas culinarias y siguiendo chefs reconocidos",
+        "E": "Estudiando nuevos modelos de autos y tecnologías automotrices"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "TEC-027",
+      "categoria": "seguridad_proteccion",
+      "texto": "¿Qué equipo de protección usarías sin problema?",
+      "opciones": {
+        "A": "Guantes de látex, mascarillas, batas médicas",
+        "B": "Pulseras antiestáticas, protectores de pantalla, ergonomía de escritorio",
+        "C": "Casco, botas dieléctricas, arnés de seguridad, guantes aislantes",
+        "D": "Gorro, delantal, guantes térmicos, zapatos antiderrapantes",
+        "E": "Overol, guantes de mecánico, lentes de seguridad, mascarilla"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.1
+    },
+    
+    {
+      "id": "TEC-028",
+      "categoria": "resolucion_conflictos",
+      "texto": "Un colega comete un error que podría ser peligroso. ¿Cómo reaccionas?",
+      "opciones": {
+        "A": "Hablo con él privadamente porque la seguridad del paciente es lo primero",
+        "B": "Le explico el error técnicamente y cómo evitarlo en el futuro",
+        "C": "Le advierto inmediatamente porque puede haber riesgo eléctrico",
+        "D": "Le enseño la técnica correcta porque afecta la calidad de la comida",
+        "E": "Le explico las consecuencias de seguridad para el vehículo"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "TEC-029",
+      "categoria": "emprendimiento_independencia",
+      "texto": "¿Te ves trabajando de manera independiente en el futuro?",
+      "opciones": {
+        "A": "Sí, dando servicios de enfermería privada a domicilio",
+        "B": "Sí, con mi propio negocio de soporte técnico para pequeñas empresas",
+        "C": "Sí, como contratista eléctrico para múltiples empresas",
+        "D": "Sí, con mi propio restaurante o servicio de catering",
+        "E": "Sí, con mi propio taller mecánico especializado"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "TEC-030",
+      "categoria": "rutina_vs_variedad",
+      "texto": "¿Prefieres rutina o variedad en tu trabajo diario?",
+      "opciones": {
+        "A": "Rutina de protocolos médicos pero cada paciente es diferente",
+        "B": "Variedad de problemas técnicos siempre diferentes",
+        "C": "Combinación: proyectos largos con problemas variados",
+        "D": "Rutina de técnicas básicas pero creatividad en presentación",
+        "E": "Variedad total: cada vehículo tiene problemas diferentes"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.1
+    },
+    
+    {
+      "id": "TEC-031",
+      "categoria": "impacto_comunitario",
+      "texto": "¿Cómo te gustaría impactar en tu comunidad?",
+      "opciones": {
+        "A": "Mejorando la salud y bienestar de las personas",
+        "B": "Manteniendo funcionando la tecnología que todos necesitan",
+        "C": "Asegurando que tengan electricidad confiable y segura",
+        "D": "Creando experiencias gastronómicas que unan a las familias",
+        "E": "Manteniendo funcionando los vehículos de los que dependen"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "TEC-032",
+      "categoria": "presion_tiempo",
+      "texto": "¿Cómo trabajas bajo presión de tiempo?",
+      "opciones": {
+        "A": "Me enfoco en lo más urgente pero sin perder la calma con el paciente",
+        "B": "Analizo rápido el problema y implemento la solución más eficiente",
+        "C": "Trabajo rápido pero nunca comprometiendo la seguridad eléctrica",
+        "D": "Me organizo bien y mantengo la calidad aunque sea rápido",
+        "E": "Diagnostico eficientemente para no perder tiempo en reparaciones equivocadas"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "TEC-033",
+      "categoria": "especializacion_avanzada",
+      "texto": "¿En qué área avanzada te especializarías?",
+      "opciones": {
+        "A": "Cuidados intensivos neonatales o geriatría especializada",
+        "B": "Ciberseguridad o administración de bases de datos",
+        "C": "Domótica/casas inteligentes o energía solar",
+        "D": "Cocina molecular o gestión de restaurantes",
+        "E": "Vehículos eléctricos o sistemas de inyección avanzados"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "TEC-034",
+      "categoria": "salario_estabilidad",
+      "texto": "¿Qué es más importante para ti en cuanto a ingresos?",
+      "opciones": {
+        "A": "Salario estable con prestaciones médicas completas",
+        "B": "Buenos ingresos con crecimiento basado en certificaciones",
+        "C": "Ingresos variables pero potencialmente altos en proyectos grandes",
+        "D": "Ingresos que crecen con creatividad y reputación",
+        "E": "Ingresos estables con oportunidad de trabajo extra"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.1
+    },
+    
+    {
+      "id": "TEC-035",
+      "categoria": "trabajo_nocturno",
+      "texto": "¿Cómo te sientes respecto al trabajo nocturno?",
+      "opciones": {
+        "A": "Lo acepto porque las emergencias médicas no tienen horario",
+        "B": "Prefiero evitarlo pero puedo hacer soporte remoto de emergencia",
+        "C": "No me molesta si es para proyectos importantes o emergencias",
+        "D": "Me gusta, hay menos distracciones y más creatividad",
+        "E": "Prefiero no hacerlo regularmente pero acepto emergencias"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.0
+    },
+    
+    {
+      "id": "TEC-036",
+      "categoria": "capacidades_fisicas",
+      "texto": "¿Qué capacidades físicas tienes o estarías dispuesto a desarrollar?",
+      "opciones": {
+        "A": "Resistencia para estar de pie largas horas y levantar pacientes",
+        "B": "Destreza manual fina para componentes pequeños",
+        "C": "Fuerza y equilibrio para trabajos en altura y espacios reducidos",
+        "D": "Resistencia al calor y ritmo acelerado de trabajo",
+        "E": "Fuerza para mover partes pesadas y resistencia a químicos"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "TEC-037",
+      "categoria": "valores_laborales",
+      "texto": "¿Qué valor es más importante para ti en el trabajo?",
+      "opciones": {
+        "A": "Ayudar a otros y hacer una diferencia en su salud",
+        "B": "Resolver problemas complejos y mantenerme actualizado",
+        "C": "Hacer un trabajo sólido que perdure y sea seguro",
+        "D": "Crear algo único que la gente disfrute",
+        "E": "Ser honesto con los clientes y hacer un trabajo de calidad"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "TEC-038",
+      "categoria": "certificaciones_futuras",
+      "texto": "¿Qué certificación adicional te interesaría obtener?",
+      "opciones": {
+        "A": "Especialización en alguna área médica específica",
+        "B": "Certificaciones de Microsoft, Cisco o Amazon Web Services",
+        "C": "Certificación como electricista especializado o en energías renovables",
+        "D": "Certificación en gestión de alimentos o cocina internacional",
+        "E": "Certificación en marcas específicas de autos o diagnóstico avanzado"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "TEC-039",
+      "categoria": "ambiente_social",
+      "texto": "¿En qué ambiente social te sientes más cómodo trabajando?",
+      "opciones": {
+        "A": "Con personas que necesitan cuidado y sus familias",
+        "B": "Con profesionales técnicos y usuarios de oficina",
+        "C": "Con trabajadores industriales y contratistas",
+        "D": "Con chefs, meseros y clientes que disfrutan la comida",
+        "E": "Con mecánicos, clientes preocupados y proveedores"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.1
+    },
+    
+    {
+      "id": "TEC-040",
+      "categoria": "manejo_criticas",
+      "texto": "¿Cómo manejas las críticas o quejas en tu trabajo?",
+      "opciones": {
+        "A": "Escucho con empatía y busco mejorar el cuidado del paciente",
+        "B": "Analizo técnicamente el problema y explico la solución",
+        "C": "Reviso mi trabajo para asegurar que cumple estándares de seguridad",
+        "D": "Las tomo como oportunidad para perfeccionar mis técnicas",
+        "E": "Explico honestamente qué paso y cómo lo voy a corregir"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "TEC-041",
+      "categoria": "innovacion_tecnologica",
+      "texto": "¿Cómo ves la innovación tecnológica en tu campo?",
+      "opciones": {
+        "A": "Como herramienta para mejorar el cuidado de pacientes",
+        "B": "Como evolución constante que debo dominar",
+        "C": "Como oportunidad para sistemas más eficientes y seguros",
+        "D": "Como apoyo útil pero sin reemplazar la creatividad humana",
+        "E": "Como evolución necesaria pero manteniendo fundamentos mecánicos"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "TEC-042",
+      "categoria": "decision_urgente",
+      "texto": "Debes tomar una decisión urgente con información incompleta. ¿Cómo actúas?",
+      "opciones": {
+        "A": "Priorizo la seguridad del paciente y actúo según protocolos",
+        "B": "Uso mi experiencia técnica para la solución más probable",
+        "C": "Aplico principios de seguridad eléctrica y tomo la opción más segura",
+        "D": "Confío en mi experiencia culinaria y técnicas fundamentales",
+        "E": "Aplico diagnósticos básicos y empiezo por lo más común"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "TEC-043",
+      "categoria": "colaboracion_otros_oficios",
+      "texto": "¿Con qué otros oficios te gusta colaborar?",
+      "opciones": {
+        "A": "Médicos, trabajadores sociales, terapeutas",
+        "B": "Programadores, administradores de red, técnicos especializados",
+        "C": "Ingenieros, arquitectos, otros técnicos de mantenimiento",
+        "D": "Nutriólogos, administradores de restaurante, proveedores",
+        "E": "Vendedores de autos, técnicos de otras especialidades, clientes"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.1
+    },
+    
+    {
+      "id": "TEC-044",
+      "categoria": "medicion_exito",
+      "texto": "¿Cómo mides tu éxito profesional?",
+      "opciones": {
+        "A": "Por la recuperación y satisfacción de mis pacientes",
+        "B": "Por la eficiencia de las soluciones que implemento",
+        "C": "Por la confiabilidad y seguridad de mis instalaciones",
+        "D": "Por la satisfacción de los comensales con mis platillos",
+        "E": "Por la confianza de los clientes que regresan conmigo"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "TEC-045",
+      "categoria": "adaptacion_cambios",
+      "texto": "¿Cómo te adaptas a cambios en procedimientos o tecnología?",
+      "opciones": {
+        "A": "Los acepto si mejoran la atención a pacientes",
+        "B": "Los abrazo porque siempre hay algo nuevo que aprender",
+        "C": "Los evalúo cuidadosamente enfocándome en seguridad",
+        "D": "Los incorporo gradualmente manteniendo calidad",
+        "E": "Los adopto si realmente mejoran el diagnóstico o reparación"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "TEC-046",
+      "categoria": "enseñanza_otros",
+      "texto": "¿Te gusta enseñar tu oficio a otros?",
+      "opciones": {
+        "A": "Sí, especialmente cómo tratar pacientes con dignidad",
+        "B": "Sí, disfruto explicar conceptos técnicos complejos",
+        "C": "Sí, pero enfocándome mucho en procedimientos de seguridad",
+        "D": "Sí, me gusta transmitir técnicas y pasión por la cocina",
+        "E": "Sí, especialmente trucos de diagnóstico que he aprendido"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.1
+    },
+    
+    {
+      "id": "TEC-047",
+      "categoria": "trabajo_remoto",
+      "texto": "¿Qué opinas sobre trabajar desde casa o remotamente?",
+      "opciones": {
+        "A": "Imposible en mi área, necesito estar con los pacientes",
+        "B": "Excelente opción, puedo dar soporte remoto efectivamente",
+        "C": "Limitado, la mayoría del trabajo eléctrico es presencial",
+        "D": "Limitado, aunque podría hacer catering o consultoría",
+        "E": "Muy limitado, necesito ver y tocar los vehículos"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.0
+    },
+    
+    {
+      "id": "TEC-048",
+      "categoria": "perfeccionamiento_tecnico",
+      "texto": "¿En qué aspecto técnico te gusta perfeccionarte más?",
+      "opciones": {
+        "A": "Técnicas de cuidado de pacientes y procedimientos médicos básicos",
+        "B": "Nuevos lenguajes de programación y sistemas operativos",
+        "C": "Técnicas de instalación más eficientes y seguras",
+        "D": "Nuevas técnicas culinarias y presentación de platillos",
+        "E": "Métodos de diagnóstico más rápidos y precisos"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "TEC-049",
+      "categoria": "motivacion_diaria",
+      "texto": "¿Qué te motiva a levantarte cada día para trabajar?",
+      "opciones": {
+        "A": "Saber que voy a ayudar a personas que me necesitan",
+        "B": "El reto de resolver problemas técnicos diferentes",
+        "C": "Construir y mantener sistemas que la gente necesita",
+        "D": "Crear algo delicioso que haga feliz a las personas",
+        "E": "Solucionar problemas mecánicos y dejar funcionando vehículos"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "TEC-050",
+      "categoria": "legado_profesional",
+      "texto": "¿Qué legado te gustaría dejar en tu profesión?",
+      "opciones": {
+        "A": "Haber mejorado la calidad de vida de muchos pacientes",
+        "B": "Haber resuelto problemas complejos y capacitado a otros técnicos",
+        "C": "Haber contribuido a infraestructura eléctrica segura y confiable",
+        "D": "Haber creado experiencias gastronómicas memorables",
+        "E": "Haber mantenido funcionando vehículos de los que dependen familias"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "TEC-051",
+      "categoria": "casos_complejos",
+      "texto": "Un hotel de 200 habitaciones tiene una emergencia. ¿Cuál atenderías?",
+      "opciones": {
+        "A": "Un huésped con ataque cardíaco en el lobby",
+        "B": "El sistema de reservas se cayó y no pueden hacer check-in",
+        "C": "Se fue la luz en todo el hotel por un problema eléctrico",
+        "D": "El restaurante debe servir 300 cenas y se descompusieron 2 estufas",
+        "E": "Los 3 vehículos de transporte del hotel no arrancan"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.5
+    },
+    
+    {
+      "id": "TEC-052",
+      "categoria": "especializacion_sectores",
+      "texto": "¿En qué sector te gustaría especializarte?",
+      "opciones": {
+        "A": "Hospitales públicos, clínicas privadas o atención domiciliaria",
+        "B": "Empresas corporativas, gobierno o startups tecnológicas",
+        "C": "Industria manufacturera, construcción o energías renovables",
+        "D": "Restaurantes de alta cocina, hoteles o catering empresarial",
+        "E": "Distribuidoras de autos, flotas empresariales o transporte público"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "TEC-053",
+      "categoria": "manejo_multitarea",
+      "texto": "¿Cómo manejas múltiples tareas urgentes simultáneamente?",
+      "opciones": {
+        "A": "Priorizo por gravedad médica y estabilizo antes de continuar",
+        "B": "Organizo por complejidad técnica y impacto en usuarios",
+        "C": "Priorizo por riesgo de seguridad y número de personas afectadas",
+        "D": "Me organizo por tiempos de cocción y coordino con el equipo",
+        "E": "Priorizo por urgencia del cliente y tiempo estimado de reparación"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "TEC-054",
+      "categoria": "comunicacion_familia",
+      "texto": "¿Cómo explicas a tu familia lo que haces en el trabajo?",
+      "opciones": {
+        "A": "Cuido a personas enfermas y ayudo a que se sientan mejor",
+        "B": "Arreglo computadoras y sistemas para que la gente pueda trabajar",
+        "C": "Instalo y reparo sistemas eléctricos para que tengan luz segura",
+        "D": "Preparo comida deliciosa y creo experiencias gastronómicas únicas",
+        "E": "Reparo carros para que las familias puedan transportarse"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.1
+    },
+    
+    {
+      "id": "TEC-055",
+      "categoria": "satisfaccion_inmediata",
+      "texto": "¿En qué momento del día sientes más satisfacción en tu trabajo?",
+      "opciones": {
+        "A": "Cuando veo que un paciente está más cómodo gracias a mi cuidado",
+        "B": "Cuando logro solucionar un problema que tenía a todos frustrados",
+        "C": "Cuando termino una instalación y todo funciona perfectamente",
+        "D": "Cuando veo a las personas disfrutar un platillo que preparé",
+        "E": "Cuando arranca un vehículo que parecía imposible de reparar"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "TEC-056",
+      "categoria": "educacion_continua",
+      "texto": "¿Qué tipo de educación continua te interesa más?",
+      "opciones": {
+        "A": "Cursos de nuevos tratamientos y cuidados especializados",
+        "B": "Certificaciones en nuevas tecnologías y metodologías ágiles",
+        "C": "Capacitación en nuevas normativas de seguridad y tecnologías",
+        "D": "Talleres de técnicas internacionales y gestión gastronómica",
+        "E": "Cursos sobre nuevos modelos de vehículos y tecnologías híbridas"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "TEC-057",
+      "categoria": "conexion_emocional",
+      "texto": "¿Qué te conecta emocionalmente con tu trabajo?",
+      "opciones": {
+        "A": "El agradecimiento sincero de pacientes y familias",
+        "B": "La satisfacción de dominar tecnologías complejas",
+        "C": "La seguridad de saber que mi trabajo protege a las personas",
+        "D": "La alegría que causa mi comida en las personas",
+        "E": "La confianza que depositan en mí para reparar algo importante"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "TEC-058",
+      "categoria": "desafios_futuros",
+      "texto": "¿Qué desafío futuro de tu profesión te emociona más?",
+      "opciones": {
+        "A": "Integrar nuevas tecnologías médicas en el cuidado humanizado",
+        "B": "Adaptarse a la inteligencia artificial y automatización",
+        "C": "Trabajar con energías renovables y sistemas inteligentes",
+        "D": "Fusionar tradición culinaria con técnicas modernas",
+        "E": "Dominar vehículos eléctricos y autónomos"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "TEC-059",
+      "categoria": "reconocimiento_profesional",
+      "texto": "¿Qué tipo de reconocimiento profesional valoras más?",
+      "opciones": {
+        "A": "Reconocimiento de pacientes y colegas por mi dedicación",
+        "B": "Reconocimiento técnico por soluciones innovadoras",
+        "C": "Reconocimiento por trabajos complejos ejecutados sin incidentes",
+        "D": "Reconocimiento gastronómico y reseñas positivas",
+        "E": "Reconocimiento de clientes satisfechos que recomiendan mi trabajo"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.1
+    },
+    
+    {
+      "id": "TEC-060",
+      "categoria": "ambiente_ideal",
+      "texto": "¿Cuál sería tu ambiente de trabajo ideal?",
+      "opciones": {
+        "A": "Un lugar donde puedo hacer diferencia real en la salud de las personas",
+        "B": "Un ambiente tecnológico dinámico con retos constantes",
+        "C": "Un lugar donde mi trabajo técnico sea valorado y bien pagado",
+        "D": "Una cocina donde pueda ser creativo y hacer comida excepcional",
+        "E": "Un taller bien equipado donde pueda trabajar en vehículos variados"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "TEC-061",
+      "categoria": "contribucion_mexico",
+      "texto": "¿Cómo contribuirías al desarrollo de México con tu oficio?",
+      "opciones": {
+        "A": "Mejorando la atención de salud en comunidades necesitadas",
+        "B": "Apoyando la transformación digital del país",
+        "C": "Construyendo infraestructura eléctrica confiable",
+        "D": "Elevando la gastronomía mexicana a nivel internacional",
+        "E": "Manteniendo funcionando el transporte que mueve la economía"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "TEC-062",
+      "categoria": "equilibrio_precision_velocidad",
+      "texto": "¿Cómo balanceas precisión y velocidad en tu trabajo?",
+      "opciones": {
+        "A": "Priorizo precisión en cuidados, velocidad solo en emergencias",
+        "B": "Balance dinámico: velocidad en diagnóstico, precisión en implementación",
+        "C": "Siempre precisión primero, la seguridad no se negocia",
+        "D": "Precisión en técnica, velocidad en organización y coordinación",
+        "E": "Diagnóstico rápido pero reparación siempre precisa"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "TEC-063",
+      "categoria": "recursos_limitados",
+      "texto": "¿Cómo trabajas cuando tienes recursos o tiempo limitados?",
+      "opciones": {
+        "A": "Priorizo cuidados esenciales y busco apoyo de colegas",
+        "B": "Encuentro soluciones creativas con las herramientas disponibles",
+        "C": "Me enfoco en soluciones temporales seguras hasta tener recursos",
+        "D": "Adapto recetas y técnicas para trabajar con lo disponible",
+        "E": "Uso experiencia para encontrar reparaciones temporales efectivas"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "TEC-064",
+      "categoria": "mentoria_aprendizaje",
+      "texto": "¿De quién te gustaría aprender más en tu campo?",
+      "opciones": {
+        "A": "Enfermeros senior con mucha experiencia en cuidados especializados",
+        "B": "Ingenieros en sistemas y especialistas en nuevas tecnologías",
+        "C": "Maestros electricistas con décadas de experiencia en seguridad",
+        "D": "Chefs reconocidos y expertos en administración gastronómica",
+        "E": "Mecánicos maestros con experiencia en múltiples marcas y sistemas"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.1
+    },
+    
+    {
+      "id": "TEC-065",
+      "categoria": "innovacion_personal",
+      "texto": "¿Cómo innovas o mejoras en tu trabajo diario?",
+      "opciones": {
+        "A": "Encontrando formas más eficientes y cómodas de cuidar pacientes",
+        "B": "Automatizando procesos y creando scripts para tareas repetitivas",
+        "C": "Mejorando métodos de instalación que sean más rápidos y seguros",
+        "D": "Experimentando con nuevas combinaciones y técnicas de presentación",
+        "E": "Desarrollando métodos de diagnóstico más rápidos y efectivos"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "TEC-066",
+      "categoria": "interaccion_tecnologia",
+      "texto": "¿Cómo interactúas con la tecnología en tu trabajo?",
+      "opciones": {
+        "A": "La uso como herramienta para mejor cuidado, pero el toque humano es clave",
+        "B": "Soy un experto que domina, configura y repara tecnología",
+        "C": "La uso para sistemas de control pero mantengo fundamentos eléctricos",
+        "D": "La incorporo gradualmente manteniendo técnicas culinarias tradicionales",
+        "E": "La uso para diagnóstico avanzado pero confío en experiencia mecánica"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "TEC-067",
+      "categoria": "orgullo_profesional",
+      "texto": "¿De qué aspecto de tu trabajo te sientes más orgulloso?",
+      "opciones": {
+        "A": "De la diferencia que hago en la vida de pacientes y familias",
+        "B": "De mi capacidad para resolver problemas técnicos complejos",
+        "C": "De construir sistemas eléctricos seguros que duran años",
+        "D": "De crear experiencias culinarias que la gente recuerda",
+        "E": "De devolver la movilidad a personas que dependen de sus vehículos"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "TEC-068",
+      "categoria": "gestion_estres_personal",
+      "texto": "¿Cómo manejas el estrés relacionado con tu trabajo?",
+      "opciones": {
+        "A": "Recordando que ayudo a personas y buscando apoyo emocional",
+        "B": "Tomando descansos para evitar fatiga mental y manteniendo balance",
+        "C": "Siguiendo estrictamente protocolos de seguridad para reducir ansiedad",
+        "D": "Canalizando estrés en creatividad y manteniendo pasión por la cocina",
+        "E": "Manteniendo orden en el trabajo y separando problemas laborales de personales"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.1
+    },
+    
+    {
+      "id": "TEC-069",
+      "categoria": "vision_industria",
+      "texto": "¿Cómo ves el futuro de tu industria en México?",
+      "opciones": {
+        "A": "Creciente demanda por envejecimiento poblacional y mejor cobertura de salud",
+        "B": "Explosión digital continuará creando oportunidades infinitas",
+        "C": "Infraestructura industrial y energías renovables en crecimiento",
+        "D": "Turismo gastronómico y cocina mexicana ganando reconocimiento mundial",
+        "E": "Transición a vehículos eléctricos pero manteniendo necesidad de técnicos"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "TEC-070",
+      "categoria": "flexibilidad_laboral",
+      "texto": "¿Qué tanta flexibilidad necesitas en tu horario de trabajo?",
+      "opciones": {
+        "A": "Acepto turnos rotativos por la naturaleza del cuidado de la salud",
+        "B": "Valoro flexibilidad para balance vida-trabajo y productividad óptima",
+        "C": "Prefiero cierta rutina pero acepto urgencias por la naturaleza del trabajo",
+        "D": "Necesito flexibilidad creativa pero acepto horarios intensos de servicio",
+        "E": "Prefiero horarios regulares pero debo estar disponible para emergencias"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.0
+    },
+    
+    {
+      "id": "TEC-071",
+      "categoria": "responsabilidad_social",
+      "texto": "¿Cómo ejerces responsabilidad social en tu profesión?",
+      "opciones": {
+        "A": "Brindando el mejor cuidado posible sin importar el estatus del paciente",
+        "B": "Compartiendo conocimiento técnico y ayudando a digitalizar pequeñas empresas",
+        "C": "Garantizando instalaciones seguras que protejan vidas y propiedades",
+        "D": "Promoviendo alimentación saludable y técnicas gastronómicas responsables",
+        "E": "Siendo honesto en diagnósticos y precios, especialmente con clientes vulnerables"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "TEC-072",
+      "categoria": "competencia_mercado",
+      "texto": "¿Cómo te diferencias de otros profesionales en tu área?",
+      "opciones": {
+        "A": "Por mi empatía, cuidado personalizado y conocimiento actualizado",
+        "B": "Por mi capacidad de explicar tecnología compleja de forma simple",
+        "C": "Por mi compromiso con la seguridad y calidad de trabajo duradero",
+        "D": "Por mi creatividad, consistencia y capacidad de adaptación",
+        "E": "Por mi honestidad, diagnósticos precisos y trabajo garantizado"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "TEC-073",
+      "categoria": "capacitacion_inicial",
+      "texto": "¿Qué aspecto de tu capacitación inicial consideras más importante?",
+      "opciones": {
+        "A": "Fundamentos sólidos de anatomía, fisiología y cuidados básicos",
+        "B": "Lógica de programación, fundamentos de redes y resolución de problemas",
+        "C": "Principios de electricidad, seguridad industrial y lectura de planos",
+        "D": "Técnicas básicas de cocina, higiene alimentaria y gestión de cocina",
+        "E": "Mecánica básica, sistemas automotrices y uso de herramientas"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "TEC-074",
+      "categoria": "evolucion_personal",
+      "texto": "¿Cómo ha evolucionado tu interés por este campo?",
+      "opciones": {
+        "A": "Siempre me gustó ayudar a otros y cuidar de personas necesitadas",
+        "B": "Desde niño me fascinaban las computadoras y cómo funcionan",
+        "C": "Me gusta construir cosas y entender cómo funciona la electricidad",
+        "D": "Siempre disfruté cocinar y ver la alegría que causa mi comida",
+        "E": "Me encanta desarmar cosas para ver cómo funcionan por dentro"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "TEC-075",
+      "categoria": "metas_personales",
+      "texto": "¿Cuál es tu meta personal más importante en esta carrera?",
+      "opciones": {
+        "A": "Especializarme en un área donde pueda ayudar más efectivamente",
+        "B": "Mantenerme siempre actualizado con las últimas tecnologías",
+        "C": "Ser reconocido como un profesional confiable y seguro",
+        "D": "Desarrollar mi propia propuesta gastronómica única",
+        "E": "Ser el mecánico al que la gente acude cuando nadie más puede resolver"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "TEC-076",
+      "categoria": "relacion_clientes",
+      "texto": "¿Cómo construyes relaciones duraderas con clientes/pacientes?",
+      "opciones": {
+        "A": "Con empatía genuina, cuidado consistente y comunicación clara",
+        "B": "Siendo confiable, explicando bien los problemas y sus soluciones",
+        "C": "Con trabajo de calidad, cumpliendo promesas y priorizando seguridad",
+        "D": "Con consistencia en calidad, escuchando preferencias y superando expectativas",
+        "E": "Siendo honesto sobre problemas, ofreciendo garantías y manteniendo precios justos"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "TEC-077",
+      "categoria": "adaptacion_generacional",
+      "texto": "¿Cómo trabajas con personas de diferentes generaciones?",
+      "opciones": {
+        "A": "Adaptando mi comunicación al nivel y necesidades de cada paciente",
+        "B": "Ajustando mi método de explicación según su familiaridad con tecnología",
+        "C": "Respetando experiencia de veteranos y enseñando a nuevos",
+        "D": "Combinando técnicas tradicionales con innovaciones modernas",
+        "E": "Escuchando experiencia de mecánicos veteranos y compartiendo nuevas técnicas"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.1
+    },
+    
+    {
+      "id": "TEC-078",
+      "categoria": "calidad_vs_eficiencia",
+      "texto": "¿Cómo balanceas calidad y eficiencia en tu trabajo?",
+      "opciones": {
+        "A": "Calidad en cuidados nunca se compromete, eficiencia en organización",
+        "B": "Eficiencia en diagnóstico, calidad absoluta en implementación",
+        "C": "Calidad y seguridad nunca se negocian, eficiencia en planificación",
+        "D": "Calidad consistente en sabor, eficiencia en organización de cocina",
+        "E": "Eficiencia en diagnóstico, calidad garantizada en reparación"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "TEC-079",
+      "categoria": "expansion_habilidades",
+      "texto": "¿Qué habilidades complementarias desarrollarías?",
+      "opciones": {
+        "A": "Primeros auxilios avanzados, psicología básica, administración de salud",
+        "B": "Gestión de proyectos, análisis de datos, automatización",
+        "C": "Gestión de proyectos eléctricos, energías renovables, domótica",
+        "D": "Administración gastronómica, marketing para restaurantes, nutrición",
+        "E": "Administración de talleres, atención al cliente, diagnóstico avanzado"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.1
+    },
+    
+    {
+      "id": "TEC-080",
+      "categoria": "filosofia_trabajo",
+      "texto": "¿Cuál es tu filosofía fundamental sobre tu trabajo?",
+      "opciones": {
+        "A": "Cada persona merece cuidado digno y compasivo, sin excepción",
+        "B": "La tecnología debe servir a las personas, no complicar sus vidas",
+        "C": "Un trabajo eléctrico bien hecho puede salvar vidas y proteger propiedades",
+        "D": "La comida es cultura, memoria y amor expresado en cada platillo",
+        "E": "Un vehículo bien reparado es seguridad y tranquilidad para las familias"
+      },
+      "indicador_carrera": {
+        "A": "TEC_ENF",
+        "B": "TEC_SIS",
+        "C": "ELEC_IND",
+        "D": "CHEF",
+        "E": "TEC_AUTO"
+      },
+      "peso": 1.5
+    }
+    
+  ]
+}

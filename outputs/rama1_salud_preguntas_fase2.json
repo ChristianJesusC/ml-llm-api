@@ -1,0 +1,1722 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "rama": "RAMA_1_SALUD",
+    "nombre_rama": "Ciencias de la Salud",
+    "total_preguntas": 80,
+    "fase": "FASE_2_ESPECIALIZADA",
+    "descripcion": "Preguntas especializadas para diferenciar entre las 5 carreras de Ciencias de la Salud",
+    "fecha_creacion": "2025-01-01",
+    "carreras": [
+      {
+        "id": 1,
+        "nombre": "Medicina",
+        "codigo": "MED"
+      },
+      {
+        "id": 2,
+        "nombre": "Psicología",
+        "codigo": "PSI"
+      },
+      {
+        "id": 3,
+        "nombre": "Nutrición",
+        "codigo": "NUT"
+      },
+      {
+        "id": 4,
+        "nombre": "Odontología",
+        "codigo": "ODO"
+      },
+      {
+        "id": 5,
+        "nombre": "Enfermería",
+        "codigo": "ENF"
+      }
+    ]
+  },
+  
+  "preguntas": [
+    
+    {
+      "id": "SAL-001",
+      "categoria": "escenarios_practicos",
+      "texto": "Una persona llega a urgencias con dolor de pecho intenso. ¿Qué te gustaría hacer?",
+      "opciones": {
+        "A": "Diagnosticar y decidir el tratamiento médico",
+        "B": "Evaluar si es ansiedad o problema cardíaco",
+        "C": "Verificar su dieta y estilo de vida",
+        "D": "Revisar si tiene problemas dentales relacionados",
+        "E": "Tomar signos vitales y asistir al médico"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.5
+    },
+    
+    {
+      "id": "SAL-002",
+      "categoria": "escenarios_practicos",
+      "texto": "Un paciente adolescente tiene problemas para dormir y comer. ¿Qué enfoque prefieres?",
+      "opciones": {
+        "A": "Investigar causas médicas (hormonales, neurológicas)",
+        "B": "Explorar causas emocionales y psicológicas",
+        "C": "Diseñar un plan nutricional para mejorar su alimentación",
+        "D": "Verificar si tiene dolor dental que afecte su alimentación",
+        "E": "Monitorear sus signos vitales y estado general"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "SAL-003",
+      "categoria": "herramientas_metodos",
+      "texto": "¿Con cuál de estos instrumentos te gustaría trabajar más?",
+      "opciones": {
+        "A": "Estetoscopio, bisturí, instrumental quirúrgico",
+        "B": "Tests psicológicos, entrevistas clínicas",
+        "C": "Báscula, cinta métrica, calculadora nutricional",
+        "D": "Espejo dental, fresas dentales, equipo de ortodoncia",
+        "E": "Tensiómetro, termómetro, jeringas"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.5
+    },
+    
+    {
+      "id": "SAL-004",
+      "categoria": "problemas_area",
+      "texto": "¿Qué problema te emociona más resolver?",
+      "opciones": {
+        "A": "Curar una enfermedad grave o salvar una vida",
+        "B": "Ayudar a alguien a superar depresión o trauma",
+        "C": "Revertir la obesidad o diabetes con alimentación",
+        "D": "Devolver la sonrisa a alguien con problemas dentales",
+        "E": "Cuidar integralmente a pacientes hospitalizados"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.5
+    },
+    
+    {
+      "id": "SAL-005",
+      "categoria": "contextos_laborales",
+      "texto": "¿En qué área del hospital preferirías trabajar?",
+      "opciones": {
+        "A": "Urgencias o quirófano",
+        "B": "Área de psiquiatría o salud mental",
+        "C": "Consulta externa de nutrición",
+        "D": "Consultorio dental dentro del hospital",
+        "E": "Piso de hospitalización cuidando pacientes"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "SAL-006",
+      "categoria": "profundidad_tecnica",
+      "texto": "¿Qué nivel de estudio científico te atrae más?",
+      "opciones": {
+        "A": "Estudio profundo de anatomía, fisiología, farmacología (7 años)",
+        "B": "Estudio de mente, conducta y terapias (5 años)",
+        "C": "Estudio de alimentos, metabolismo y dietas (4 años)",
+        "D": "Estudio de anatomía dental y procedimientos bucales (5 años)",
+        "E": "Estudio de cuidados, procedimientos y farmacología básica (4 años)"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "SAL-007",
+      "categoria": "escenarios_practicos",
+      "texto": "Una madre te consulta porque su hijo de 8 años no quiere comer verduras. ¿Qué haces?",
+      "opciones": {
+        "A": "Verifico si hay problemas médicos que afecten su apetito",
+        "B": "Exploro si hay problemas emocionales o de conducta",
+        "C": "Diseño estrategias nutricionales para que coma saludable",
+        "D": "Reviso si tiene caries o dolor que dificulte masticar",
+        "E": "Apoyo con orientación general de salud infantil"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "SAL-008",
+      "categoria": "valores_profesionales",
+      "texto": "¿Qué te genera mayor satisfacción en tu carrera de salud?",
+      "opciones": {
+        "A": "Salvar vidas en situaciones críticas",
+        "B": "Ayudar a personas a ser felices mentalmente",
+        "C": "Mejorar la salud y apariencia física de las personas",
+        "D": "Mejorar la estética y funcionalidad de la sonrisa",
+        "E": "Acompañar y cuidar pacientes en su recuperación"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "SAL-009",
+      "categoria": "escenarios_practicos",
+      "texto": "Llega un paciente con sobrepeso y pre-diabetes. ¿Cuál sería tu enfoque principal?",
+      "opciones": {
+        "A": "Medicar para controlar glucosa y presión",
+        "B": "Trabajar la ansiedad y relación emocional con la comida",
+        "C": "Crear plan alimenticio personalizado y sostenible",
+        "D": "Verificar salud bucal que pueda estar afectándolo",
+        "E": "Educar sobre autocuidado y monitoreo de glucosa"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.5
+    },
+    
+    {
+      "id": "SAL-010",
+      "categoria": "herramientas_metodos",
+      "texto": "¿Qué tipo de procedimiento te gustaría realizar?",
+      "opciones": {
+        "A": "Cirugías y procedimientos invasivos",
+        "B": "Terapias de conversación y técnicas psicológicas",
+        "C": "Evaluaciones antropométricas y planes de alimentación",
+        "D": "Limpiezas, resinas, extracciones, ortodoncia",
+        "E": "Curaciones, inyecciones, canalización de venas"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.5
+    },
+    
+    {
+      "id": "SAL-011",
+      "categoria": "contextos_laborales",
+      "texto": "¿En qué tipo de consulta te ves trabajando?",
+      "opciones": {
+        "A": "Consulta médica general o especializada en hospital",
+        "B": "Consultorio psicológico privado con citas de 50 minutos",
+        "C": "Consulta nutricional con seguimiento mensual",
+        "D": "Consultorio dental con equipo especializado",
+        "E": "Turnos en hospital cuidando múltiples pacientes"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "SAL-012",
+      "categoria": "problemas_area",
+      "texto": "¿Qué tipo de pacientes te gustaría atender más?",
+      "opciones": {
+        "A": "Pacientes con enfermedades agudas o crónicas",
+        "B": "Personas con problemas emocionales o mentales",
+        "C": "Personas que quieren mejorar su peso y salud metabólica",
+        "D": "Personas con problemas dentales o estéticos en boca",
+        "E": "Todo tipo de pacientes que necesiten cuidados generales"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "SAL-013",
+      "categoria": "escenarios_practicos",
+      "texto": "Un estudiante universitario tiene ataques de pánico antes de exámenes. ¿Qué harías?",
+      "opciones": {
+        "A": "Descartar causas médicas y recetar ansiolíticos si es necesario",
+        "B": "Dar terapia cognitivo-conductual para manejar la ansiedad",
+        "C": "Revisar su dieta y si consume mucha cafeína o azúcar",
+        "D": "Verificar si bruxismo o tensión mandibular están involucrados",
+        "E": "Enseñarle técnicas de relajación y respiración"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "SAL-014",
+      "categoria": "profundidad_tecnica",
+      "texto": "¿Qué área de estudio te resulta más fascinante?",
+      "opciones": {
+        "A": "Patologías, diagnóstico diferencial, farmacología compleja",
+        "B": "Psicopatología, desarrollo humano, neuropsicología",
+        "C": "Bioquímica de nutrientes, metabolismo, fisiología digestiva",
+        "D": "Anatomía maxilofacial, biomateriales dentales, oclusión",
+        "E": "Fisiopatología, cuidados críticos, administración de medicamentos"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "SAL-015",
+      "categoria": "contextos_laborales",
+      "texto": "¿Qué horario de trabajo preferirías?",
+      "opciones": {
+        "A": "Guardias de 24 horas y turnos rotativos en hospital",
+        "B": "Consultorio privado con citas programadas de 9am-7pm",
+        "C": "Consultas ambulatorias flexibles de 10am-5pm",
+        "D": "Consultorio dental de 9am-6pm con citas programadas",
+        "E": "Turnos de 8-12 horas en hospital (mañana, tarde o noche)"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "SAL-016",
+      "categoria": "escenarios_practicos",
+      "texto": "Una persona de 60 años tiene dificultad para masticar. ¿Qué investigarías primero?",
+      "opciones": {
+        "A": "Problemas neurológicos o musculares",
+        "B": "Si hay depresión o falta de apetito emocional",
+        "C": "Su estado nutricional y si está perdiendo peso",
+        "D": "Estado de su dentadura y necesidad de prótesis",
+        "E": "Su capacidad para alimentarse de forma segura"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "SAL-017",
+      "categoria": "valores_profesionales",
+      "texto": "¿Qué tipo de reconocimiento te importa más?",
+      "opciones": {
+        "A": "Ser reconocido como médico especialista prestigioso",
+        "B": "Que mis pacientes me agradezcan haberles cambiado la vida emocionalmente",
+        "C": "Ver transformaciones físicas en mis pacientes",
+        "D": "Que mis pacientes muestren su sonrisa con confianza",
+        "E": "Que los pacientes sientan que fueron bien cuidados"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "SAL-018",
+      "categoria": "herramientas_metodos",
+      "texto": "¿Qué habilidad técnica te gustaría dominar?",
+      "opciones": {
+        "A": "Realizar diagnósticos clínicos complejos y cirugías",
+        "B": "Aplicar diferentes tipos de psicoterapia efectivamente",
+        "C": "Calcular requerimientos calóricos y diseñar dietas",
+        "D": "Realizar procedimientos dentales de precisión",
+        "E": "Dominar técnicas de enfermería y cuidados críticos"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "SAL-019",
+      "categoria": "problemas_area",
+      "texto": "¿Qué situación te gustaría manejar en tu día a día?",
+      "opciones": {
+        "A": "Emergencias médicas que requieren decisiones rápidas",
+        "B": "Crisis emocionales que requieren contención y terapia",
+        "C": "Problemas metabólicos que se resuelven con dieta",
+        "D": "Problemas dentales que requieren restauraciones",
+        "E": "Pacientes que necesitan cuidados continuos y monitoreo"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "SAL-020",
+      "categoria": "escenarios_practicos",
+      "texto": "Un atleta profesional quiere mejorar su rendimiento. ¿Cuál sería tu aporte?",
+      "opciones": {
+        "A": "Revisar su salud general y detectar lesiones",
+        "B": "Trabajar su mentalidad y presión psicológica",
+        "C": "Optimizar su alimentación para mejor rendimiento",
+        "D": "Asegurar que su salud bucal no afecte su desempeño",
+        "E": "Monitorear sus signos vitales durante entrenamientos"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "SAL-021",
+      "categoria": "contextos_laborales",
+      "texto": "¿Dónde te imaginas trabajando en 10 años?",
+      "opciones": {
+        "A": "Hospital como médico especialista o cirujano",
+        "B": "Mi propio consultorio de psicología",
+        "C": "Consulta nutricional o clínica de obesidad",
+        "D": "Mi propio consultorio dental equipado",
+        "E": "Hospital como enfermera especializada o jefe de piso"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "SAL-022",
+      "categoria": "profundidad_tecnica",
+      "texto": "¿Qué tipo de conocimiento científico te atrae más?",
+      "opciones": {
+        "A": "Ciencias médicas profundas (bioquímica, patología, farmacología)",
+        "B": "Ciencias de la conducta y neurociencias",
+        "C": "Ciencias de la nutrición y metabolismo",
+        "D": "Ciencias odontológicas y biomateriales",
+        "E": "Ciencias de enfermería y cuidados integrales"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "SAL-023",
+      "categoria": "escenarios_practicos",
+      "texto": "Una mujer embarazada tiene náuseas constantes. ¿Qué harías?",
+      "opciones": {
+        "A": "Revisar si es normal del embarazo o algo más grave",
+        "B": "Evaluar si hay ansiedad o estrés emocional",
+        "C": "Dar recomendaciones nutricionales para el embarazo",
+        "D": "Verificar salud bucal y gingivitis del embarazo",
+        "E": "Monitorear su peso, presión y estado general"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "SAL-024",
+      "categoria": "herramientas_metodos",
+      "texto": "¿Qué te gustaría más aprender a usar?",
+      "opciones": {
+        "A": "Equipo de diagnóstico médico (rayos X, ultrasonido, ECG)",
+        "B": "Tests psicométricos y técnicas terapéuticas",
+        "C": "Software de análisis nutricional y composición corporal",
+        "D": "Equipo dental de alta tecnología (rayos X dental, CAD/CAM)",
+        "E": "Monitores de signos vitales y bombas de infusión"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "SAL-025",
+      "categoria": "valores_profesionales",
+      "texto": "¿Qué aspecto del salario te importa más?",
+      "opciones": {
+        "A": "Ganar muy bien pero con años de estudio y guardias pesadas",
+        "B": "Salario moderado pero con consultorio propio y horarios flexibles",
+        "C": "Salario moderado con posibilidad de consultorio privado",
+        "D": "Buenos ingresos con consultorio propio bien equipado",
+        "E": "Salario estable con prestaciones en hospital"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.1
+    },
+    
+    {
+      "id": "SAL-026",
+      "categoria": "problemas_area",
+      "texto": "¿Qué problema de salud pública te preocupa más?",
+      "opciones": {
+        "A": "Enfermedades infecciosas y acceso a medicina",
+        "B": "Crisis de salud mental y suicidios",
+        "C": "Epidemia de obesidad y diabetes",
+        "D": "Falta de acceso a salud bucal",
+        "E": "Escasez de personal de enfermería"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "SAL-027",
+      "categoria": "escenarios_practicos",
+      "texto": "Un niño tiene miedo de ir a la escuela. ¿Cómo lo abordarías?",
+      "opciones": {
+        "A": "Descartar problemas físicos que causen malestar",
+        "B": "Explorar si hay bullying, ansiedad o fobia escolar",
+        "C": "Ver si tiene problemas nutricionales que afecten su energía",
+        "D": "Revisar si tiene dolor dental que evite que asista",
+        "E": "Dar orientación a los padres sobre el cuidado infantil"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "SAL-028",
+      "categoria": "contextos_laborales",
+      "texto": "¿Con qué tipo de equipo de salud te gustaría trabajar?",
+      "opciones": {
+        "A": "Liderar un equipo médico multidisciplinario",
+        "B": "Trabajar independiente o con otros psicólogos",
+        "C": "Colaborar con médicos y entrenadores",
+        "D": "Trabajar con asistentes dentales en mi consultorio",
+        "E": "Ser parte del equipo de salud hospitalario"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "SAL-029",
+      "categoria": "profundidad_tecnica",
+      "texto": "¿Qué tan importante es para ti entender la química y bioquímica profunda?",
+      "opciones": {
+        "A": "Muy importante, me fascina la farmacología y fisiología",
+        "B": "Moderado, prefiero entender la mente humana",
+        "C": "Importante para entender metabolismo de nutrientes",
+        "D": "Moderado, lo necesario para materiales dentales",
+        "E": "Importante para administrar medicamentos correctamente"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "SAL-030",
+      "categoria": "escenarios_practicos",
+      "texto": "Una persona mayor vive sola y no se cuida. ¿Qué harías?",
+      "opciones": {
+        "A": "Evaluar su estado de salud general y enfermedades",
+        "B": "Evaluar si hay depresión o deterioro cognitivo",
+        "C": "Ver su estado nutricional y si come adecuadamente",
+        "D": "Revisar su salud bucal y capacidad para comer",
+        "E": "Crear un plan de cuidados en casa o sugerir ayuda"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "SAL-031",
+      "categoria": "herramientas_metodos",
+      "texto": "¿Qué procedimiento te gustaría realizar más seguido?",
+      "opciones": {
+        "A": "Suturas, cirugías menores, procedimientos invasivos",
+        "B": "Sesiones de terapia, aplicación de tests psicológicos",
+        "C": "Mediciones corporales, cálculos nutricionales",
+        "D": "Obturaciones, limpiezas, extracciones, blanqueamientos",
+        "E": "Toma de muestras, curaciones, administración de medicamentos"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.5
+    },
+    
+    {
+      "id": "SAL-032",
+      "categoria": "valores_profesionales",
+      "texto": "¿Qué te motiva más en tu trabajo diario?",
+      "opciones": {
+        "A": "Resolver casos médicos complejos",
+        "B": "Ver que alguien recupera su salud mental",
+        "C": "Ver cambios físicos positivos en pacientes",
+        "D": "Ver sonrisas transformadas y pacientes felices",
+        "E": "Sentir que cuidé bien a mis pacientes"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "SAL-033",
+      "categoria": "problemas_area",
+      "texto": "¿Qué tipo de casos clínicos te interesan más?",
+      "opciones": {
+        "A": "Enfermedades complejas que requieren diagnóstico médico",
+        "B": "Trastornos mentales y del comportamiento",
+        "C": "Problemas metabólicos y de peso",
+        "D": "Patologías bucales y maloclusiones",
+        "E": "Pacientes con múltiples necesidades de cuidado"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "SAL-034",
+      "categoria": "escenarios_practicos",
+      "texto": "Una persona tiene insomnio crónico. ¿Qué investigarías?",
+      "opciones": {
+        "A": "Causas médicas (apnea, hormonales, neurológicas)",
+        "B": "Ansiedad, depresión o estrés postraumático",
+        "C": "Hábitos alimenticios y consumo de estimulantes",
+        "D": "Si ronca por problemas de vías respiratorias o mandíbula",
+        "E": "Su rutina de sueño y medicamentos que toma"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "SAL-035",
+      "categoria": "contextos_laborales",
+      "texto": "¿Qué ambiente de trabajo prefieres?",
+      "opciones": {
+        "A": "Hospital con ambiente dinámico y casos variados",
+        "B": "Consultorio tranquilo para sesiones profundas",
+        "C": "Consulta ambulatoria con seguimiento a pacientes",
+        "D": "Consultorio dental bien equipado y cómodo",
+        "E": "Hospital trabajando en equipo con otros profesionales"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "SAL-036",
+      "categoria": "profundidad_tecnica",
+      "texto": "¿Cuánto te interesa la investigación científica en tu área?",
+      "opciones": {
+        "A": "Mucho, me gustaría investigar nuevos tratamientos médicos",
+        "B": "Bastante, investigar sobre conducta humana me atrae",
+        "C": "Moderado, investigar sobre nuevas dietas y nutrientes",
+        "D": "Algo, investigar nuevos materiales y técnicas dentales",
+        "E": "Poco, prefiero enfocarme en el cuidado directo"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "SAL-037",
+      "categoria": "escenarios_practicos",
+      "texto": "Un paciente con cáncer te pregunta sobre su pronóstico. ¿Cómo manejas la situación?",
+      "opciones": {
+        "A": "Explico honestamente el diagnóstico y opciones de tratamiento",
+        "B": "Manejo el impacto emocional y le doy contención psicológica",
+        "C": "Le ayudo a mantener nutrición adecuada durante tratamiento",
+        "D": "Manejo complicaciones bucales del tratamiento oncológico",
+        "E": "Le brindo cuidados paliativos y apoyo continuo"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "SAL-038",
+      "categoria": "herramientas_metodos",
+      "texto": "¿Qué tipo de consulta te gustaría dar?",
+      "opciones": {
+        "A": "Consultas rápidas de 15-20 minutos con diagnóstico preciso",
+        "B": "Sesiones de 50 minutos de terapia profunda",
+        "C": "Consultas de 30-40 minutos con planes personalizados",
+        "D": "Citas de 30-60 minutos para procedimientos dentales",
+        "E": "Cuidados continuos durante turnos de 8-12 horas"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "SAL-039",
+      "categoria": "valores_profesionales",
+      "texto": "¿Qué tipo de impacto quieres tener en tus pacientes?",
+      "opciones": {
+        "A": "Curar sus enfermedades y salvar vidas",
+        "B": "Transformar su salud mental y bienestar emocional",
+        "C": "Mejorar su salud física y calidad de vida",
+        "D": "Darles confianza con una sonrisa saludable",
+        "E": "Acompañarlos en momentos difíciles de su vida"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "SAL-040",
+      "categoria": "problemas_area",
+      "texto": "¿Qué complicación te interesa más prevenir?",
+      "opciones": {
+        "A": "Enfermedades cardiovasculares y cáncer",
+        "B": "Suicidios y trastornos mentales graves",
+        "C": "Obesidad, diabetes y enfermedades metabólicas",
+        "D": "Caries, enfermedad periodontal y pérdida dental",
+        "E": "Complicaciones hospitalarias e infecciones"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "SAL-041",
+      "categoria": "escenarios_practicos",
+      "texto": "Una mujer joven quiere bajar de peso para su boda. ¿Qué harías?",
+      "opciones": {
+        "A": "Verificar que esté sana y si necesita apoyo médico",
+        "B": "Trabajar su imagen corporal y autoestima",
+        "C": "Crear un plan nutricional realista y saludable",
+        "D": "Ofrecer blanqueamiento dental para su gran día",
+        "E": "Dar consejos generales de salud y bienestar"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "SAL-042",
+      "categoria": "contextos_laborales",
+      "texto": "¿En qué área especializada te gustaría trabajar?",
+      "opciones": {
+        "A": "Medicina interna, cirugía o urgencias",
+        "B": "Psicología clínica, organizacional o educativa",
+        "C": "Nutrición clínica, deportiva o bariátrica",
+        "D": "Ortodoncia, endodoncia o implantología",
+        "E": "Cuidados intensivos, quirófano o pediatría"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "SAL-043",
+      "categoria": "profundidad_tecnica",
+      "texto": "¿Qué nivel de responsabilidad médica te sientes cómodo manejando?",
+      "opciones": {
+        "A": "Máxima: tomar decisiones de vida o muerte",
+        "B": "Moderada: decisiones sobre salud mental",
+        "C": "Moderada: decisiones sobre planes alimenticios",
+        "D": "Moderada: decisiones sobre tratamientos dentales",
+        "E": "Compartida: trabajar bajo supervisión médica"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "SAL-044",
+      "categoria": "herramientas_metodos",
+      "texto": "¿Qué habilidad manual te gustaría desarrollar?",
+      "opciones": {
+        "A": "Cirugías y suturas de precisión",
+        "B": "No requiero mucha destreza manual, más intelectual",
+        "C": "Mediciones corporales precisas",
+        "D": "Procedimientos dentales minuciosos",
+        "E": "Técnicas de enfermería (venoclisis, curaciones)"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "SAL-045",
+      "categoria": "escenarios_practicos",
+      "texto": "Un adolescente tiene acné severo. ¿Cuál sería tu enfoque?",
+      "opciones": {
+        "A": "Tratar médicamente con dermatología",
+        "B": "Trabajar el impacto emocional en su autoestima",
+        "C": "Revisar su alimentación y posibles detonantes",
+        "D": "Verificar que no empeore por higiene bucal",
+        "E": "Orientarlo sobre cuidados de la piel"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "SAL-046",
+      "categoria": "valores_profesionales",
+      "texto": "¿Qué tan importante es para ti el prestigio social de tu profesión?",
+      "opciones": {
+        "A": "Muy importante, me gusta el estatus de médico",
+        "B": "Moderado, me importa más ayudar que el estatus",
+        "C": "Poco, me enfoco en resultados de salud",
+        "D": "Moderado, me gusta ser reconocido como profesional",
+        "E": "Poco, me importa más cuidar bien a los pacientes"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.1
+    },
+    
+    {
+      "id": "SAL-047",
+      "categoria": "problemas_area",
+      "texto": "¿Qué población vulnerable te gustaría atender?",
+      "opciones": {
+        "A": "Personas con enfermedades crónicas o terminales",
+        "B": "Personas con trauma, abuso o violencia",
+        "C": "Personas con obesidad y trastornos alimenticios",
+        "D": "Niños con problemas dentales por falta de recursos",
+        "E": "Adultos mayores o personas con discapacidad"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "SAL-048",
+      "categoria": "contextos_laborales",
+      "texto": "¿Qué tipo de pacientes prefieres atender?",
+      "opciones": {
+        "A": "Casos agudos que requieren atención inmediata",
+        "B": "Pacientes a largo plazo con seguimiento continuo",
+        "C": "Pacientes motivados que quieren cambiar",
+        "D": "Pacientes de todas las edades con problemas dentales",
+        "E": "Cualquier paciente que necesite cuidados"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "SAL-049",
+      "categoria": "escenarios_practicos",
+      "texto": "Un paciente diabético no sigue su tratamiento. ¿Qué haces?",
+      "opciones": {
+        "A": "Ajusto medicamentos y explico complicaciones médicas",
+        "B": "Exploro barreras psicológicas y motivación",
+        "C": "Trabajo un plan de alimentación más realista",
+        "D": "Verifico complicaciones bucales de la diabetes",
+        "E": "Educo sobre importancia de adherencia al tratamiento"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "SAL-050",
+      "categoria": "profundidad_tecnica",
+      "texto": "¿Qué tan importante es para ti dominar tecnología médica avanzada?",
+      "opciones": {
+        "A": "Muy importante (ecógrafos, tomografías, equipos quirúrgicos)",
+        "B": "Poco importante, uso más técnicas de conversación",
+        "C": "Moderado (impedanciómetros, software nutricional)",
+        "D": "Importante (rayos X dental, CAD/CAM, láser)",
+        "E": "Importante (monitores, bombas de infusión, ventiladores)"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "SAL-051",
+      "categoria": "herramientas_metodos",
+      "texto": "¿Qué tipo de intervención prefieres realizar?",
+      "opciones": {
+        "A": "Intervenciones médicas invasivas (cirugías, procedimientos)",
+        "B": "Intervenciones psicológicas (terapia, counseling)",
+        "C": "Intervenciones nutricionales (dietas, suplementación)",
+        "D": "Intervenciones dentales (restauraciones, prótesis)",
+        "E": "Cuidados integrales (higiene, alimentación, medicamentos)"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.5
+    },
+    
+    {
+      "id": "SAL-052",
+      "categoria": "valores_profesionales",
+      "texto": "¿Cuánto tiempo quieres invertir en estudiar tu carrera?",
+      "opciones": {
+        "A": "7+ años incluyendo especialidad (vale la pena)",
+        "B": "5 años más maestría o especialización",
+        "C": "4 años más certificaciones",
+        "D": "5 años más especialidad dental",
+        "E": "4 años y empezar a trabajar"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "SAL-053",
+      "categoria": "escenarios_practicos",
+      "texto": "Una persona tiene migraña crónica. ¿Qué investigarías?",
+      "opciones": {
+        "A": "Causas neurológicas y tratamiento farmacológico",
+        "B": "Estrés, ansiedad y factores psicosomáticos",
+        "C": "Alimentos detonantes y patrones alimenticios",
+        "D": "Problemas de ATM o bruxismo",
+        "E": "Patrones de dolor y medicación que toma"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "SAL-054",
+      "categoria": "contextos_laborales",
+      "texto": "¿Qué tipo de trabajo en equipo prefieres?",
+      "opciones": {
+        "A": "Liderar equipos médicos multidisciplinarios",
+        "B": "Trabajar mayormente solo con mis pacientes",
+        "C": "Colaborar con médicos y entrenadores",
+        "D": "Trabajar con asistente dental",
+        "E": "Ser parte esencial del equipo hospitalario"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "SAL-055",
+      "categoria": "problemas_area",
+      "texto": "¿Qué síntoma te resulta más interesante diagnosticar?",
+      "opciones": {
+        "A": "Síntomas físicos complejos (dolor, fiebre, masas)",
+        "B": "Síntomas emocionales (tristeza, ansiedad, irritabilidad)",
+        "C": "Síntomas metabólicos (cansancio, peso, digestión)",
+        "D": "Síntomas bucales (dolor, sangrado, sensibilidad)",
+        "E": "Cambios en signos vitales o estado general"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "SAL-056",
+      "categoria": "escenarios_practicos",
+      "texto": "Un ejecutivo tiene estrés y presión alta. ¿Cuál sería tu enfoque?",
+      "opciones": {
+        "A": "Medicar para controlar presión y prevenir complicaciones",
+        "B": "Trabajar manejo de estrés y técnicas de relajación",
+        "C": "Ajustar su dieta para reducir sodio y mejorar salud cardiovascular",
+        "D": "Verificar si tiene bruxismo por estrés",
+        "E": "Educar sobre estilo de vida saludable"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "SAL-057",
+      "categoria": "profundidad_tecnica",
+      "texto": "¿Qué tipo de formación continua te atrae más?",
+      "opciones": {
+        "A": "Congresos médicos y especialidades clínicas",
+        "B": "Seminarios de psicoterapia y nuevas técnicas",
+        "C": "Cursos de nutrición deportiva o clínica",
+        "D": "Cursos de nuevas técnicas y materiales dentales",
+        "E": "Certificaciones en cuidados especializados"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "SAL-058",
+      "categoria": "herramientas_metodos",
+      "texto": "¿Qué tipo de registro médico prefieres llevar?",
+      "opciones": {
+        "A": "Expedientes clínicos detallados con diagnósticos",
+        "B": "Notas de sesión terapéutica y evolución psicológica",
+        "C": "Planes alimenticios y seguimiento de peso",
+        "D": "Odontogramas y planes de tratamiento dental",
+        "E": "Hojas de enfermería con signos vitales y medicación"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "SAL-059",
+      "categoria": "valores_profesionales",
+      "texto": "¿Qué te hace sentir más realizado profesionalmente?",
+      "opciones": {
+        "A": "Curar enfermedades difíciles",
+        "B": "Ayudar a alguien a sanar emocionalmente",
+        "C": "Transformar el físico y salud de alguien",
+        "D": "Devolver la función y estética dental",
+        "E": "Ser el pilar del cuidado del paciente"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "SAL-060",
+      "categoria": "escenarios_practicos",
+      "texto": "Un niño no crece al ritmo esperado. ¿Qué harías?",
+      "opciones": {
+        "A": "Estudios médicos para detectar problemas hormonales o genéticos",
+        "B": "Evaluar entorno familiar y factores emocionales",
+        "C": "Evaluar su alimentación y estado nutricional",
+        "D": "Verificar si problemas dentales dificultan su alimentación",
+        "E": "Monitorear su desarrollo y crecimiento regularmente"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "SAL-061",
+      "categoria": "contextos_laborales",
+      "texto": "¿Cuántos pacientes te gustaría atender al día?",
+      "opciones": {
+        "A": "15-30 pacientes (consultas rápidas)",
+        "B": "5-8 pacientes (sesiones profundas)",
+        "C": "8-12 pacientes (consultas moderadas)",
+        "D": "6-10 pacientes (procedimientos dentales)",
+        "E": "5-8 pacientes (cuidados intensivos)"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "SAL-062",
+      "categoria": "problemas_area",
+      "texto": "¿Qué tipo de urgencia te gustaría manejar?",
+      "opciones": {
+        "A": "Urgencias médicas (infarto, trauma, shock)",
+        "B": "Crisis psicológicas (ideación suicida, pánico)",
+        "C": "Complicaciones metabólicas (hipoglucemia, deshidratación)",
+        "D": "Urgencias dentales (dolor intenso, trauma dental)",
+        "E": "Pacientes inestables que requieren cuidados urgentes"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "SAL-063",
+      "categoria": "escenarios_practicos",
+      "texto": "Una persona tiene mal aliento persistente. ¿Qué investigarías?",
+      "opciones": {
+        "A": "Problemas gastrointestinales o metabólicos",
+        "B": "Estrés o ansiedad que cause xerostomía",
+        "C": "Dieta y hidratación",
+        "D": "Enfermedad periodontal o caries",
+        "E": "Higiene bucal y hábitos de salud"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "SAL-064",
+      "categoria": "profundidad_tecnica",
+      "texto": "¿Qué tan importante es para ti la anatomía humana?",
+      "opciones": {
+        "A": "Fundamental - debo dominar anatomía completa",
+        "B": "Moderado - anatomía del cerebro y sistema nervioso",
+        "C": "Moderado - anatomía digestiva y metabolismo",
+        "D": "Importante - anatomía maxilofacial y dental",
+        "E": "Importante - anatomía para procedimientos de enfermería"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "SAL-065",
+      "categoria": "herramientas_metodos",
+      "texto": "¿Qué tipo de evaluación prefieres realizar a tus pacientes?",
+      "opciones": {
+        "A": "Examen físico completo y solicitud de estudios",
+        "B": "Evaluación psicológica profunda y tests",
+        "C": "Evaluación antropométrica y de hábitos",
+        "D": "Exploración bucal completa y radiografías",
+        "E": "Valoración de enfermería y monitoreo continuo"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "SAL-066",
+      "categoria": "valores_profesionales",
+      "texto": "¿Cómo te imaginas tu consultorio o área de trabajo?",
+      "opciones": {
+        "A": "Hospital o clínica con equipo médico completo",
+        "B": "Consultorio acogedor para terapia",
+        "C": "Consultorio funcional con báscula y material educativo",
+        "D": "Consultorio dental moderno y bien equipado",
+        "E": "Estación de enfermería en hospital"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "SAL-067",
+      "categoria": "escenarios_practicos",
+      "texto": "Un deportista se lesiona frecuentemente. ¿Cuál sería tu aporte?",
+      "opciones": {
+        "A": "Diagnosticar lesiones y rehabilitación médica",
+        "B": "Trabajar aspectos mentales del rendimiento",
+        "C": "Optimizar nutrición para prevención y recuperación",
+        "D": "Protector bucal deportivo y manejo de trauma dental",
+        "E": "Cuidados post-lesión y seguimiento"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "SAL-068",
+      "categoria": "contextos_laborales",
+      "texto": "¿Qué modalidad de trabajo prefieres?",
+      "opciones": {
+        "A": "Hospital con guardias y urgencias",
+        "B": "Consultorio privado con citas programadas",
+        "C": "Consulta externa ambulatoria",
+        "D": "Consultorio dental privado",
+        "E": "Turnos en hospital o clínica"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "SAL-069",
+      "categoria": "problemas_area",
+      "texto": "¿Qué complicación de salud te parece más interesante?",
+      "opciones": {
+        "A": "Complicaciones médicas sistémicas",
+        "B": "Complicaciones psiquiátricas",
+        "C": "Complicaciones metabólicas",
+        "D": "Complicaciones odontológicas",
+        "E": "Pacientes con múltiples complicaciones"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "SAL-070",
+      "categoria": "escenarios_practicos",
+      "texto": "Una persona mayor tiene pérdida de memoria. ¿Qué harías?",
+      "opciones": {
+        "A": "Estudios neurológicos para detectar demencia",
+        "B": "Evaluación cognitiva y apoyo psicológico",
+        "C": "Verificar deficiencias nutricionales",
+        "D": "Revisar medicamentos que puedan afectar cognición",
+        "E": "Orientar sobre cuidados y seguridad"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "SAL-071",
+      "categoria": "profundidad_tecnica",
+      "texto": "¿Qué tipo de diagnóstico te atrae más realizar?",
+      "opciones": {
+        "A": "Diagnóstico médico basado en síntomas y estudios",
+        "B": "Diagnóstico psicológico mediante entrevista y tests",
+        "C": "Diagnóstico nutricional mediante evaluación integral",
+        "D": "Diagnóstico dental mediante exploración y radiografías",
+        "E": "Detección temprana de complicaciones en pacientes"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "SAL-072",
+      "categoria": "herramientas_metodos",
+      "texto": "¿Qué tipo de tratamiento te gustaría prescribir?",
+      "opciones": {
+        "A": "Medicamentos y tratamientos médicos",
+        "B": "Psicoterapia y técnicas psicológicas",
+        "C": "Planes alimenticios y suplementos",
+        "D": "Tratamientos dentales y prótesis",
+        "E": "Cuidados de enfermería y medicación"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.5
+    },
+    
+    {
+      "id": "SAL-073",
+      "categoria": "valores_profesionales",
+      "texto": "¿Qué aspecto del cuidado de salud te apasiona más?",
+      "opciones": {
+        "A": "El diagnóstico y tratamiento de enfermedades",
+        "B": "La salud mental y bienestar emocional",
+        "C": "La prevención mediante alimentación",
+        "D": "La salud bucal y estética dental",
+        "E": "El cuidado holístico del paciente"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.5
+    },
+    
+    {
+      "id": "SAL-074",
+      "categoria": "escenarios_practicos",
+      "texto": "Una persona tiene dolor crónico sin causa aparente. ¿Qué investigarías?",
+      "opciones": {
+        "A": "Causas médicas con estudios exhaustivos",
+        "B": "Si es dolor psicosomático o fibromialgia",
+        "C": "Inflamación por dieta o intolerancias",
+        "D": "Dolor de origen dental o mandibular",
+        "E": "Manejo del dolor y calidad de vida"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "SAL-075",
+      "categoria": "contextos_laborales",
+      "texto": "¿Con qué población te gustaría trabajar más?",
+      "opciones": {
+        "A": "Adultos con enfermedades diversas",
+        "B": "Todo tipo de edades con problemas emocionales",
+        "C": "Personas que buscan mejorar su salud",
+        "D": "Niños, adultos y ancianos (odontología general)",
+        "E": "Pacientes hospitalizados de todas las edades"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "SAL-076",
+      "categoria": "profundidad_tecnica",
+      "texto": "¿Qué tan cómodo te sientes con la sangre y procedimientos invasivos?",
+      "opciones": {
+        "A": "Muy cómodo, las cirugías me fascinan",
+        "B": "Poco cómodo, prefiero no ver sangre",
+        "C": "Moderado, no es mi enfoque principal",
+        "D": "Cómodo con procedimientos bucales que pueden sangrar",
+        "E": "Cómodo, debo manejar heridas y procedimientos"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "SAL-077",
+      "categoria": "herramientas_metodos",
+      "texto": "¿Qué tipo de seguimiento prefieres dar a tus pacientes?",
+      "opciones": {
+        "A": "Consultas de control médico periódicas",
+        "B": "Sesiones semanales/quincenales de terapia",
+        "C": "Seguimiento mensual de peso y hábitos",
+        "D": "Citas de revisión y mantenimiento dental",
+        "E": "Monitoreo diario durante hospitalización"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "SAL-078",
+      "categoria": "valores_profesionales",
+      "texto": "¿Qué logro profesional te haría más orgulloso?",
+      "opciones": {
+        "A": "Salvar una vida en una cirugía compleja",
+        "B": "Ayudar a alguien a superar depresión severa",
+        "C": "Transformar la salud de alguien con obesidad mórbida",
+        "D": "Darle una sonrisa nueva a alguien que la había perdido",
+        "E": "Ser reconocido como excelente enfermera por pacientes"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.5
+    },
+    
+    {
+      "id": "SAL-079",
+      "categoria": "problemas_area",
+      "texto": "¿Qué prevención de salud te parece más importante?",
+      "opciones": {
+        "A": "Prevención de enfermedades crónicas",
+        "B": "Prevención de suicidios y trastornos mentales",
+        "C": "Prevención de obesidad y diabetes",
+        "D": "Prevención de caries y enfermedad periodontal",
+        "E": "Prevención de complicaciones hospitalarias"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "SAL-080",
+      "categoria": "escenarios_practicos",
+      "texto": "¿Cuál de estos casos te resulta más interesante y desafiante?",
+      "opciones": {
+        "A": "Un paciente politraumatizado en urgencias",
+        "B": "Un paciente con trastorno de personalidad límite",
+        "C": "Un paciente con síndrome metabólico severo",
+        "D": "Un paciente que necesita rehabilitación oral completa",
+        "E": "Un paciente en UCI con múltiples comorbilidades"
+      },
+      "indicador_carrera": {
+        "A": "MED",
+        "B": "PSI",
+        "C": "NUT",
+        "D": "ODO",
+        "E": "ENF"
+      },
+      "peso": 1.5
+    }
+    
+  ]
+}

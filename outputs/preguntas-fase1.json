@@ -1,0 +1,1782 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "total_preguntas": 80,
+    "fase": "FASE_1_UNIVERSAL",
+    "descripcion": "Banco de preguntas universales para evaluación de capacidad académica e intereses vocacionales",
+    "fecha_creacion": "2025-01-01",
+    "distribucion": {
+      "capacidad": 35,
+      "interes": 45
+    },
+    "umbral_capacidad": {
+      "carreras": 1.0,
+      "oficios_tecnicos": 0.5,
+      "oficios_basicos": 0.0
+    }
+  },
+  
+  "preguntas": [
+    
+    {
+      "id": "UNI-001",
+      "tipo": "interes",
+      "categoria": "intereses_area",
+      "texto": "¿Qué área de conocimiento te resulta más interesante?",
+      "opciones": {
+        "A": "Matemáticas y física",
+        "B": "Química y biología",
+        "C": "Historia, economía y sociedad",
+        "D": "Literatura, idiomas y filosofía",
+        "E": "Artes, diseño y creatividad"
+      },
+      "indicador_rama": {
+        "A": "Ingenieria",
+        "B": "Salud",
+        "C": "Negocios",
+        "D": "Negocios",
+        "E": "Mixto"
+      },
+      "peso": 1.5
+    },
+    
+    {
+      "id": "UNI-002",
+      "tipo": "interes",
+      "categoria": "actividades_preferidas",
+      "texto": "¿Qué tipo de problemas prefieres resolver?",
+      "opciones": {
+        "A": "Problemas lógicos y matemáticos",
+        "B": "Problemas de salud y bienestar de personas",
+        "C": "Problemas de organización y gestión",
+        "D": "Problemas creativos y de diseño",
+        "E": "Problemas prácticos del día a día"
+      },
+      "indicador_rama": {
+        "A": "Ingenieria",
+        "B": "Salud",
+        "C": "Negocios",
+        "D": "Mixto",
+        "E": "Neutral"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "UNI-003",
+      "tipo": "interes",
+      "categoria": "valores_profesionales",
+      "texto": "¿Qué es lo más importante para ti en tu futura carrera u oficio?",
+      "opciones": {
+        "A": "Ayudar a curar enfermedades y cuidar personas",
+        "B": "Innovar y crear tecnología",
+        "C": "Ganar bien y tener estabilidad económica",
+        "D": "Expresar mi creatividad",
+        "E": "Tener un trabajo rápido y seguro"
+      },
+      "indicador_rama": {
+        "A": "Salud",
+        "B": "Ingenieria",
+        "C": "Negocios",
+        "D": "Mixto",
+        "E": "Neutral"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "UNI-004",
+      "tipo": "capacidad",
+      "categoria": "disciplina_academica",
+      "texto": "Cuando tienes que estudiar para un examen importante, ¿qué haces?",
+      "opciones": {
+        "A": "Planifico con anticipación y estudio todos los días",
+        "B": "Estudio unos días antes del examen",
+        "C": "Estudio la noche anterior",
+        "D": "Solo repaso si me da tiempo",
+        "E": "Confío en mi memoria durante el examen"
+      },
+      "scoring_capacidad": {
+        "A": 5,
+        "B": 3,
+        "C": 1,
+        "D": 0,
+        "E": 0
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "UNI-005",
+      "tipo": "interes",
+      "categoria": "valores_profesionales",
+      "texto": "¿Qué te motiva más al pensar en tu futuro laboral?",
+      "opciones": {
+        "A": "Tener un buen salario desde el inicio",
+        "B": "Ayudar a otros y hacer una diferencia social",
+        "C": "Crear cosas nuevas e innovar",
+        "D": "Ser mi propio jefe y tener independencia",
+        "E": "Tener un trabajo estable y seguro"
+      },
+      "indicador_rama": {
+        "A": "Negocios",
+        "B": "Salud",
+        "C": "Ingenieria",
+        "D": "Negocios",
+        "E": "Neutral"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "UNI-006",
+      "tipo": "capacidad",
+      "categoria": "razonamiento_logico",
+      "texto": "Si todos los estudiantes de ingeniería saben matemáticas, y María sabe matemáticas, ¿qué puedes concluir?",
+      "opciones": {
+        "A": "María es estudiante de ingeniería",
+        "B": "María podría o no ser estudiante de ingeniería",
+        "C": "María definitivamente no estudia ingeniería",
+        "D": "Todos los que saben matemáticas estudian ingeniería",
+        "E": "No entiendo la pregunta"
+      },
+      "scoring_capacidad": {
+        "A": 0,
+        "B": 5,
+        "C": 0,
+        "D": 0,
+        "E": 0
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "UNI-007",
+      "tipo": "capacidad",
+      "categoria": "razonamiento_logico",
+      "texto": "¿Qué número sigue en la secuencia? 2, 6, 12, 20, 30, __",
+      "opciones": {
+        "A": "40",
+        "B": "42",
+        "C": "36",
+        "D": "38",
+        "E": "No sé"
+      },
+      "scoring_capacidad": {
+        "A": 1,
+        "B": 5,
+        "C": 0,
+        "D": 0,
+        "E": 0
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "UNI-008",
+      "tipo": "interes",
+      "categoria": "contextos_trabajo",
+      "texto": "¿En qué ambiente te gustaría trabajar?",
+      "opciones": {
+        "A": "En un hospital o clínica con pacientes",
+        "B": "En una oficina con computadoras",
+        "C": "En una empresa u oficina corporativa",
+        "D": "Al aire libre o en campo",
+        "E": "En un taller o trabajo manual"
+      },
+      "indicador_rama": {
+        "A": "Salud",
+        "B": "Ingenieria",
+        "C": "Negocios",
+        "D": "Mixto",
+        "E": "Neutral"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "UNI-009",
+      "tipo": "capacidad",
+      "categoria": "comprension_verbal",
+      "texto": "Lee: 'La economía circular propone un modelo donde los residuos se convierten en recursos reutilizables'. ¿Cuál es la idea principal?",
+      "opciones": {
+        "A": "Reciclar es importante",
+        "B": "Transformar desechos en materias primas útiles",
+        "C": "La economía funciona en círculos",
+        "D": "Los recursos son limitados",
+        "E": "No entiendo el texto"
+      },
+      "scoring_capacidad": {
+        "A": 2,
+        "B": 5,
+        "C": 1,
+        "D": 2,
+        "E": 0
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "UNI-010",
+      "tipo": "interes",
+      "categoria": "actividades_preferidas",
+      "texto": "¿Qué actividad disfrutas más en tu tiempo libre?",
+      "opciones": {
+        "A": "Arreglar o reparar cosas",
+        "B": "Leer sobre temas de salud y bienestar",
+        "C": "Ver videos de negocios o emprendimiento",
+        "D": "Programar o aprender sobre tecnología",
+        "E": "Hacer deporte o actividades físicas"
+      },
+      "indicador_rama": {
+        "A": "Mixto",
+        "B": "Salud",
+        "C": "Negocios",
+        "D": "Ingenieria",
+        "E": "Neutral"
+      },
+      "peso": 1.0
+    },
+    
+    {
+      "id": "UNI-011",
+      "tipo": "capacidad",
+      "categoria": "persistencia",
+      "texto": "Cuando un tema de la escuela te parece muy difícil, ¿qué haces?",
+      "opciones": {
+        "A": "Busco diferentes formas de entenderlo hasta que lo logro",
+        "B": "Le pido ayuda a un profesor o compañero",
+        "C": "Lo intento un poco pero me rindo si no sale rápido",
+        "D": "Lo evito y me enfoco en lo que sí entiendo",
+        "E": "Me frustro y dejo de intentarlo"
+      },
+      "scoring_capacidad": {
+        "A": 5,
+        "B": 4,
+        "C": 2,
+        "D": 1,
+        "E": 0
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "UNI-012",
+      "tipo": "interes",
+      "categoria": "intereses_area",
+      "texto": "¿Qué materia te gustaba más en la escuela?",
+      "opciones": {
+        "A": "Matemáticas",
+        "B": "Ciencias (Biología, Química, Física)",
+        "C": "Historia o Ciencias Sociales",
+        "D": "Español o Literatura",
+        "E": "Educación Física o Talleres"
+      },
+      "indicador_rama": {
+        "A": "Ingenieria",
+        "B": "Salud",
+        "C": "Negocios",
+        "D": "Negocios",
+        "E": "Neutral"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "UNI-013",
+      "tipo": "capacidad",
+      "categoria": "razonamiento_logico",
+      "texto": "Si A > B, y B > C, entonces:",
+      "opciones": {
+        "A": "A < C",
+        "B": "A = C",
+        "C": "A > C",
+        "D": "No se puede saber",
+        "E": "No entiendo"
+      },
+      "scoring_capacidad": {
+        "A": 0,
+        "B": 0,
+        "C": 5,
+        "D": 1,
+        "E": 0
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "UNI-014",
+      "tipo": "interes",
+      "categoria": "habilidades_autopercibidas",
+      "texto": "¿En qué te consideras mejor?",
+      "opciones": {
+        "A": "Resolver problemas con lógica",
+        "B": "Entender y ayudar a las personas",
+        "C": "Organizar y liderar equipos",
+        "D": "Crear cosas con mis manos",
+        "E": "Comunicarme y convencer a otros"
+      },
+      "indicador_rama": {
+        "A": "Ingenieria",
+        "B": "Salud",
+        "C": "Negocios",
+        "D": "Mixto",
+        "E": "Negocios"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "UNI-015",
+      "tipo": "capacidad",
+      "categoria": "comprension_verbal",
+      "texto": "Lee: 'El cambio climático representa uno de los mayores desafíos para la humanidad, requiriendo acciones inmediatas'. La palabra 'desafío' se refiere a:",
+      "opciones": {
+        "A": "Un problema fácil de resolver",
+        "B": "Una situación difícil que requiere esfuerzo",
+        "C": "Algo imposible de solucionar",
+        "D": "Un tema sin importancia",
+        "E": "No sé qué significa"
+      },
+      "scoring_capacidad": {
+        "A": 0,
+        "B": 5,
+        "C": 1,
+        "D": 0,
+        "E": 0
+      },
+      "peso": 1.1
+    },
+    
+    {
+      "id": "UNI-016",
+      "tipo": "interes",
+      "categoria": "actividades_preferidas",
+      "texto": "¿Qué tipo de trabajo te atrae más?",
+      "opciones": {
+        "A": "Atender y cuidar personas enfermas",
+        "B": "Diseñar y programar aplicaciones",
+        "C": "Vender productos o servicios",
+        "D": "Construir o reparar cosas",
+        "E": "Cocinar o preparar alimentos"
+      },
+      "indicador_rama": {
+        "A": "Salud",
+        "B": "Ingenieria",
+        "C": "Negocios",
+        "D": "Mixto",
+        "E": "Neutral"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "UNI-017",
+      "tipo": "capacidad",
+      "categoria": "pensamiento_abstracto",
+      "texto": "¿Cuál figura continúa la secuencia? ○ △ ○ △ ○ __",
+      "opciones": {
+        "A": "○",
+        "B": "△",
+        "C": "□",
+        "D": "No hay patrón",
+        "E": "No sé"
+      },
+      "scoring_capacidad": {
+        "A": 0,
+        "B": 5,
+        "C": 0,
+        "D": 0,
+        "E": 0
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "UNI-018",
+      "tipo": "interes",
+      "categoria": "valores_profesionales",
+      "texto": "¿Qué es más valioso para ti en un trabajo?",
+      "opciones": {
+        "A": "Que me permita ayudar a personas necesitadas",
+        "B": "Que sea innovador y use tecnología moderna",
+        "C": "Que tenga buen salario y oportunidades de crecimiento",
+        "D": "Que sea estable aunque el salario sea menor",
+        "E": "Que pueda empezar a trabajar rápido"
+      },
+      "indicador_rama": {
+        "A": "Salud",
+        "B": "Ingenieria",
+        "C": "Negocios",
+        "D": "Neutral",
+        "E": "Neutral"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "UNI-019",
+      "tipo": "capacidad",
+      "categoria": "disciplina_academica",
+      "texto": "¿Cuántas horas a la semana dedicas a estudiar FUERA de clases?",
+      "opciones": {
+        "A": "Más de 10 horas",
+        "B": "Entre 5 y 10 horas",
+        "C": "Entre 2 y 5 horas",
+        "D": "Menos de 2 horas",
+        "E": "Solo estudio si hay examen"
+      },
+      "scoring_capacidad": {
+        "A": 5,
+        "B": 4,
+        "C": 2,
+        "D": 1,
+        "E": 0
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "UNI-020",
+      "tipo": "interes",
+      "categoria": "contextos_trabajo",
+      "texto": "¿Dónde te imaginas trabajando en el futuro?",
+      "opciones": {
+        "A": "En un consultorio médico o clínica",
+        "B": "En una empresa de tecnología",
+        "C": "En una oficina de negocios",
+        "D": "En una obra de construcción o taller",
+        "E": "En un restaurante o negocio de comida"
+      },
+      "indicador_rama": {
+        "A": "Salud",
+        "B": "Ingenieria",
+        "C": "Negocios",
+        "D": "Neutral",
+        "E": "Neutral"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "UNI-021",
+      "tipo": "capacidad",
+      "categoria": "razonamiento_logico",
+      "texto": "Juan es más alto que Pedro. Luis es más bajo que Pedro. ¿Quién es el más alto?",
+      "opciones": {
+        "A": "Juan",
+        "B": "Pedro",
+        "C": "Luis",
+        "D": "No se puede saber",
+        "E": "No entiendo"
+      },
+      "scoring_capacidad": {
+        "A": 5,
+        "B": 0,
+        "C": 0,
+        "D": 1,
+        "E": 0
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "UNI-022",
+      "tipo": "capacidad",
+      "categoria": "comprension_verbal",
+      "texto": "¿Qué significa la frase 'El tiempo es oro'?",
+      "opciones": {
+        "A": "El tiempo es amarillo como el oro",
+        "B": "El tiempo es valioso y no debe desperdiciarse",
+        "C": "El oro es más importante que el tiempo",
+        "D": "El tiempo y el oro son lo mismo",
+        "E": "No sé qué significa"
+      },
+      "scoring_capacidad": {
+        "A": 0,
+        "B": 5,
+        "C": 0,
+        "D": 0,
+        "E": 0
+      },
+      "peso": 1.1
+    },
+    
+    {
+      "id": "UNI-023",
+      "tipo": "interes",
+      "categoria": "intereses_area",
+      "texto": "¿Qué tema te gustaría aprender más?",
+      "opciones": {
+        "A": "Cómo funciona el cuerpo humano y las enfermedades",
+        "B": "Programación y nuevas tecnologías",
+        "C": "Cómo emprender un negocio exitoso",
+        "D": "Oficios prácticos como electricidad o construcción",
+        "E": "Gastronomía y preparación de alimentos"
+      },
+      "indicador_rama": {
+        "A": "Salud",
+        "B": "Ingenieria",
+        "C": "Negocios",
+        "D": "Neutral",
+        "E": "Neutral"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "UNI-024",
+      "tipo": "capacidad",
+      "categoria": "pensamiento_abstracto",
+      "texto": "Si 2 + 2 = 4, y 4 + 4 = 8, ¿cuánto es 8 + 8?",
+      "opciones": {
+        "A": "12",
+        "B": "14",
+        "C": "16",
+        "D": "18",
+        "E": "No sé"
+      },
+      "scoring_capacidad": {
+        "A": 0,
+        "B": 0,
+        "C": 5,
+        "D": 0,
+        "E": 0
+      },
+      "peso": 1.0
+    },
+    
+    {
+      "id": "UNI-025",
+      "tipo": "interes",
+      "categoria": "actividades_preferidas",
+      "texto": "¿Qué preferirías hacer en un proyecto escolar?",
+      "opciones": {
+        "A": "Investigar sobre temas de salud",
+        "B": "Crear una presentación con tecnología",
+        "C": "Organizar al equipo y presentar resultados",
+        "D": "Construir maquetas o prototipos físicos",
+        "E": "Hacer el trabajo más simple y rápido"
+      },
+      "indicador_rama": {
+        "A": "Salud",
+        "B": "Ingenieria",
+        "C": "Negocios",
+        "D": "Mixto",
+        "E": "Neutral"
+      },
+      "peso": 1.1
+    },
+    
+    {
+      "id": "UNI-026",
+      "tipo": "capacidad",
+      "categoria": "disciplina_academica",
+      "texto": "¿Cómo organizas tus tareas escolares?",
+      "opciones": {
+        "A": "Uso una agenda y planifico con anticipación",
+        "B": "Tengo una lista mental de lo que debo hacer",
+        "C": "Hago las tareas cuando me acuerdo",
+        "D": "Espero a que me las recuerden",
+        "E": "No suelo terminar mis tareas"
+      },
+      "scoring_capacidad": {
+        "A": 5,
+        "B": 3,
+        "C": 1,
+        "D": 0,
+        "E": 0
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "UNI-027",
+      "tipo": "interes",
+      "categoria": "habilidades_autopercibidas",
+      "texto": "¿Cuál de estas habilidades tienes más desarrollada?",
+      "opciones": {
+        "A": "Cuidar y entender a las personas",
+        "B": "Entender cómo funcionan las máquinas",
+        "C": "Convencer y negociar con otros",
+        "D": "Trabajar con mis manos",
+        "E": "Seguir instrucciones al pie de la letra"
+      },
+      "indicador_rama": {
+        "A": "Salud",
+        "B": "Ingenieria",
+        "C": "Negocios",
+        "D": "Neutral",
+        "E": "Neutral"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "UNI-028",
+      "tipo": "capacidad",
+      "categoria": "razonamiento_logico",
+      "texto": "En un grupo de 10 personas, 6 son mujeres. ¿Cuántos son hombres?",
+      "opciones": {
+        "A": "6",
+        "B": "5",
+        "C": "4",
+        "D": "3",
+        "E": "No sé"
+      },
+      "scoring_capacidad": {
+        "A": 0,
+        "B": 0,
+        "C": 5,
+        "D": 0,
+        "E": 0
+      },
+      "peso": 1.0
+    },
+    
+    {
+      "id": "UNI-029",
+      "tipo": "capacidad",
+      "categoria": "comprension_verbal",
+      "texto": "Lee: 'La biodiversidad es esencial para el equilibrio de los ecosistemas'. ¿Qué significa biodiversidad?",
+      "opciones": {
+        "A": "La diversidad de opiniones",
+        "B": "La variedad de seres vivos en un lugar",
+        "C": "El estudio de la biología",
+        "D": "La diversidad cultural",
+        "E": "No sé"
+      },
+      "scoring_capacidad": {
+        "A": 0,
+        "B": 5,
+        "C": 1,
+        "D": 0,
+        "E": 0
+      },
+      "peso": 1.1
+    },
+    
+    {
+      "id": "UNI-030",
+      "tipo": "interes",
+      "categoria": "valores_profesionales",
+      "texto": "¿Qué te importa más al elegir tu futuro trabajo u oficio?",
+      "opciones": {
+        "A": "Poder salvar vidas o mejorar la salud de personas",
+        "B": "Trabajar con tecnología de punta",
+        "C": "Tener posibilidad de ganar mucho dinero",
+        "D": "Poder empezar a trabajar pronto",
+        "E": "Que no sea muy difícil de aprender"
+      },
+      "indicador_rama": {
+        "A": "Salud",
+        "B": "Ingenieria",
+        "C": "Negocios",
+        "D": "Neutral",
+        "E": "Neutral"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "UNI-031",
+      "tipo": "capacidad",
+      "categoria": "persistencia",
+      "texto": "Si fallas en un examen importante, ¿qué haces?",
+      "opciones": {
+        "A": "Analizo qué hice mal y estudio más para el siguiente",
+        "B": "Me siento mal pero sigo intentando",
+        "C": "Me desanimo un poco",
+        "D": "Pienso que esa materia no es para mí",
+        "E": "Dejo de esforzarme en esa materia"
+      },
+      "scoring_capacidad": {
+        "A": 5,
+        "B": 3,
+        "C": 2,
+        "D": 1,
+        "E": 0
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "UNI-032",
+      "tipo": "interes",
+      "categoria": "contextos_trabajo",
+      "texto": "¿Con qué tipo de herramientas te gustaría trabajar?",
+      "opciones": {
+        "A": "Equipo médico (estetoscopio, jeringas, etc.)",
+        "B": "Computadoras y software",
+        "C": "Documentos, presentaciones y reuniones",
+        "D": "Herramientas manuales (martillos, desarmadores, etc.)",
+        "E": "Utensilios de cocina"
+      },
+      "indicador_rama": {
+        "A": "Salud",
+        "B": "Ingenieria",
+        "C": "Negocios",
+        "D": "Neutral",
+        "E": "Neutral"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "UNI-033",
+      "tipo": "capacidad",
+      "categoria": "razonamiento_logico",
+      "texto": "Si camino 3 km hacia el norte y luego 4 km hacia el este, ¿a qué distancia estoy del punto inicial?",
+      "opciones": {
+        "A": "7 km",
+        "B": "5 km",
+        "C": "1 km",
+        "D": "12 km",
+        "E": "No sé calcular eso"
+      },
+      "scoring_capacidad": {
+        "A": 1,
+        "B": 5,
+        "C": 0,
+        "D": 0,
+        "E": 0
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "UNI-034",
+      "tipo": "interes",
+      "categoria": "intereses_area",
+      "texto": "¿Qué tipo de contenido ves más en redes sociales o YouTube?",
+      "opciones": {
+        "A": "Videos de salud, fitness o medicina",
+        "B": "Tutoriales de tecnología o programación",
+        "C": "Negocios, emprendimiento o finanzas",
+        "D": "Tutoriales de reparaciones o construcción",
+        "E": "Entretenimiento general, memes, deportes"
+      },
+      "indicador_rama": {
+        "A": "Salud",
+        "B": "Ingenieria",
+        "C": "Negocios",
+        "D": "Neutral",
+        "E": "Neutral"
+      },
+      "peso": 1.1
+    },
+    
+    {
+      "id": "UNI-035",
+      "tipo": "capacidad",
+      "categoria": "disciplina_academica",
+      "texto": "¿Cuánto tiempo puedes concentrarte leyendo un texto académico?",
+      "opciones": {
+        "A": "Más de 1 hora sin problema",
+        "B": "Entre 30 minutos y 1 hora",
+        "C": "Entre 15 y 30 minutos",
+        "D": "Menos de 15 minutos",
+        "E": "Me cuesta mucho concentrarme leyendo"
+      },
+      "scoring_capacidad": {
+        "A": 5,
+        "B": 4,
+        "C": 2,
+        "D": 1,
+        "E": 0
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "UNI-036",
+      "tipo": "capacidad",
+      "categoria": "comprension_verbal",
+      "texto": "Si alguien es 'perseverante', significa que:",
+      "opciones": {
+        "A": "Se rinde fácilmente",
+        "B": "Insiste hasta lograr su objetivo",
+        "C": "Es muy inteligente",
+        "D": "Es muy rápido",
+        "E": "No sé qué significa"
+      },
+      "scoring_capacidad": {
+        "A": 0,
+        "B": 5,
+        "C": 1,
+        "D": 0,
+        "E": 0
+      },
+      "peso": 1.0
+    },
+    
+    {
+      "id": "UNI-037",
+      "tipo": "interes",
+      "categoria": "actividades_preferidas",
+      "texto": "En tu tiempo libre, ¿qué actividad te atrae más?",
+      "opciones": {
+        "A": "Leer artículos sobre salud y bienestar",
+        "B": "Aprender a programar o usar nuevas apps",
+        "C": "Ver documentales de negocios o emprendedores",
+        "D": "Arreglar cosas en casa",
+        "E": "Ver series, jugar videojuegos o descansar"
+      },
+      "indicador_rama": {
+        "A": "Salud",
+        "B": "Ingenieria",
+        "C": "Negocios",
+        "D": "Neutral",
+        "E": "Neutral"
+      },
+      "peso": 1.0
+    },
+    
+    {
+      "id": "UNI-038",
+      "tipo": "capacidad",
+      "categoria": "pensamiento_abstracto",
+      "texto": "¿Cuál de estos números es diferente? 2, 4, 6, 9, 10",
+      "opciones": {
+        "A": "2",
+        "B": "4",
+        "C": "9",
+        "D": "10",
+        "E": "Todos son iguales"
+      },
+      "scoring_capacidad": {
+        "A": 0,
+        "B": 0,
+        "C": 5,
+        "D": 0,
+        "E": 0
+      },
+      "peso": 1.1
+    },
+    
+    {
+      "id": "UNI-039",
+      "tipo": "interes",
+      "categoria": "valores_profesionales",
+      "texto": "¿Qué prefieres al pensar en tu carrera u oficio?",
+      "opciones": {
+        "A": "Estudiar muchos años pero tener prestigio social",
+        "B": "Estudiar lo necesario y ganar bien pronto",
+        "C": "Aprender rápido y empezar a trabajar ya",
+        "D": "Tener un trabajo estable aunque no gane mucho",
+        "E": "No quiero estudiar, solo trabajar"
+      },
+      "indicador_rama": {
+        "A": "Salud",
+        "B": "Ingenieria",
+        "C": "Neutral",
+        "D": "Neutral",
+        "E": "Neutral"
+      },
+      "peso": 1.1
+    },
+    
+    {
+      "id": "UNI-040",
+      "tipo": "capacidad",
+      "categoria": "razonamiento_logico",
+      "texto": "María tiene 3 hermanos. Cada hermano tiene 2 hermanas. ¿Cuántas hermanas tiene María?",
+      "opciones": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4",
+        "E": "No puedo saberlo"
+      },
+      "scoring_capacidad": {
+        "A": 5,
+        "B": 0,
+        "C": 0,
+        "D": 0,
+        "E": 0
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "UNI-041",
+      "tipo": "interes",
+      "categoria": "habilidades_autopercibidas",
+      "texto": "¿Qué se te facilita más?",
+      "opciones": {
+        "A": "Escuchar y aconsejar a personas con problemas",
+        "B": "Entender cómo funcionan las computadoras",
+        "C": "Vender cosas o convencer a otros",
+        "D": "Hacer trabajos físicos o manuales",
+        "E": "Seguir recetas o instrucciones paso a paso"
+      },
+      "indicador_rama": {
+        "A": "Salud",
+        "B": "Ingenieria",
+        "C": "Negocios",
+        "D": "Neutral",
+        "E": "Neutral"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "UNI-042",
+      "tipo": "capacidad",
+      "categoria": "comprension_verbal",
+      "texto": "Lee: 'El desarrollo sustentable busca satisfacer las necesidades del presente sin comprometer las futuras generaciones'. Esto significa:",
+      "opciones": {
+        "A": "Usar todos los recursos ahora",
+        "B": "Equilibrar las necesidades actuales con la conservación para el futuro",
+        "C": "Solo pensar en el futuro",
+        "D": "Desarrollarse lo más rápido posible",
+        "E": "No entiendo"
+      },
+      "scoring_capacidad": {
+        "A": 0,
+        "B": 5,
+        "C": 1,
+        "D": 0,
+        "E": 0
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "UNI-043",
+      "tipo": "interes",
+      "categoria": "contextos_trabajo",
+      "texto": "¿Cómo te imaginas tu día laboral ideal?",
+      "opciones": {
+        "A": "Atendiendo pacientes en un consultorio u hospital",
+        "B": "Frente a una computadora programando o diseñando",
+        "C": "En reuniones con clientes o cerrando ventas",
+        "D": "En una obra, taller o haciendo instalaciones",
+        "E": "Haciendo un trabajo sencillo y rutinario"
+      },
+      "indicador_rama": {
+        "A": "Salud",
+        "B": "Ingenieria",
+        "C": "Negocios",
+        "D": "Neutral",
+        "E": "Neutral"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "UNI-044",
+      "tipo": "capacidad",
+      "categoria": "disciplina_academica",
+      "texto": "¿Terminas tus tareas escolares a tiempo?",
+      "opciones": {
+        "A": "Siempre las entrego a tiempo o antes",
+        "B": "Casi siempre las termino a tiempo",
+        "C": "A veces las entrego tarde",
+        "D": "Frecuentemente no las termino",
+        "E": "Rara vez hago las tareas"
+      },
+      "scoring_capacidad": {
+        "A": 5,
+        "B": 4,
+        "C": 2,
+        "D": 1,
+        "E": 0
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "UNI-045",
+      "tipo": "capacidad",
+      "categoria": "razonamiento_logico",
+      "texto": "Si 5 trabajadores construyen una casa en 10 días, ¿cuántos días tardarían 10 trabajadores?",
+      "opciones": {
+        "A": "20 días",
+        "B": "10 días",
+        "C": "5 días",
+        "D": "2 días",
+        "E": "No sé"
+      },
+      "scoring_capacidad": {
+        "A": 0,
+        "B": 0,
+        "C": 5,
+        "D": 0,
+        "E": 0
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "UNI-046",
+      "tipo": "interes",
+      "categoria": "intereses_area",
+      "texto": "Si pudieras tomar un curso gratis, ¿cuál elegirías?",
+      "opciones": {
+        "A": "Primeros auxilios o enfermería básica",
+        "B": "Programación o diseño web",
+        "C": "Marketing digital o ventas",
+        "D": "Electricidad o plomería",
+        "E": "Cocina o repostería"
+      },
+      "indicador_rama": {
+        "A": "Salud",
+        "B": "Ingenieria",
+        "C": "Negocios",
+        "D": "Neutral",
+        "E": "Neutral"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "UNI-047",
+      "tipo": "capacidad",
+      "categoria": "pensamiento_abstracto",
+      "texto": "¿Cuál es el resultado de 15% de 200?",
+      "opciones": {
+        "A": "15",
+        "B": "20",
+        "C": "30",
+        "D": "50",
+        "E": "No sé calcular porcentajes"
+      },
+      "scoring_capacidad": {
+        "A": 0,
+        "B": 0,
+        "C": 5,
+        "D": 0,
+        "E": 0
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "UNI-048",
+      "tipo": "interes",
+      "categoria": "actividades_preferidas",
+      "texto": "¿Qué tipo de problema te gustaría resolver?",
+      "opciones": {
+        "A": "Cómo curar una enfermedad",
+        "B": "Cómo hacer más rápida una aplicación",
+        "C": "Cómo aumentar las ventas de un negocio",
+        "D": "Cómo reparar algo que está descompuesto",
+        "E": "Problemas simples del día a día"
+      },
+      "indicador_rama": {
+        "A": "Salud",
+        "B": "Ingenieria",
+        "C": "Negocios",
+        "D": "Neutral",
+        "E": "Neutral"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "UNI-049",
+      "tipo": "capacidad",
+      "categoria": "comprension_verbal",
+      "texto": "¿Cuál es el sinónimo de 'eficaz'?",
+      "opciones": {
+        "A": "Rápido",
+        "B": "Efectivo",
+        "C": "Difícil",
+        "D": "Costoso",
+        "E": "No sé"
+      },
+      "scoring_capacidad": {
+        "A": 1,
+        "B": 5,
+        "C": 0,
+        "D": 0,
+        "E": 0
+      },
+      "peso": 1.0
+    },
+    
+    {
+      "id": "UNI-050",
+      "tipo": "interes",
+      "categoria": "valores_profesionales",
+      "texto": "¿Qué te genera más satisfacción al imaginar tu futuro trabajo?",
+      "opciones": {
+        "A": "Ver que una persona se recupera gracias a mi cuidado",
+        "B": "Crear una aplicación que miles usen",
+        "C": "Cerrar una gran venta o negocio",
+        "D": "Ver terminada una construcción o reparación",
+        "E": "Tener un sueldo fijo cada quincena"
+      },
+      "indicador_rama": {
+        "A": "Salud",
+        "B": "Ingenieria",
+        "C": "Negocios",
+        "D": "Neutral",
+        "E": "Neutral"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "UNI-051",
+      "tipo": "capacidad",
+      "categoria": "razonamiento_logico",
+      "texto": "En una fila de 20 personas, Carlos está en la posición 8 desde el frente. ¿En qué posición está desde atrás?",
+      "opciones": {
+        "A": "8",
+        "B": "12",
+        "C": "13",
+        "D": "14",
+        "E": "No sé"
+      },
+      "scoring_capacidad": {
+        "A": 0,
+        "B": 0,
+        "C": 5,
+        "D": 0,
+        "E": 0
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "UNI-052",
+      "tipo": "interes",
+      "categoria": "habilidades_autopercibidas",
+      "texto": "¿Qué te describiría mejor?",
+      "opciones": {
+        "A": "Soy empático y me preocupo por los demás",
+        "B": "Soy bueno resolviendo problemas técnicos",
+        "C": "Soy persuasivo y me gusta negociar",
+        "D": "Soy hábil con mis manos",
+        "E": "Prefiero tareas simples y claras"
+      },
+      "indicador_rama": {
+        "A": "Salud",
+        "B": "Ingenieria",
+        "C": "Negocios",
+        "D": "Neutral",
+        "E": "Neutral"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "UNI-053",
+      "tipo": "capacidad",
+      "categoria": "disciplina_academica",
+      "texto": "¿Cuál es tu promedio general aproximado en la escuela?",
+      "opciones": {
+        "A": "Entre 9 y 10",
+        "B": "Entre 8 y 8.9",
+        "C": "Entre 7 y 7.9",
+        "D": "Entre 6 y 6.9",
+        "E": "Menos de 6 o he reprobado materias"
+      },
+      "scoring_capacidad": {
+        "A": 5,
+        "B": 4,
+        "C": 2,
+        "D": 1,
+        "E": 0
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "UNI-054",
+      "tipo": "capacidad",
+      "categoria": "comprension_verbal",
+      "texto": "Lee: 'La inteligencia artificial está transformando la forma en que vivimos y trabajamos'. ¿Qué palabra podría reemplazar 'transformando'?",
+      "opciones": {
+        "A": "Destruyendo",
+        "B": "Cambiando",
+        "C": "Manteniendo",
+        "D": "Complicando",
+        "E": "No sé"
+      },
+      "scoring_capacidad": {
+        "A": 0,
+        "B": 5,
+        "C": 0,
+        "D": 1,
+        "E": 0
+      },
+      "peso": 1.1
+    },
+    
+    {
+      "id": "UNI-055",
+      "tipo": "interes",
+      "categoria": "contextos_trabajo",
+      "texto": "¿Qué horario de trabajo preferirías?",
+      "opciones": {
+        "A": "Turnos en hospital (día, tarde, noche)",
+        "B": "Horario flexible trabajando desde casa",
+        "C": "Horario de oficina (9am-6pm)",
+        "D": "Por proyecto u obra (horarios variables)",
+        "E": "Lo que sea, mientras tenga trabajo"
+      },
+      "indicador_rama": {
+        "A": "Salud",
+        "B": "Ingenieria",
+        "C": "Negocios",
+        "D": "Neutral",
+        "E": "Neutral"
+      },
+      "peso": 1.0
+    },
+    
+    {
+      "id": "UNI-056",
+      "tipo": "capacidad",
+      "categoria": "razonamiento_logico",
+      "texto": "Si un auto viaja a 60 km/h, ¿cuánto tarda en recorrer 180 km?",
+      "opciones": {
+        "A": "2 horas",
+        "B": "3 horas",
+        "C": "4 horas",
+        "D": "6 horas",
+        "E": "No sé"
+      },
+      "scoring_capacidad": {
+        "A": 0,
+        "B": 5,
+        "C": 0,
+        "D": 0,
+        "E": 0
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "UNI-057",
+      "tipo": "interes",
+      "categoria": "intereses_area",
+      "texto": "¿Qué noticia te llamaría más la atención?",
+      "opciones": {
+        "A": "Descubren nueva cura para una enfermedad",
+        "B": "Lanzan nueva tecnología innovadora",
+        "C": "Empresario mexicano triunfa internacionalmente",
+        "D": "Nuevas oportunidades en construcción por nearshoring",
+        "E": "Noticias de entretenimiento o deportes"
+      },
+      "indicador_rama": {
+        "A": "Salud",
+        "B": "Ingenieria",
+        "C": "Negocios",
+        "D": "Neutral",
+        "E": "Neutral"
+      },
+      "peso": 1.1
+    },
+    
+    {
+      "id": "UNI-058",
+      "tipo": "capacidad",
+      "categoria": "pensamiento_abstracto",
+      "texto": "¿Cuántos días hay en 3 semanas?",
+      "opciones": {
+        "A": "14",
+        "B": "18",
+        "C": "21",
+        "D": "24",
+        "E": "No sé"
+      },
+      "scoring_capacidad": {
+        "A": 0,
+        "B": 0,
+        "C": 5,
+        "D": 0,
+        "E": 0
+      },
+      "peso": 1.0
+    },
+    
+    {
+      "id": "UNI-059",
+      "tipo": "interes",
+      "categoria": "actividades_preferidas",
+      "texto": "¿Qué tipo de videos tutoriales buscarías en YouTube?",
+      "opciones": {
+        "A": "Cómo cuidar la salud o primeros auxilios",
+        "B": "Cómo programar o arreglar computadoras",
+        "C": "Cómo vender por internet o hacer marketing",
+        "D": "Cómo hacer reparaciones en casa",
+        "E": "Recetas de cocina o entretenimiento"
+      },
+      "indicador_rama": {
+        "A": "Salud",
+        "B": "Ingenieria",
+        "C": "Negocios",
+        "D": "Neutral",
+        "E": "Neutral"
+      },
+      "peso": 1.1
+    },
+    
+    {
+      "id": "UNI-060",
+      "tipo": "capacidad",
+      "categoria": "persistencia",
+      "texto": "Cuando algo te sale mal, ¿qué haces?",
+      "opciones": {
+        "A": "Lo intento de nuevo con más esfuerzo",
+        "B": "Busco ayuda o consejo",
+        "C": "Me desanimo pero eventualmente lo reintento",
+        "D": "Prefiero hacer otra cosa",
+        "E": "Me rindo"
+      },
+      "scoring_capacidad": {
+        "A": 5,
+        "B": 4,
+        "C": 2,
+        "D": 1,
+        "E": 0
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "UNI-061",
+      "tipo": "capacidad",
+      "categoria": "comprension_verbal",
+      "texto": "Si algo es 'obsoleto', significa que:",
+      "opciones": {
+        "A": "Es muy moderno",
+        "B": "Está pasado de moda o ya no se usa",
+        "C": "Es muy costoso",
+        "D": "Es muy popular",
+        "E": "No sé"
+      },
+      "scoring_capacidad": {
+        "A": 0,
+        "B": 5,
+        "C": 0,
+        "D": 0,
+        "E": 0
+      },
+      "peso": 1.0
+    },
+    
+    {
+      "id": "UNI-062",
+      "tipo": "interes",
+      "categoria": "valores_profesionales",
+      "texto": "¿Cuántos años estarías dispuesto a estudiar para tu carrera u oficio?",
+      "opciones": {
+        "A": "5-7 años si es necesario (universidad completa)",
+        "B": "4-5 años (licenciatura normal)",
+        "C": "2-3 años (carrera técnica)",
+        "D": "1 año o menos (oficio rápido)",
+        "E": "Lo menos posible, quiero trabajar ya"
+      },
+      "indicador_rama": {
+        "A": "Salud",
+        "B": "Ingenieria",
+        "C": "Neutral",
+        "D": "Neutral",
+        "E": "Neutral"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "UNI-063",
+      "tipo": "capacidad",
+      "categoria": "razonamiento_logico",
+      "texto": "Un producto cuesta $100 y tiene 20% de descuento. ¿Cuánto pagarías?",
+      "opciones": {
+        "A": "$120",
+        "B": "$100",
+        "C": "$80",
+        "D": "$90",
+        "E": "No sé"
+      },
+      "scoring_capacidad": {
+        "A": 0,
+        "B": 0,
+        "C": 5,
+        "D": 0,
+        "E": 0
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "UNI-064",
+      "tipo": "interes",
+      "categoria": "habilidades_autopercibidas",
+      "texto": "¿En qué situación te sientes más cómodo?",
+      "opciones": {
+        "A": "Escuchando los problemas de salud de alguien",
+        "B": "Explicando cómo funciona algo técnico",
+        "C": "Convenciendo a alguien de comprar algo",
+        "D": "Reparando o construyendo algo con mis manos",
+        "E": "Siguiendo instrucciones de un superior"
+      },
+      "indicador_rama": {
+        "A": "Salud",
+        "B": "Ingenieria",
+        "C": "Negocios",
+        "D": "Neutral",
+        "E": "Neutral"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "UNI-065",
+      "tipo": "capacidad",
+      "categoria": "disciplina_academica",
+      "texto": "¿Tomas notas durante las clases?",
+      "opciones": {
+        "A": "Siempre tomo notas detalladas",
+        "B": "Tomo notas de lo más importante",
+        "C": "A veces tomo notas",
+        "D": "Rara vez tomo notas",
+        "E": "No tomo notas, solo escucho"
+      },
+      "scoring_capacidad": {
+        "A": 5,
+        "B": 4,
+        "C": 2,
+        "D": 1,
+        "E": 0
+      },
+      "peso": 1.1
+    },
+    
+    {
+      "id": "UNI-066",
+      "tipo": "interes",
+      "categoria": "contextos_trabajo",
+      "texto": "¿Qué tipo de ambiente laboral te atrae más?",
+      "opciones": {
+        "A": "Hospital, clínica o consultorio médico",
+        "B": "Oficina moderna con tecnología",
+        "C": "Oficina corporativa o tienda comercial",
+        "D": "Obra de construcción, taller o campo",
+        "E": "Cualquier lugar con trabajo estable"
+      },
+      "indicador_rama": {
+        "A": "Salud",
+        "B": "Ingenieria",
+        "C": "Negocios",
+        "D": "Neutral",
+        "E": "Neutral"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "UNI-067",
+      "tipo": "capacidad",
+      "categoria": "razonamiento_logico",
+      "texto": "Si 3 gatos cazan 3 ratones en 3 días, ¿cuántos ratones cazan 6 gatos en 6 días?",
+      "opciones": {
+        "A": "6",
+        "B": "9",
+        "C": "12",
+        "D": "18",
+        "E": "No puedo resolverlo"
+      },
+      "scoring_capacidad": {
+        "A": 0,
+        "B": 0,
+        "C": 5,
+        "D": 0,
+        "E": 0
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "UNI-068",
+      "tipo": "capacidad",
+      "categoria": "comprension_verbal",
+      "texto": "¿Qué significa 'ser resiliente'?",
+      "opciones": {
+        "A": "Ser muy inteligente",
+        "B": "Recuperarse rápidamente de las dificultades",
+        "C": "Ser muy fuerte físicamente",
+        "D": "No tener problemas",
+        "E": "No sé"
+      },
+      "scoring_capacidad": {
+        "A": 0,
+        "B": 5,
+        "C": 1,
+        "D": 0,
+        "E": 0
+      },
+      "peso": 1.1
+    },
+    
+    {
+      "id": "UNI-069",
+      "tipo": "interes",
+      "categoria": "intereses_area",
+      "texto": "¿Qué libro o artículo preferirías leer?",
+      "opciones": {
+        "A": "Sobre descubrimientos médicos o salud",
+        "B": "Sobre tecnología o ciencia",
+        "C": "Sobre historias de éxito empresarial",
+        "D": "Manuales prácticos de oficios",
+        "E": "Novelas o entretenimiento"
+      },
+      "indicador_rama": {
+        "A": "Salud",
+        "B": "Ingenieria",
+        "C": "Negocios",
+        "D": "Neutral",
+        "E": "Neutral"
+      },
+      "peso": 1.1
+    },
+    
+    {
+      "id": "UNI-070",
+      "tipo": "capacidad",
+      "categoria": "pensamiento_abstracto",
+      "texto": "¿Cuál es el resultado de 8 × 7?",
+      "opciones": {
+        "A": "54",
+        "B": "56",
+        "C": "63",
+        "D": "64",
+        "E": "No sé"
+      },
+      "scoring_capacidad": {
+        "A": 0,
+        "B": 5,
+        "C": 0,
+        "D": 0,
+        "E": 0
+      },
+      "peso": 1.0
+    },
+    
+    {
+      "id": "UNI-071",
+      "tipo": "interes",
+      "categoria": "actividades_preferidas",
+      "texto": "Si tuvieras que elegir un proyecto final, ¿cuál escogerías?",
+      "opciones": {
+        "A": "Campaña de prevención de salud",
+        "B": "Desarrollar una app o sitio web",
+        "C": "Plan de negocios para una empresa",
+        "D": "Construir una maqueta o prototipo físico",
+        "E": "El proyecto más fácil y rápido"
+      },
+      "indicador_rama": {
+        "A": "Salud",
+        "B": "Ingenieria",
+        "C": "Negocios",
+        "D": "Neutral",
+        "E": "Neutral"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "UNI-072",
+      "tipo": "capacidad",
+      "categoria": "razonamiento_logico",
+      "texto": "Si lees 30 páginas por día, ¿cuántos días te toma leer un libro de 240 páginas?",
+      "opciones": {
+        "A": "6 días",
+        "B": "7 días",
+        "C": "8 días",
+        "D": "10 días",
+        "E": "No sé"
+      },
+      "scoring_capacidad": {
+        "A": 0,
+        "B": 0,
+        "C": 5,
+        "D": 0,
+        "E": 0
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "UNI-073",
+      "tipo": "interes",
+      "categoria": "valores_profesionales",
+      "texto": "¿Qué es más importante para ti?",
+      "opciones": {
+        "A": "Tener prestigio social por mi profesión",
+        "B": "Trabajar en algo innovador y moderno",
+        "C": "Ganar bien económicamente",
+        "D": "Tener trabajo seguro aunque sea manual",
+        "E": "Empezar a trabajar lo antes posible"
+      },
+      "indicador_rama": {
+        "A": "Salud",
+        "B": "Ingenieria",
+        "C": "Negocios",
+        "D": "Neutral",
+        "E": "Neutral"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "UNI-074",
+      "tipo": "capacidad",
+      "categoria": "comprension_verbal",
+      "texto": "¿Cuál es el antónimo (opuesto) de 'efímero'?",
+      "opciones": {
+        "A": "Breve",
+        "B": "Duradero",
+        "C": "Rápido",
+        "D": "Lento",
+        "E": "No sé"
+      },
+      "scoring_capacidad": {
+        "A": 0,
+        "B": 5,
+        "C": 0,
+        "D": 0,
+        "E": 0
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "UNI-075",
+      "tipo": "interes",
+      "categoria": "contextos_trabajo",
+      "texto": "¿Cómo prefieres aprender nuevas habilidades?",
+      "opciones": {
+        "A": "Estudiando teoría en libros o cursos formales",
+        "B": "Viendo tutoriales y practicando por mi cuenta",
+        "C": "En talleres prácticos con poco estudio teórico",
+        "D": "Aprendiendo directamente en el trabajo",
+        "E": "Que me enseñen paso a paso qué hacer"
+      },
+      "indicador_rama": {
+        "A": "Salud",
+        "B": "Ingenieria",
+        "C": "Neutral",
+        "D": "Neutral",
+        "E": "Neutral"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "UNI-076",
+      "tipo": "capacidad",
+      "categoria": "razonamiento_logico",
+      "texto": "Ordena de menor a mayor: 0.5, 0.25, 0.75, 1",
+      "opciones": {
+        "A": "0.25, 0.5, 0.75, 1",
+        "B": "1, 0.75, 0.5, 0.25",
+        "C": "0.5, 0.25, 1, 0.75",
+        "D": "0.25, 1, 0.5, 0.75",
+        "E": "No sé"
+      },
+      "scoring_capacidad": {
+        "A": 5,
+        "B": 0,
+        "C": 0,
+        "D": 0,
+        "E": 0
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "UNI-077",
+      "tipo": "interes",
+      "categoria": "habilidades_autopercibidas",
+      "texto": "¿Qué actividad se te da mejor naturalmente?",
+      "opciones": {
+        "A": "Cuidar y ayudar a personas enfermas o necesitadas",
+        "B": "Resolver problemas de tecnología",
+        "C": "Negociar y persuadir a otros",
+        "D": "Arreglar cosas o trabajar con herramientas",
+        "E": "Hacer tareas repetitivas con cuidado"
+      },
+      "indicador_rama": {
+        "A": "Salud",
+        "B": "Ingenieria",
+        "C": "Negocios",
+        "D": "Neutral",
+        "E": "Neutral"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "UNI-078",
+      "tipo": "capacidad",
+      "categoria": "disciplina_academica",
+      "texto": "¿Cuántos libros (no escolares) has leído completos en el último año?",
+      "opciones": {
+        "A": "Más de 5",
+        "B": "Entre 3 y 5",
+        "C": "Entre 1 y 2",
+        "D": "Ninguno completo",
+        "E": "No me gusta leer"
+      },
+      "scoring_capacidad": {
+        "A": 5,
+        "B": 4,
+        "C": 2,
+        "D": 1,
+        "E": 0
+      },
+      "peso": 1.1
+    },
+    
+    {
+      "id": "UNI-079",
+      "tipo": "interes",
+      "categoria": "intereses_area",
+      "texto": "¿Qué profesión u oficio admiras más?",
+      "opciones": {
+        "A": "Médicos y enfermeras",
+        "B": "Ingenieros y programadores",
+        "C": "Empresarios y emprendedores",
+        "D": "Maestros de oficios (albañiles, electricistas, chefs)",
+        "E": "Deportistas o artistas"
+      },
+      "indicador_rama": {
+        "A": "Salud",
+        "B": "Ingenieria",
+        "C": "Negocios",
+        "D": "Neutral",
+        "E": "Neutral"
+      },
+      "peso": 1.1
+    },
+    
+    {
+      "id": "UNI-080",
+      "tipo": "capacidad",
+      "categoria": "pensamiento_abstracto",
+      "texto": "¿Cuál es el siguiente número en la serie? 1, 1, 2, 3, 5, 8, __",
+      "opciones": {
+        "A": "10",
+        "B": "11",
+        "C": "13",
+        "D": "16",
+        "E": "No veo el patrón"
+      },
+      "scoring_capacidad": {
+        "A": 0,
+        "B": 0,
+        "C": 5,
+        "D": 0,
+        "E": 0
+      },
+      "peso": 1.4
+    }
+    
+  ]
+}

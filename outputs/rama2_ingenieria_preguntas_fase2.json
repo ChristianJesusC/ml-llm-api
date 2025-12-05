@@ -1,0 +1,1722 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "rama": "RAMA_2_INGENIERIA",
+    "nombre_rama": "Ingenierías y Tecnología",
+    "total_preguntas": 80,
+    "fase": "FASE_2_ESPECIALIZADA",
+    "descripcion": "Preguntas especializadas para diferenciar entre las 5 carreras de Ingeniería y Tecnología",
+    "fecha_creacion": "2025-01-01",
+    "carreras": [
+      {
+        "id": 1,
+        "nombre": "Ingeniería en Software",
+        "codigo": "SW"
+      },
+      {
+        "id": 2,
+        "nombre": "Ingeniería Electrónica",
+        "codigo": "ELEC"
+      },
+      {
+        "id": 3,
+        "nombre": "Ingeniería Mecánica",
+        "codigo": "MEC"
+      },
+      {
+        "id": 4,
+        "nombre": "Ingeniería Civil",
+        "codigo": "CIV"
+      },
+      {
+        "id": 5,
+        "nombre": "Arquitectura",
+        "codigo": "ARQ"
+      }
+    ]
+  },
+  
+  "preguntas": [
+    
+    {
+      "id": "ING-001",
+      "categoria": "escenarios_practicos",
+      "texto": "Una empresa necesita mejorar su sistema. ¿Qué solución propondrías?",
+      "opciones": {
+        "A": "Desarrollar una aplicación web o móvil personalizada",
+        "B": "Implementar sensores y automatización electrónica",
+        "C": "Optimizar maquinaria y procesos mecánicos",
+        "D": "Mejorar la infraestructura física del edificio",
+        "E": "Rediseñar espacios para mayor funcionalidad y estética"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.5
+    },
+    
+    {
+      "id": "ING-002",
+      "categoria": "herramientas_metodos",
+      "texto": "¿Con qué herramientas te gustaría trabajar más?",
+      "opciones": {
+        "A": "Computadora, IDEs de programación, frameworks",
+        "B": "Osciloscopio, multímetro, soldador, protoboard",
+        "C": "Máquinas herramienta, tornos, fresadoras, AutoCAD mecánico",
+        "D": "Estación total, nivel, software de diseño estructural",
+        "E": "Tableta digital, software de diseño 3D, maquetas"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.5
+    },
+    
+    {
+      "id": "ING-003",
+      "categoria": "problemas_area",
+      "texto": "¿Qué tipo de problema te resulta más interesante?",
+      "opciones": {
+        "A": "Optimizar algoritmos y bases de datos",
+        "B": "Diseñar circuitos y sistemas electrónicos",
+        "C": "Mejorar eficiencia de máquinas y motores",
+        "D": "Calcular estructuras seguras para edificios",
+        "E": "Diseñar espacios funcionales y bellos"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.5
+    },
+    
+    {
+      "id": "ING-004",
+      "categoria": "contextos_laborales",
+      "texto": "¿Dónde te imaginas trabajando?",
+      "opciones": {
+        "A": "Oficina tech con varios monitores programando",
+        "B": "Laboratorio electrónico o planta industrial",
+        "C": "Planta de manufactura o taller mecánico",
+        "D": "Obra de construcción supervisando estructura",
+        "E": "Estudio de diseño o visitando obras"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "ING-005",
+      "categoria": "profundidad_tecnica",
+      "texto": "¿Qué área de matemáticas y física te atrae más?",
+      "opciones": {
+        "A": "Matemáticas discretas, lógica, álgebra lineal",
+        "B": "Electromagnetismo, teoría de circuitos, señales",
+        "C": "Mecánica, termodinámica, fluidos",
+        "D": "Resistencia de materiales, estática, dinámica",
+        "E": "Geometría, proporción áurea, física básica aplicada"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "ING-006",
+      "categoria": "escenarios_practicos",
+      "texto": "Una startup quiere lanzar un producto. ¿Cuál sería tu rol?",
+      "opciones": {
+        "A": "Desarrollar la app o plataforma web",
+        "B": "Diseñar el hardware electrónico del producto",
+        "C": "Diseñar componentes mecánicos y manufactura",
+        "D": "Calcular y construir las instalaciones físicas",
+        "E": "Diseñar el espacio de oficinas y showroom"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "ING-007",
+      "categoria": "valores_profesionales",
+      "texto": "¿Qué te genera más satisfacción?",
+      "opciones": {
+        "A": "Ver mi código funcionando y usuarios contentos",
+        "B": "Ver un circuito que diseñé funcionando perfectamente",
+        "C": "Ver una máquina operando eficientemente",
+        "D": "Ver un edificio o puente que diseñé construido",
+        "E": "Ver un espacio hermoso que transformé"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.5
+    },
+    
+    {
+      "id": "ING-008",
+      "categoria": "herramientas_metodos",
+      "texto": "¿Qué software te gustaría dominar?",
+      "opciones": {
+        "A": "Visual Studio Code, Git, Docker, frameworks modernos",
+        "B": "Proteus, MATLAB, LabVIEW, software de simulación",
+        "C": "SolidWorks, ANSYS, CAM, software de manufactura",
+        "D": "AutoCAD Civil, SAP2000, ETABS, software estructural",
+        "E": "Revit, SketchUp, Rhino, software de diseño arquitectónico"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.5
+    },
+    
+    {
+      "id": "ING-009",
+      "categoria": "problemas_area",
+      "texto": "¿Qué falla te gustaría diagnosticar y resolver?",
+      "opciones": {
+        "A": "Bugs en código, vulnerabilidades de seguridad",
+        "B": "Circuitos que no funcionan, señales erróneas",
+        "C": "Máquinas con vibración, motores ineficientes",
+        "D": "Grietas en estructuras, problemas de cimentación",
+        "E": "Espacios mal iluminados o con flujos inadecuados"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "ING-010",
+      "categoria": "contextos_laborales",
+      "texto": "¿Qué tipo de proyectos te emocionan más?",
+      "opciones": {
+        "A": "Apps innovadoras, IA, plataformas digitales",
+        "B": "Drones, IoT, robótica, sistemas embebidos",
+        "C": "Vehículos, maquinaria industrial, manufactura",
+        "D": "Puentes, presas, carreteras, edificios grandes",
+        "E": "Casas modernas, museos, espacios públicos"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.5
+    },
+    
+    {
+      "id": "ING-011",
+      "categoria": "escenarios_practicos",
+      "texto": "Una fábrica quiere aumentar su producción. ¿Qué harías?",
+      "opciones": {
+        "A": "Desarrollar software de gestión y automatización",
+        "B": "Automatizar procesos con sensores y controladores",
+        "C": "Optimizar maquinaria y líneas de producción",
+        "D": "Ampliar la planta y mejorar distribución física",
+        "E": "Rediseñar espacios para mejor flujo de trabajo"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "ING-012",
+      "categoria": "profundidad_tecnica",
+      "texto": "¿Qué nivel de abstracción prefieres?",
+      "opciones": {
+        "A": "Alto nivel (software, algoritmos, aplicaciones)",
+        "B": "Medio-bajo (hardware-software, sistemas embebidos)",
+        "C": "Bajo nivel (físico, mecánico, tangible)",
+        "D": "Muy bajo (estructural, materiales, fundaciones)",
+        "E": "Conceptual-visual (espacios, formas, estética)"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "ING-013",
+      "categoria": "herramientas_metodos",
+      "texto": "¿Qué tipo de prototipo te gustaría crear?",
+      "opciones": {
+        "A": "Prototipo de app o sistema web funcional",
+        "B": "Prototipo de circuito electrónico con protoboard",
+        "C": "Prototipo mecánico con impresión 3D o CNC",
+        "D": "Maqueta estructural a escala con cálculos",
+        "E": "Maqueta arquitectónica detallada con acabados"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "ING-014",
+      "categoria": "valores_profesionales",
+      "texto": "¿Qué aspecto del salario te importa más?",
+      "opciones": {
+        "A": "Altos salarios tech y posibilidad de remoto internacional",
+        "B": "Buenos salarios en manufactura e industria",
+        "C": "Salarios estables en automotriz/aeroespacial",
+        "D": "Salarios en construcción, variables por proyecto",
+        "E": "Salarios bajos al inicio pero alto potencial con despacho"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "ING-015",
+      "categoria": "contextos_laborales",
+      "texto": "¿Qué modalidad de trabajo prefieres?",
+      "opciones": {
+        "A": "100% remoto desde casa o café",
+        "B": "Híbrido: laboratorio y oficina",
+        "C": "Planta industrial con algo de oficina",
+        "D": "Dividido: oficina y visitas a obra",
+        "E": "Estudio de diseño y supervisión en obra"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "ING-016",
+      "categoria": "escenarios_practicos",
+      "texto": "Una ciudad inteligente quiere modernizarse. ¿Cuál sería tu contribución?",
+      "opciones": {
+        "A": "Plataforma de gestión de datos y servicios digitales",
+        "B": "Red de sensores IoT y sistemas de comunicación",
+        "C": "Sistemas de transporte mecánico eficiente",
+        "D": "Infraestructura vial, puentes y drenaje",
+        "E": "Diseño urbano y espacios públicos atractivos"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "ING-017",
+      "categoria": "problemas_area",
+      "texto": "¿Qué problema global te gustaría abordar?",
+      "opciones": {
+        "A": "Brecha digital y acceso a tecnología",
+        "B": "Energías renovables y eficiencia energética",
+        "C": "Manufactura sustentable y transporte limpio",
+        "D": "Infraestructura colapsada en países en desarrollo",
+        "E": "Vivienda digna y ciudades sustentables"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "ING-018",
+      "categoria": "herramientas_metodos",
+      "texto": "¿Qué lenguaje o sistema te gustaría aprender?",
+      "opciones": {
+        "A": "Python, JavaScript, React, microservicios",
+        "B": "Verilog, VHDL, C para microcontroladores",
+        "C": "CNC, CAM, lenguajes de programación de máquinas",
+        "D": "Normativas de construcción, códigos estructurales",
+        "E": "Teoría del color, composición, historia del arte"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "ING-019",
+      "categoria": "profundidad_tecnica",
+      "texto": "¿Cuánta creatividad vs. técnica quieres en tu trabajo?",
+      "opciones": {
+        "A": "70% técnica, 30% creatividad (UX/UI)",
+        "B": "80% técnica, 20% creatividad",
+        "C": "85% técnica, 15% creatividad",
+        "D": "75% técnica, 25% creatividad (diseño estructural)",
+        "E": "50% técnica, 50% creatividad (diseño arquitectónico)"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "ING-020",
+      "categoria": "escenarios_practicos",
+      "texto": "Un auto eléctrico necesita mejoras. ¿En qué te enfocarías?",
+      "opciones": {
+        "A": "Software de control y sistema de infotainment",
+        "B": "Batería, motor eléctrico y sistemas electrónicos",
+        "C": "Transmisión, suspensión y chasis",
+        "D": "No trabajo en autos, me enfoco en edificios",
+        "E": "Diseño exterior e interior del vehículo"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "ING-021",
+      "categoria": "contextos_laborales",
+      "texto": "¿En qué industria te gustaría trabajar?",
+      "opciones": {
+        "A": "Tech: Google, Microsoft, startups de software",
+        "B": "Electrónica: Samsung, Intel, telecomunicaciones",
+        "C": "Automotriz/Aeroespacial: Tesla, Boeing, Bombardier",
+        "D": "Construcción: empresas constructoras, gobierno",
+        "E": "Arquitectura: despachos de diseño, desarrolladoras"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "ING-022",
+      "categoria": "herramientas_metodos",
+      "texto": "¿Qué tipo de documentación prefieres crear?",
+      "opciones": {
+        "A": "Documentación técnica de APIs y código",
+        "B": "Diagramas de circuitos y especificaciones técnicas",
+        "C": "Planos mecánicos y especificaciones de manufactura",
+        "D": "Planos estructurales y memorias de cálculo",
+        "E": "Planos arquitectónicos y renders 3D"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "ING-023",
+      "categoria": "problemas_area",
+      "texto": "¿Qué te frustra más que no funcione bien?",
+      "opciones": {
+        "A": "Apps lentas, bugs, mala experiencia de usuario",
+        "B": "Dispositivos que se descargan rápido o fallan",
+        "C": "Máquinas ruidosas, ineficientes o que se rompen",
+        "D": "Edificios con grietas o infraestructura colapsada",
+        "E": "Espacios feos, mal iluminados o incómodos"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "ING-024",
+      "categoria": "escenarios_practicos",
+      "texto": "Una escuela quiere modernizarse. ¿Qué propondrías?",
+      "opciones": {
+        "A": "Plataforma educativa digital y apps de aprendizaje",
+        "B": "Pizarras inteligentes y sistema de seguridad electrónico",
+        "C": "Sistema de ventilación mecánica eficiente",
+        "D": "Reforzar estructura y mejorar instalaciones",
+        "E": "Rediseñar aulas para mejor pedagogía y luz natural"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "ING-025",
+      "categoria": "valores_profesionales",
+      "texto": "¿Qué tipo de empresa prefieres?",
+      "opciones": {
+        "A": "Startup tech ágil y dinámica",
+        "B": "Empresa de manufactura o tecnología",
+        "C": "Planta automotriz o aeroespacial establecida",
+        "D": "Constructora grande con proyectos importantes",
+        "E": "Despacho de arquitectura boutique"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "ING-026",
+      "categoria": "profundidad_tecnica",
+      "texto": "¿Qué tan importante es la física en tu trabajo ideal?",
+      "opciones": {
+        "A": "Poco, me enfoco más en lógica y algoritmos",
+        "B": "Muy importante (electromagnetismo, ondas)",
+        "C": "Fundamental (mecánica, termodinámica, fluidos)",
+        "D": "Muy importante (estática, dinámica, materiales)",
+        "E": "Básica (gravedad, luz, pero más diseño)"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "ING-027",
+      "categoria": "herramientas_metodos",
+      "texto": "¿Qué tipo de testing o pruebas prefieres?",
+      "opciones": {
+        "A": "Testing de software, pruebas unitarias, QA",
+        "B": "Pruebas de circuitos con instrumentos de medición",
+        "C": "Pruebas de resistencia, fatiga y vibración de piezas",
+        "D": "Pruebas de carga estructural y materiales",
+        "E": "Evaluación de ergonomía y confort espacial"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "ING-028",
+      "categoria": "contextos_laborales",
+      "texto": "¿Qué horario de trabajo prefieres?",
+      "opciones": {
+        "A": "Flexible, a veces de madrugada cuando estoy inspirado",
+        "B": "Horario de planta 8am-5pm",
+        "C": "Turnos de manufactura (puede incluir nocturnos)",
+        "D": "Horario mixto: oficina y visitas a obra",
+        "E": "Horario flexible de estudio con deadlines de proyecto"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "ING-029",
+      "categoria": "escenarios_practicos",
+      "texto": "Una tienda en línea tiene problemas. ¿Qué diagnosticarías?",
+      "opciones": {
+        "A": "Problemas en el código, base de datos o servidores",
+        "B": "Problemas en la red o sistema de pagos electrónicos",
+        "C": "Problemas logísticos en el centro de distribución",
+        "D": "Problemas en el almacén físico o instalaciones",
+        "E": "Problemas de diseño UX que confunden al usuario"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "ING-030",
+      "categoria": "problemas_area",
+      "texto": "¿Qué innovación te emociona más?",
+      "opciones": {
+        "A": "Inteligencia artificial y machine learning",
+        "B": "Internet de las cosas (IoT) y 5G",
+        "C": "Manufactura aditiva (impresión 3D industrial)",
+        "D": "Materiales inteligentes y construcción sustentable",
+        "E": "Arquitectura paramétrica y diseño generativo"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "ING-031",
+      "categoria": "herramientas_metodos",
+      "texto": "¿Qué habilidad te gustaría desarrollar más?",
+      "opciones": {
+        "A": "Programación avanzada y arquitectura de software",
+        "B": "Diseño de PCB y sistemas embebidos",
+        "C": "Diseño CAD/CAM y manufactura CNC",
+        "D": "Análisis estructural y uso de software especializado",
+        "E": "Modelado 3D avanzado y visualización"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "ING-032",
+      "categoria": "valores_profesionales",
+      "texto": "¿Qué logro te haría sentir más orgulloso?",
+      "opciones": {
+        "A": "Crear una app con millones de usuarios",
+        "B": "Diseñar un chip o sistema que se use masivamente",
+        "C": "Diseñar un motor más eficiente o una máquina innovadora",
+        "D": "Ver construido un puente o edificio que diseñé",
+        "E": "Ganar un premio de arquitectura por un diseño icónico"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.5
+    },
+    
+    {
+      "id": "ING-033",
+      "categoria": "escenarios_practicos",
+      "texto": "Un hospital quiere mejorar. ¿Cuál sería tu aporte?",
+      "opciones": {
+        "A": "Sistema de gestión de pacientes y expedientes digitales",
+        "B": "Equipos médicos electrónicos y sistemas de monitoreo",
+        "C": "Sistemas de climatización y ventilación mecánica",
+        "D": "Ampliación de instalaciones y reforzamiento estructural",
+        "E": "Diseño de espacios curativos y funcionales para pacientes"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "ING-034",
+      "categoria": "contextos_laborales",
+      "texto": "¿Qué ambiente de trabajo prefieres?",
+      "opciones": {
+        "A": "Oficina abierta tech con snacks y videojuegos",
+        "B": "Laboratorio electrónico con bancas de trabajo",
+        "C": "Planta ruidosa con máquinas operando",
+        "D": "Oficina con visitas frecuentes a obras en construcción",
+        "E": "Estudio creativo con maquetas y mood boards"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "ING-035",
+      "categoria": "profundidad_tecnica",
+      "texto": "¿Qué tan importante es trabajar con las manos físicamente?",
+      "opciones": {
+        "A": "Nada, solo teclado y mouse",
+        "B": "Algo, soldador y protoboards ocasionalmente",
+        "C": "Importante, supervisar manufactura y máquinas",
+        "D": "Algo, más supervisión que trabajo manual",
+        "E": "Moderado, construir maquetas y tocar materiales"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "ING-036",
+      "categoria": "problemas_area",
+      "texto": "¿Qué problema de una casa te gustaría resolver?",
+      "opciones": {
+        "A": "Automatización con domótica inteligente",
+        "B": "Sistema eléctrico eficiente y paneles solares",
+        "C": "Sistema de calefacción/climatización mecánico",
+        "D": "Cimientos débiles o problemas estructurales",
+        "E": "Espacios mal distribuidos o poco funcionales"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "ING-037",
+      "categoria": "herramientas_metodos",
+      "texto": "¿Qué metodología de trabajo prefieres?",
+      "opciones": {
+        "A": "Agile/Scrum con sprints de 2 semanas",
+        "B": "Ciclos de prototipado y pruebas iterativas",
+        "C": "Lean manufacturing y mejora continua",
+        "D": "Fases de proyecto: diseño, cálculo, construcción",
+        "E": "Proceso creativo: concepto, anteproyecto, proyecto ejecutivo"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "ING-038",
+      "categoria": "escenarios_practicos",
+      "texto": "Una empresa de logística tiene problemas de entrega. ¿Qué harías?",
+      "opciones": {
+        "A": "Optimizar algoritmos de ruteo y tracking",
+        "B": "Mejorar sistemas de comunicación y rastreo GPS",
+        "C": "Optimizar mantenimiento de vehículos",
+        "D": "Mejorar centros de distribución y accesos",
+        "E": "Rediseñar espacios de almacenamiento eficientes"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "ING-039",
+      "categoria": "valores_profesionales",
+      "texto": "¿Qué modalidad de empleo prefieres?",
+      "opciones": {
+        "A": "Freelance o remoto para múltiples clientes",
+        "B": "Empresa establecida con estabilidad",
+        "C": "Planta manufacturera con crecimiento",
+        "D": "Constructora o dependencia gubernamental",
+        "E": "Despacho propio o sociedad con otros arquitectos"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "ING-040",
+      "categoria": "contextos_laborales",
+      "texto": "¿Qué tamaño de proyecto prefieres?",
+      "opciones": {
+        "A": "Proyectos de 2-6 meses con equipo pequeño",
+        "B": "Proyectos de 6-12 meses con equipo mediano",
+        "C": "Proyectos de 1-2 años en manufactura",
+        "D": "Grandes obras de 2-5 años",
+        "E": "Proyectos variados de 6 meses a 3 años"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "ING-041",
+      "categoria": "profundidad_tecnica",
+      "texto": "¿Qué tan importante es la estética visual en tu trabajo?",
+      "opciones": {
+        "A": "Importante (UX/UI) pero función primero",
+        "B": "Poco, funcionalidad técnica es lo prioritario",
+        "C": "Muy poco, eficiencia mecánica es clave",
+        "D": "Algo importante, pero seguridad primero",
+        "E": "Fundamental, 50% de mi trabajo es estética"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "ING-042",
+      "categoria": "herramientas_metodos",
+      "texto": "¿Qué tipo de simulación te interesa más?",
+      "opciones": {
+        "A": "Simulación de algoritmos y carga de usuarios",
+        "B": "Simulación de circuitos y señales electrónicas",
+        "C": "Simulación CFD y análisis de elementos finitos (FEA)",
+        "D": "Simulación estructural y análisis sísmico",
+        "E": "Simulación de iluminación y recorridos virtuales"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "ING-043",
+      "categoria": "escenarios_practicos",
+      "texto": "Un aeropuerto necesita modernizarse. ¿Cuál sería tu rol?",
+      "opciones": {
+        "A": "Sistemas de check-in, gestión de vuelos y apps",
+        "B": "Sistemas de seguridad, scanners y comunicaciones",
+        "C": "Bandas transportadoras y sistemas mecánicos",
+        "D": "Pistas, terminales y estructura del edificio",
+        "E": "Diseño de terminales funcionales y experiencia del usuario"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "ING-044",
+      "categoria": "problemas_area",
+      "texto": "¿Qué aspecto de un smartphone te interesa más?",
+      "opciones": {
+        "A": "Sistema operativo, apps y software",
+        "B": "Procesador, batería y componentes electrónicos",
+        "C": "Disipación de calor y estructura interna",
+        "D": "No aplica a mi área",
+        "E": "Diseño exterior, materiales y ergonomía"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "ING-045",
+      "categoria": "valores_profesionales",
+      "texto": "¿Qué tan importante es el prestigio profesional para ti?",
+      "opciones": {
+        "A": "Moderado, me importa más la innovación",
+        "B": "Algo importante, reconocimiento técnico",
+        "C": "Importante en la industria manufacturera",
+        "D": "Importante, megaproyectos dan prestigio",
+        "E": "Muy importante, premios de arquitectura"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.1
+    },
+    
+    {
+      "id": "ING-046",
+      "categoria": "contextos_laborales",
+      "texto": "¿Qué tipo de viajes laborales prefieres?",
+      "opciones": {
+        "A": "Pocos viajes, mayormente remoto",
+        "B": "Viajes ocasionales a plantas o ferias tech",
+        "C": "Viajes frecuentes entre plantas manufactureras",
+        "D": "Viajes constantes supervisando obras",
+        "E": "Viajes para ver obras de arquitectura icónicas"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "ING-047",
+      "categoria": "herramientas_metodos",
+      "texto": "¿Qué certificación te gustaría obtener?",
+      "opciones": {
+        "A": "AWS Solutions Architect, certificación Scrum Master",
+        "B": "Certificación en Cisco, Six Sigma para manufactura",
+        "C": "Certificación en SolidWorks, CNC programming",
+        "D": "Certificación PMP, registro de DRO",
+        "E": "LEED, certificación en arquitectura sustentable"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "ING-048",
+      "categoria": "escenarios_practicos",
+      "texto": "Una universidad quiere un campus nuevo. ¿Qué harías?",
+      "opciones": {
+        "A": "Plataforma digital integrada para estudiantes",
+        "B": "Cableado estructurado y sistemas inteligentes",
+        "C": "Sistema HVAC eficiente para todos los edificios",
+        "D": "Diseño estructural y de instalaciones completas",
+        "E": "Master plan del campus y diseño de edificios icónicos"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "ING-049",
+      "categoria": "profundidad_tecnica",
+      "texto": "¿Qué tan cómodo estás con matemáticas avanzadas?",
+      "opciones": {
+        "A": "Cómodo con álgebra lineal y cálculo básico",
+        "B": "Muy cómodo, ecuaciones diferenciales y transformadas",
+        "C": "Muy cómodo, cálculo vectorial y ecuaciones complejas",
+        "D": "Muy cómodo, especialmente en estructuras y estática",
+        "E": "Moderado, más geometría y proporción que cálculo"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "ING-050",
+      "categoria": "problemas_area",
+      "texto": "¿Qué obsolescencia te preocupa más?",
+      "opciones": {
+        "A": "Tecnologías de software que quedan viejas rápido",
+        "B": "Hardware que se vuelve obsoleto o incompatible",
+        "C": "Máquinas antiguas difíciles de mantener",
+        "D": "Infraestructura vieja que colapsa",
+        "E": "Edificios que no se adaptan a nuevas necesidades"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "ING-051",
+      "categoria": "herramientas_metodos",
+      "texto": "¿Qué tipo de mantenimiento preferirías supervisar?",
+      "opciones": {
+        "A": "Mantenimiento de servidores y bases de datos",
+        "B": "Mantenimiento preventivo de equipos electrónicos",
+        "C": "Mantenimiento de maquinaria y equipos mecánicos",
+        "D": "Mantenimiento de edificios e infraestructura",
+        "E": "Supervisión de remodelaciones y adaptaciones"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "ING-052",
+      "categoria": "valores_profesionales",
+      "texto": "¿Qué tipo de impacto quieres tener?",
+      "opciones": {
+        "A": "Conectar personas globalmente con tecnología",
+        "B": "Hacer la tecnología más accesible y eficiente",
+        "C": "Mejorar procesos industriales y manufactura",
+        "D": "Crear infraestructura que dure generaciones",
+        "E": "Crear espacios que inspiren y mejoren vidas"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "ING-053",
+      "categoria": "escenarios_practicos",
+      "texto": "Un parque temático quiere una nueva atracción. ¿Cuál sería tu rol?",
+      "opciones": {
+        "A": "Desarrollar el sistema de reservas y realidad virtual",
+        "B": "Sistemas electrónicos de control y seguridad",
+        "C": "Diseño mecánico de la montaña rusa o atracción",
+        "D": "Cálculo estructural y cimentaciones seguras",
+        "E": "Diseño temático y experiencia del visitante"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "ING-054",
+      "categoria": "contextos_laborales",
+      "texto": "¿Qué equipo de trabajo prefieres?",
+      "opciones": {
+        "A": "Equipo pequeño y ágil de developers",
+        "B": "Equipo técnico multidisciplinario",
+        "C": "Equipo de ingenieros y técnicos de manufactura",
+        "D": "Equipo grande con arquitectos, ingenieros y constructores",
+        "E": "Equipo creativo de arquitectos y diseñadores"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "ING-055",
+      "categoria": "profundidad_tecnica",
+      "texto": "¿Qué tan importante es la seguridad en tu trabajo?",
+      "opciones": {
+        "A": "Muy importante (ciberseguridad, datos)",
+        "B": "Importante (seguridad eléctrica)",
+        "C": "Muy importante (seguridad industrial)",
+        "D": "Crítica (vidas dependen de estructuras seguras)",
+        "E": "Importante (seguridad contra incendios y evacuación)"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "ING-056",
+      "categoria": "herramientas_metodos",
+      "texto": "¿Qué tipo de presentación prefieres hacer?",
+      "opciones": {
+        "A": "Demo en vivo de software funcionando",
+        "B": "Presentación técnica con diagramas de circuitos",
+        "C": "Presentación con videos de máquinas operando",
+        "D": "Presentación con renders y memoria de cálculo",
+        "E": "Presentación visual con renders fotorrealistas"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "ING-057",
+      "categoria": "problemas_area",
+      "texto": "¿Qué te gustaría optimizar?",
+      "opciones": {
+        "A": "Velocidad y eficiencia de aplicaciones",
+        "B": "Consumo energético de dispositivos",
+        "C": "Eficiencia y velocidad de producción",
+        "D": "Costos de construcción sin perder calidad",
+        "E": "Uso de espacio y funcionalidad"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "ING-058",
+      "categoria": "escenarios_practicos",
+      "texto": "Una planta solar necesita diseñarse. ¿Cuál sería tu contribución?",
+      "opciones": {
+        "A": "Sistema de monitoreo y optimización de energía",
+        "B": "Diseño de inversores y sistema eléctrico completo",
+        "C": "Sistemas de seguimiento solar mecánico",
+        "D": "Cimentaciones y estructuras de soporte",
+        "E": "Integración arquitectónica en edificios"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "ING-059",
+      "categoria": "valores_profesionales",
+      "texto": "¿Cuánto tiempo quieres estudiar tu carrera?",
+      "opciones": {
+        "A": "4-5 años está bien, aprendo más trabajando",
+        "B": "5 años completos con prácticas",
+        "C": "5 años y me gustaría especialización",
+        "D": "5 años y obtener cédula profesional",
+        "E": "5 años pero el aprendizaje es continuo"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.1
+    },
+    
+    {
+      "id": "ING-060",
+      "categoria": "contextos_laborales",
+      "texto": "¿Qué ropa de trabajo usarías típicamente?",
+      "opciones": {
+        "A": "Casual: jeans y hoodie",
+        "B": "Casual de oficina, a veces overol en planta",
+        "C": "Overol y zapatos de seguridad",
+        "D": "Formal en oficina, casco y chaleco en obra",
+        "E": "Casual-elegante en estudio, casco en obra"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.1
+    },
+    
+    {
+      "id": "ING-061",
+      "categoria": "profundidad_tecnica",
+      "texto": "¿Qué tan importante es el dibujo técnico en tu trabajo?",
+      "opciones": {
+        "A": "Poco, más diagramas UML que dibujos",
+        "B": "Importante, esquemáticos electrónicos",
+        "C": "Muy importante, planos mecánicos detallados",
+        "D": "Fundamental, planos estructurales precisos",
+        "E": "Crítico, representación visual es mi trabajo"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "ING-062",
+      "categoria": "herramientas_metodos",
+      "texto": "¿Qué tipo de optimización te interesa más?",
+      "opciones": {
+        "A": "Optimización de algoritmos (Big O notation)",
+        "B": "Optimización de consumo energético",
+        "C": "Optimización de procesos de manufactura (lean)",
+        "D": "Optimización de costos de construcción",
+        "E": "Optimización de espacio y circulaciones"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "ING-063",
+      "categoria": "escenarios_practicos",
+      "texto": "Una ciudad tiene tráfico terrible. ¿Qué propondrías?",
+      "opciones": {
+        "A": "App de movilidad inteligente con IA",
+        "B": "Semáforos inteligentes sincronizados",
+        "C": "Sistema de transporte público mecánico eficiente",
+        "D": "Pasos a desnivel, puentes y segundos pisos",
+        "E": "Rediseño urbano con calles completas y ciclovías"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "ING-064",
+      "categoria": "problemas_area",
+      "texto": "¿Qué desafío técnico te emociona más?",
+      "opciones": {
+        "A": "Escalar sistemas a millones de usuarios",
+        "B": "Miniaturizar componentes electrónicos",
+        "C": "Aumentar eficiencia sin aumentar costo",
+        "D": "Construir más alto y más seguro",
+        "E": "Diseñar espacios más sostenibles"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "ING-065",
+      "categoria": "valores_profesionales",
+      "texto": "¿Qué tipo de reconocimiento te motiva más?",
+      "opciones": {
+        "A": "Reconocimiento en comunidad tech (GitHub stars, conferencias)",
+        "B": "Patentes y reconocimiento técnico",
+        "C": "Certificaciones y reconocimiento industrial",
+        "D": "Proyectos emblemáticos reconocidos",
+        "E": "Premios de arquitectura y publicaciones"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "ING-066",
+      "categoria": "contextos_laborales",
+      "texto": "¿Qué nivel de estrés y presión toleras?",
+      "opciones": {
+        "A": "Alto, deadlines frecuentes pero flexibles",
+        "B": "Moderado, deadlines pero predecibles",
+        "C": "Moderado-alto, presión de producción",
+        "D": "Alto, responsabilidad estructural es enorme",
+        "E": "Variable, depende de fase del proyecto"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "ING-067",
+      "categoria": "herramientas_metodos",
+      "texto": "¿Qué tipo de colaboración prefieres?",
+      "opciones": {
+        "A": "Colaboración remota con GitHub/GitLab",
+        "B": "Colaboración presencial en laboratorio",
+        "C": "Colaboración en planta con operadores",
+        "D": "Colaboración en obra con contratistas",
+        "E": "Colaboración creativa en estudio"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "ING-068",
+      "categoria": "escenarios_practicos",
+      "texto": "Una zona rural necesita desarrollo. ¿Cuál sería tu aporte?",
+      "opciones": {
+        "A": "Conectividad de internet y apps para agricultura",
+        "B": "Electrificación y energía renovable",
+        "C": "Maquinaria agrícola eficiente",
+        "D": "Caminos, puentes y obras hidráulicas",
+        "E": "Vivienda digna y espacios comunitarios"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "ING-069",
+      "categoria": "profundidad_tecnica",
+      "texto": "¿Qué tan importante es la innovación vs. mejora incremental?",
+      "opciones": {
+        "A": "Innovación disruptiva me emociona más",
+        "B": "Balance entre innovación y mejora",
+        "C": "Mejora continua (Kaizen) es más realista",
+        "D": "Innovación en materiales y métodos constructivos",
+        "E": "Innovación en diseño pero respetando contexto"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "ING-070",
+      "categoria": "problemas_area",
+      "texto": "¿Qué recurso te gustaría optimizar más?",
+      "opciones": {
+        "A": "Tiempo de respuesta y experiencia del usuario",
+        "B": "Energía y baterías",
+        "C": "Materiales y eficiencia productiva",
+        "D": "Materiales de construcción y agua",
+        "E": "Espacio y recursos naturales (luz, ventilación)"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "ING-071",
+      "categoria": "valores_profesionales",
+      "texto": "¿Qué tan importante es para ti el balance vida-trabajo?",
+      "opciones": {
+        "A": "Muy importante, trabajo remoto me da flexibilidad",
+        "B": "Importante, horarios predecibles",
+        "C": "Moderado, acepto turnos si es necesario",
+        "D": "Moderado, acepto viajar a obras",
+        "E": "Flexible, proyectos requieren dedicación variable"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.2
+    },
+    
+    {
+      "id": "ING-072",
+      "categoria": "herramientas_metodos",
+      "texto": "¿Qué tipo de problema matemático disfrutas más?",
+      "opciones": {
+        "A": "Problemas de lógica y algoritmos recursivos",
+        "B": "Problemas de circuitos con números complejos",
+        "C": "Problemas de termodinámica y flujo de fluidos",
+        "D": "Problemas de fuerzas, momentos y equilibrio",
+        "E": "Problemas de proporción, escala y geometría"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "ING-073",
+      "categoria": "escenarios_practicos",
+      "texto": "Una empresa automotriz quiere hacer un auto nuevo. ¿Dónde participarías?",
+      "opciones": {
+        "A": "Software del auto (infotainment, asistencias)",
+        "B": "Sistemas electrónicos (baterías, sensores, control)",
+        "C": "Motor, transmisión, chasis y suspensión",
+        "D": "No aplica a mi área",
+        "E": "Diseño exterior e interior del vehículo"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.5
+    },
+    
+    {
+      "id": "ING-074",
+      "categoria": "contextos_laborales",
+      "texto": "¿Qué ambiente físico de trabajo prefieres?",
+      "opciones": {
+        "A": "Silencioso, con AC, múltiples pantallas",
+        "B": "Laboratorio técnico con equipo especializado",
+        "C": "Planta con ruido de máquinas operando",
+        "D": "Mixto: oficina limpia y obra con polvo",
+        "E": "Estudio luminoso con espacio para maquetas"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "ING-075",
+      "categoria": "profundidad_tecnica",
+      "texto": "¿Qué tan importante es entender química y materiales?",
+      "opciones": {
+        "A": "Poco importante",
+        "B": "Moderado (semiconductores, materiales electrónicos)",
+        "C": "Importante (propiedades de metales y aleaciones)",
+        "D": "Muy importante (concreto, acero, comportamiento)",
+        "E": "Moderado (materiales de construcción y acabados)"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "ING-076",
+      "categoria": "valores_profesionales",
+      "texto": "¿Qué te emociona más de tu futura carrera?",
+      "opciones": {
+        "A": "Crear productos digitales que usen millones",
+        "B": "Estar a la vanguardia de la tecnología",
+        "C": "Ver productos tangibles fabricarse a escala",
+        "D": "Crear infraestructura que perdure décadas",
+        "E": "Diseñar espacios que transformen vidas"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.5
+    },
+    
+    {
+      "id": "ING-077",
+      "categoria": "herramientas_metodos",
+      "texto": "¿Qué tipo de escalabilidad te interesa?",
+      "opciones": {
+        "A": "Escalabilidad digital (usuarios, datos)",
+        "B": "Escalabilidad de producción de electrónicos",
+        "C": "Escalabilidad de manufactura en masa",
+        "D": "Escalabilidad de proyectos constructivos",
+        "E": "Replicabilidad de diseños arquitectónicos"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.3
+    },
+    
+    {
+      "id": "ING-078",
+      "categoria": "problemas_area",
+      "texto": "¿Qué tipo de error te gustaría prevenir?",
+      "opciones": {
+        "A": "Bugs que causen pérdida de datos o caídas",
+        "B": "Cortocircuitos o fallas electrónicas",
+        "C": "Fallas mecánicas o accidentes industriales",
+        "D": "Colapsos estructurales o fallas catastróficas",
+        "E": "Espacios que no funcionen o sean peligrosos"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "ING-079",
+      "categoria": "escenarios_practicos",
+      "texto": "Un estadio necesita modernizarse. ¿Cuál sería tu rol?",
+      "opciones": {
+        "A": "App de entradas, pantallas digitales y WiFi",
+        "B": "Sistema de iluminación LED y pantallas gigantes",
+        "C": "Sistema de climatización y ventilación mecánica",
+        "D": "Reforzamiento estructural y ampliación",
+        "E": "Renovación de fachada y experiencia del fan"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.4
+    },
+    
+    {
+      "id": "ING-080",
+      "categoria": "contextos_laborales",
+      "texto": "¿Cuál de estos proyectos te emociona MÁS?",
+      "opciones": {
+        "A": "App que revolucione una industria completa",
+        "B": "Dispositivo electrónico innovador",
+        "C": "Máquina que mejore la manufactura",
+        "D": "Megaproyecto de infraestructura nacional",
+        "E": "Edificio icónico que defina el skyline de una ciudad"
+      },
+      "indicador_carrera": {
+        "A": "SW",
+        "B": "ELEC",
+        "C": "MEC",
+        "D": "CIV",
+        "E": "ARQ"
+      },
+      "peso": 1.5
+    }
+    
+  ]
+}
