@@ -1,7 +1,4 @@
-# Versiones COMPATIBLES para Python 3.13
-python==3.11.*  # Forzar Python 3.11 en lugar de 3.13
-scikit-learn==1.3.2
-numpy==1.24.3
+scikit-learn==1.2.2
 pandas==2.0.3
 joblib==1.3.2
 fastapi==0.104.1
