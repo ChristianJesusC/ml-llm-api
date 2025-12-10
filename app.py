@@ -461,7 +461,8 @@ if __name__ == "__main__":
         "api_server:app",
         host="0.0.0.0",
         port=8000,
-        reload=True,
+        workers=1,           # ← UN SOLO WORKER
+        reload=False,        # ← SIN RELOAD EN PRODUCCIÓN
         log_level="info",
         timeout_keep_alive=180
     )
