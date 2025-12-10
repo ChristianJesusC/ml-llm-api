@@ -1,13 +1,3 @@
-#!/usr/bin/env python3
-"""
-Sistema de Cuestionario Adaptativo para Orientación Vocacional v2.0
-Selecciona preguntas inteligentemente basado en ML y respuestas del usuario
-
-Autor: Sistema de IA Claude
-Fecha: 2025-01-01  
-Versión: 1.0
-"""
-
 import json
 import uuid
 import random
