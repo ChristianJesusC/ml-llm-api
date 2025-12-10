@@ -11,17 +11,17 @@ import logging
 from datetime import datetime, timedelta
 import asyncio
 from contextlib import asynccontextmanager
+from dotenv import load_dotenv
 
-# Imports de nuestros módulos
 from ml_model import VocationalMLPredictor
 from adaptive_questionnaire import AdaptiveQuestionnaire, QuestionnaireSession
 from llm_integration_groq import VocationalLLMExplainer
 
-# Configurar logging
 logging.basicConfig(level=logging.INFO)
+
+load_dotenv()
 logger = logging.getLogger(__name__)
 
-# Modelos Pydantic para la API
 class SessionStartRequest(BaseModel):
     """Request para iniciar sesión"""
     metadata: Optional[Dict[str, Any]] = Field(default_factory=dict)
@@ -91,7 +91,7 @@ CONFIG = {
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     """Gestión del ciclo de vida de la aplicación"""
-    
+    os.system('cls')
     # Startup
     logger.info("🚀 Inicializando Sistema de Orientación Vocacional v2.0...")
     
@@ -568,10 +568,85 @@ async def cleanup_session(session_id: str):
     except Exception as e:
         logger.error(f"Error limpiando sesión {session_id}: {e}")
 
-# ============================================
-# ENDPOINTS ADICIONALES DE UTILIDAD
-# ============================================
-
+@app.get("/api/v2/session/{session_id}/prediction")
+async def get_session_prediction(
+    session_id: str,
+    questionnaire: AdaptiveQuestionnaire = Depends(get_questionnaire),
+    llm_explainer: VocationalLLMExplainer = Depends(get_llm_explainer)
+):
+    try:
+        if session_id not in system_components['active_sessions']:
+            raise HTTPException(status_code=404, detail="Sesión no encontrada")
+        
+        session_info = system_components['active_sessions'][session_id]
+        session = session_info['session']
+        
+        if len(session.respuestas) < questionnaire.config['min_total_preguntas']:
+            raise HTTPException(
+                status_code=400, 
+                detail=f"Se necesitan al menos {questionnaire.config['min_total_preguntas']} respuestas"
+            )
+        
+        ml_predictor = get_ml_predictor()
+        resultado_ml = ml_predictor.generar_recomendaciones_completas(
+            session.respuestas, top_n=3
+        )
+        
+        reporte_completo = llm_explainer.generar_reporte_completo(
+            recomendaciones=resultado_ml['recomendaciones'],
+            metadata_estudiante={
+                'capacidad_academica': resultado_ml['capacidad_academica'],
+                'categoria': resultado_ml['capacidad_academica']['categoria'],
+                'rama_universitaria': resultado_ml.get('rama_universitaria')
+            }
+        )
+        
+        top_3_recomendaciones = []
+        for i, rec in enumerate(resultado_ml['recomendaciones'][:3]):
+            recomendacion_formateada = {
+                "ranking": rec['ranking'],
+                "nombre": rec['nombre'],
+                "codigo": rec['codigo'],
+                "match_score": rec['match_score'],
+                "match_porcentaje": rec['match_score_porcentaje'],
+                "categoria": rec['categoria'],
+                "rama": rec.get('rama'),
+                "info_basica": {
+                    "anos_estudio": rec['info_basica'].get('años_estudio'),
+                    "nivel_educativo": rec['info_basica'].get('nivel_educativo', ''),
+                    "dificultad": rec['info_basica'].get('dificultad', ''),
+                    "salario_promedio": rec['info_basica'].get('salario_promedio')
+                },
+                "explicacion_llm": rec.get('explicacion_personalizada', rec.get('explicacion', '')),
+                "explicacion_generada_por_ia": rec.get('explicacion_generada', False)
+            }
+            top_3_recomendaciones.append(recomendacion_formateada)
+        
+        response_formateada = {
+            "session_id": session_id,
+            "capacidad_academica": {
+                "score": resultado_ml['capacidad_academica']['score'],
+                "categoria": resultado_ml['capacidad_academica']['categoria'],
+                "descripcion": resultado_ml['capacidad_academica'].get('descripcion', '')
+            },
+            "rama_universitaria": resultado_ml.get('rama_universitaria'),
+            "top_3_recomendaciones": top_3_recomendaciones,
+            "resumen_ejecutivo": reporte_completo.get('resumen_ejecutivo', ''),
+            "mensaje_motivacional": reporte_completo.get('mensaje_motivacional', ''),
+            "total_respuestas": len(session.respuestas),
+            "timestamp": datetime.now().isoformat(),
+            "llm_disponible": llm_explainer.cliente_activo
+        }
+        
+        logger.info(f"Predicción generada para sesión {session_id}")
+        return response_formateada
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error(f"Error generando predicción para sesión {session_id}: {e}")
+        raise HTTPException(status_code=500, detail="Error generando predicción")
+    
 @app.get("/api/v2/opciones")
 async def get_opciones_vocacionales(
     ml_predictor: VocationalMLPredictor = Depends(get_ml_predictor)
