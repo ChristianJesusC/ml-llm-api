@@ -37,40 +37,35 @@ class VocationalMLPredictor:
         self.modelo_opciones = None
         self.opciones_info = None
         
-        # Mapeo de respuestas A,B,C,D,E a números
         self.respuesta_mapping = {'A': 1, 'B': 2, 'C': 3, 'D': 4, 'E': 5}
         
-        # Cargar modelos y datos
         self._cargar_modelos(modelo_capacidad_path, modelo_rama_path, modelo_opciones_path)
         self._cargar_opciones_info(opciones_info_path)
         
-        print("✅ VocationalMLPredictor inicializado correctamente")
+        print("VocationalMLPredictor inicializado correctamente")
     
     def _cargar_modelos(self, cap_path: str, rama_path: str, opc_path: str):
         """Carga los 3 modelos ML entrenados"""
         try:
-            print("📂 Cargando modelos ML...")
+            print("Cargando modelos ML...")
             
-            # Modelo de capacidad (RandomForestRegressor estándar)
             self.modelo_capacidad = joblib.load(cap_path)
-            print(f"   ✅ Modelo capacidad: {cap_path}")
+            print(f"Modelo capacidad: {cap_path}")
             
-            # Modelo de rama (dict con modelo + encoder)
             rama_data = joblib.load(rama_path)
             self.modelo_rama = rama_data['modelo']
             self.rama_label_encoder = rama_data['label_encoder']
-            print(f"   ✅ Modelo rama: {rama_path}")
+            print(f"Modelo rama: {rama_path}")
             
-            # Modelos de opciones (dict con modelos + encoders por rama)
             opciones_data = joblib.load(opc_path)
             self.modelos_opciones = opciones_data['modelos']
             self.opciones_label_encoders = opciones_data['label_encoders']
-            print(f"   ✅ Modelos opciones: {opc_path}")
+            print(f"Modelos opciones: {opc_path}")
             
         except FileNotFoundError as e:
-            raise FileNotFoundError(f"❌ Modelo no encontrado: {e}")
+            raise FileNotFoundError(f"Modelo no encontrado: {e}")
         except Exception as e:
-            raise Exception(f"❌ Error cargando modelos: {e}")
+            raise Exception(f"Error cargando modelos: {e}")
     
     def _cargar_opciones_info(self, info_path: str):
         """Carga información detallada de las opciones vocacionales"""
@@ -78,12 +73,12 @@ class VocationalMLPredictor:
             with open(info_path, 'r', encoding='utf-8') as f:
                 data = json.load(f)
                 self.opciones_info = data['opciones']
-            print(f"   ✅ Info opciones: {info_path} ({len(self.opciones_info)} opciones)")
+            print(f"Info opciones: {info_path} ({len(self.opciones_info)} opciones)")
         except FileNotFoundError:
-            print(f"   ⚠️  Archivo {info_path} no encontrado - usando info básica")
+            print(f"Archivo {info_path} no encontrado - usando info básica")
             self._crear_info_basica()
         except Exception as e:
-            print(f"   ⚠️  Error cargando {info_path}: {e}")
+            print(f"Error cargando {info_path}: {e}")
             self._crear_info_basica()
     
     def _crear_info_basica(self):
@@ -114,14 +109,11 @@ class VocationalMLPredictor:
         if len(respuestas_fase1) < 10:
             raise ValueError("Se necesitan al menos 10 respuestas para predecir capacidad")
         
-        # Preparar vector de features para Fase 1 (80 preguntas)
         feature_vector = []
         
-        # Las preguntas de Fase 1 están numeradas UNI-001 a UNI-080
         for i in range(1, 81):
             pregunta_id = f'fase1_p{i:02d}'
             
-            # Buscar la respuesta correspondiente
             respuesta = None
             for key, value in respuestas_fase1.items():
                 if key.endswith(f'{i:03d}') or key == pregunta_id:
@@ -131,14 +123,11 @@ class VocationalMLPredictor:
             if respuesta and respuesta in self.respuesta_mapping:
                 feature_vector.append(self.respuesta_mapping[respuesta])
             else:
-                # Valor neutral si no hay respuesta
-                feature_vector.append(3)  # C = neutral
+                feature_vector.append(3)
         
-        # Predecir con el modelo
         X = np.array(feature_vector).reshape(1, -1)
         capacidad_score = self.modelo_capacidad.predict(X)[0]
         
-        # Asegurar que esté en el rango válido
         return np.clip(capacidad_score, 0.0, 2.0)
     
     def determinar_categoria_estudiante(self, capacidad_score: float) -> str:
@@ -160,7 +149,7 @@ class VocationalMLPredictor:
     
     def predecir_rama_universitaria(self, respuestas_fase1: Dict[str, str]) -> Optional[str]:
         """
-        Predice la rama universitaria (solo para estudiantes con capacidad ≥ 1.0)
+        Predice la rama universitaria (solo para estudiantes con capacidad >= 1.0)
         
         Args:
             respuestas_fase1: Respuestas de Fase 1
@@ -168,12 +157,10 @@ class VocationalMLPredictor:
         Returns:
             str: 'Salud', 'Ingenieria', 'Negocios' o None
         """
-        # Verificar capacidad primero
         capacidad = self.predecir_capacidad_academica(respuestas_fase1)
         if capacidad < 1.0:
             return None
         
-        # Preparar features (mismo proceso que capacidad)
         feature_vector = []
         for i in range(1, 81):
             pregunta_id = f'fase1_p{i:02d}'
@@ -190,7 +177,6 @@ class VocationalMLPredictor:
         
         X = np.array(feature_vector).reshape(1, -1)
         
-        # Predecir rama
         rama_pred = self.modelo_rama.predict(X)[0]
         return self.rama_label_encoder.inverse_transform([rama_pred])[0]
     
@@ -209,7 +195,6 @@ class VocationalMLPredictor:
         Returns:
             List[Tuple[str, float]]: Lista de (codigo_opcion, probabilidad)
         """
-        # Determinar qué modelo usar
         if categoria == 'carreras' and rama:
             if rama in self.modelos_opciones:
                 modelo = self.modelos_opciones[rama]
@@ -228,19 +213,15 @@ class VocationalMLPredictor:
         if not modelo or not label_encoder:
             return []
         
-        # Determinar cuántas features espera el modelo
         try:
-            # Para modelos de sklearn, podemos usar n_features_in_
-            expected_features = getattr(modelo, 'n_features_in_', 82)  # Default a 82
+            expected_features = getattr(modelo, 'n_features_in_', 82)
         except:
-            expected_features = 82  # Fallback basado en el error observado
+            expected_features = 82
         
-        print(f"   🔧 Modelo {categoria}/{rama} espera {expected_features} features")
+        print(f"Modelo {categoria}/{rama} espera {expected_features} features")
         
-        # Preparar features según lo que el modelo espera
         feature_vector = []
         
-        # Fase 1 (siempre las primeras 80)
         for i in range(1, 81):
             respuesta = None
             for key, value in respuestas_completas.items():
@@ -253,7 +234,6 @@ class VocationalMLPredictor:
             else:
                 feature_vector.append(3)
         
-        # Agregar features adicionales hasta alcanzar el número esperado
         additional_features_needed = expected_features - 80
         
         if additional_features_needed > 0:
@@ -269,36 +249,31 @@ class VocationalMLPredictor:
                 else:
                     feature_vector.append(3)
         
-        # Asegurar que tenemos exactamente el número correcto de features
         while len(feature_vector) < expected_features:
-            feature_vector.append(3)  # Agregar valores neutros si faltan
+            feature_vector.append(3)
         
         if len(feature_vector) > expected_features:
-            feature_vector = feature_vector[:expected_features]  # Truncar si sobran
+            feature_vector = feature_vector[:expected_features]
         
-        print(f"   📊 Vector final: {len(feature_vector)} features (esperadas: {expected_features})")
+        print(f"Vector final: {len(feature_vector)} features (esperadas: {expected_features})")
         
-        # Predecir probabilidades
         X = np.array(feature_vector).reshape(1, -1)
         
         try:
             probabilidades = modelo.predict_proba(X)[0]
         except Exception as e:
-            print(f"   ⚠️  Error en predicción: {e}")
-            # Fallback: crear probabilidades uniformes
+            print(f"Error en predicción: {e}")
             num_clases = len(label_encoder.classes_)
             probabilidades = np.ones(num_clases) / num_clases
         
-        # Convertir a lista de (codigo, probabilidad)
         try:
             opciones = label_encoder.inverse_transform(range(len(probabilidades)))
         except Exception as e:
-            print(f"   ⚠️  Error en label encoder: {e}")
+            print(f"Error en label encoder: {e}")
             opciones = [f"OPCION_{i}" for i in range(len(probabilidades))]
         
         resultados = list(zip(opciones, probabilidades))
         
-        # Ordenar por probabilidad descendente
         resultados.sort(key=lambda x: x[1], reverse=True)
         
         return resultados
@@ -316,25 +291,21 @@ class VocationalMLPredictor:
         Returns:
             Dict con recomendaciones completas y metadata
         """
-        print(f"🎯 Generando recomendaciones para {len(respuestas_completas)} respuestas...")
+        print(f"Generando recomendaciones para {len(respuestas_completas)} respuestas...")
         
-        # Separar respuestas de Fase 1
         respuestas_fase1 = {k: v for k, v in respuestas_completas.items() 
                            if k.startswith('fase1_') or any(k.endswith(f'{i:03d}') for i in range(1, 81))}
         
-        # 1. Predecir capacidad académica
         capacidad_score = self.predecir_capacidad_academica(respuestas_fase1)
         categoria = self.determinar_categoria_estudiante(capacidad_score)
         
-        print(f"   📊 Capacidad: {capacidad_score:.3f} → {categoria}")
+        print(f"Capacidad: {capacidad_score:.3f} -> {categoria}")
         
-        # 2. Predecir rama (solo para universitarios)
         rama = None
         if categoria == 'carreras':
             rama = self.predecir_rama_universitaria(respuestas_fase1)
-            print(f"   🌳 Rama: {rama}")
+            print(f"Rama: {rama}")
         
-        # 3. Predecir opciones específicas
         opciones_pred = self.predecir_opciones_especificas(
             respuestas_completas, categoria, rama
         )
@@ -342,20 +313,16 @@ class VocationalMLPredictor:
         if not opciones_pred:
             raise ValueError("No se pudieron generar predicciones de opciones")
         
-        # 4. Seleccionar top N y normalizar scores
         top_opciones = opciones_pred[:top_n]
         suma_scores = sum(prob for _, prob in top_opciones)
         
-        # Normalizar para que sumen 1.0
         if suma_scores > 0:
             top_opciones_norm = [(codigo, prob/suma_scores) for codigo, prob in top_opciones]
         else:
-            # Fallback: distribución uniforme
             top_opciones_norm = [(codigo, 1.0/len(top_opciones)) for codigo, _ in top_opciones]
         
-        print(f"   🎯 Top {len(top_opciones_norm)} opciones generadas")
+        print(f"Top {len(top_opciones_norm)} opciones generadas")
         
-        # 5. Enriquecer con información detallada
         recomendaciones = []
         for i, (codigo, probabilidad) in enumerate(top_opciones_norm, 1):
             info = self.opciones_info.get(codigo, {})
@@ -381,7 +348,6 @@ class VocationalMLPredictor:
             }
             recomendaciones.append(recomendacion)
         
-        # 6. Preparar respuesta completa
         resultado = {
             "prediccion_exitosa": True,
             "capacidad_academica": {
@@ -400,7 +366,7 @@ class VocationalMLPredictor:
             }
         }
         
-        print(f"✅ Recomendaciones generadas exitosamente")
+        print("Recomendaciones generadas exitosamente")
         return resultado
     
     def _get_descripcion_categoria(self, categoria: str, capacidad_score: float) -> str:
@@ -422,12 +388,10 @@ class VocationalMLPredictor:
         errores = []
         warnings = []
         
-        # Verificar que hay respuestas
         if not respuestas:
             errores.append("No se proporcionaron respuestas")
             return {"valido": False, "errores": errores, "warnings": warnings}
         
-        # Verificar formato de respuestas
         respuestas_validas = 0
         for key, value in respuestas.items():
             if value not in ['A', 'B', 'C', 'D', 'E']:
@@ -435,11 +399,9 @@ class VocationalMLPredictor:
             else:
                 respuestas_validas += 1
         
-        # Verificar cantidad mínima
         if respuestas_validas < 20:
             errores.append(f"Se necesitan al menos 20 respuestas válidas. Tienes: {respuestas_validas}")
         
-        # Warnings por pocas respuestas
         if respuestas_validas < 80:
             warnings.append(f"Con {respuestas_validas} respuestas la precisión puede ser limitada")
         
@@ -467,11 +429,10 @@ class VocationalMLPredictor:
 
 def test_vocational_predictor():
     """Función de prueba del predictor vocacional"""
-    print("🧪 PROBANDO VOCATIONAL ML PREDICTOR")
+    print("PROBANDO VOCATIONAL ML PREDICTOR")
     print("=" * 50)
     
     try:
-        # Inicializar predictor
         predictor = VocationalMLPredictor(
             modelo_capacidad_path='/mnt/user-data/outputs/modelo_capacidad.pkl',
             modelo_rama_path='/mnt/user-data/outputs/modelo_rama.pkl',
@@ -479,42 +440,37 @@ def test_vocational_predictor():
             opciones_info_path='/mnt/user-data/outputs/opciones_vocacionales.json'
         )
         
-        # Respuestas de prueba
         respuestas_test = {}
         
-        # Simular 80 respuestas Fase 1
         for i in range(1, 81):
             if i <= 40:
-                respuestas_test[f'fase1_p{i:02d}'] = 'A'  # Perfil técnico/científico
+                respuestas_test[f'fase1_p{i:02d}'] = 'A'
             else:
                 respuestas_test[f'fase1_p{i:02d}'] = 'B'
         
-        # Simular 80 respuestas Fase 2  
         for i in range(1, 81):
             respuestas_test[f'fase2_p{i:02d}'] = 'A'
         
-        print(f"\n📝 Respuestas de prueba: {len(respuestas_test)}")
+        print(f"\nRespuestas de prueba: {len(respuestas_test)}")
         
-        # Validar respuestas
         validacion = predictor.validar_respuestas(respuestas_test)
-        print(f"✅ Validación: {validacion}")
+        print(f"Validación: {validacion}")
         
-        # Generar recomendaciones
         resultado = predictor.generar_recomendaciones_completas(respuestas_test, top_n=3)
         
-        print(f"\n📊 RESULTADOS:")
+        print(f"\nRESULTADOS:")
         print(f"Capacidad: {resultado['capacidad_academica']['score']} ({resultado['capacidad_academica']['categoria']})")
         print(f"Rama: {resultado['rama_universitaria']}")
         
-        print(f"\n🎯 TOP 3 RECOMENDACIONES:")
+        print(f"\nTOP 3 RECOMENDACIONES:")
         for rec in resultado['recomendaciones']:
             print(f"   {rec['ranking']}. {rec['nombre']} - {rec['match_score_porcentaje']} match")
         
-        print(f"\n✅ Prueba completada exitosamente!")
+        print(f"\nPrueba completada exitosamente")
         return True
         
     except Exception as e:
-        print(f"❌ Error en prueba: {e}")
+        print(f"Error en prueba: {e}")
         import traceback
         traceback.print_exc()
         return False
